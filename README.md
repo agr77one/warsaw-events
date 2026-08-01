@@ -46,8 +46,10 @@ can replace a secret but cannot reveal its stored value through the repository U
   exports, and portal without sending email.
 - **Sunday Newsletter:** Sundays at 9:00 AM Warsaw time; refreshes everything and
   sends the full newsletter email.
-- **Deploy Event Portal:** deploys once whenever generated content under `docs/`
-  is committed, avoiding duplicate deployments.
+- **Deploy Event Portal:** deploys after a successful daily or Sunday workflow,
+  and when `docs/` is changed by an ordinary push. The completion trigger is
+  required because pushes made with a workflow's `GITHUB_TOKEN` do not start
+  another workflow.
 
 Schedules use `America/Indiana/Indianapolis`, so daylight-saving changes are
 handled automatically.
