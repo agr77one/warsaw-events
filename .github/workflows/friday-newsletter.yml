@@ -15,20 +15,25 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+      EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
       - run: pip install -r requirements.txt
-      - run: python pipeline.py
-      - name: Copy report as weekly newsletter baseline
-        run: cp output/run_report.md output/weekly_newsletter.md
-      - name: Commit newsletter output
+      - run: python pipeline.py --mode friday
+      - name: Commit newsletter, portal, and database
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add data/events.db output/ docs/index.html
           if git diff --cached --quiet; then
             echo "No output changes"
           else
@@ -38,5 +43,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: friday-newsletter
-          path: output/
+          path: |
+            output/
+            data/events.db
+            docs/index.html
           retention-days: 90
