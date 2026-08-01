@@ -12,6 +12,7 @@ import sqlite3
 from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
+from email.utils import getaddresses
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -45,6 +46,43 @@ IMPORTANT_TERMS = (
     "rodeo", "tractor pull", "demolition derby", "water ski", "waterski",
 )
 
+PROXIMITY_BANDS = (
+    (10, 4),
+    (25, 3),
+    (50, 2),
+    (75, 1),
+)
+
+CITY_DISTANCE_MILES = {
+    "warsaw": 0,
+    "winona lake": 3,
+    "atwood": 9,
+    "claypool": 10,
+    "pierceton": 10,
+    "leesburg": 11,
+    "etna green": 13,
+    "mentone": 14,
+    "milford": 14,
+    "larwill": 15,
+    "north webster": 16,
+    "silver lake": 16,
+    "syracuse": 18,
+    "north manchester": 18,
+    "columbia city": 21,
+    "rochester": 24,
+    "nappanee": 25,
+    "goshen": 30,
+    "wabash": 33,
+    "elkhart": 41,
+    "shipshewana": 44,
+    "fort wayne": 45,
+}
+
+CHANGE_FIELDS = (
+    "title", "start", "end", "venue", "address", "city", "state",
+    "description", "admission", "event_url", "status",
+)
+
 
 @dataclass
 class Event:
@@ -61,6 +99,7 @@ class Event:
     source_url: str
     event_url: str
     confidence: str
+    distance_miles: float | None = None
     status: str = "CONFIRMED"
     importance: int = 0
     fingerprint: str = ""
@@ -88,6 +127,14 @@ def clean(value: str | None) -> str | None:
     if value is None:
         return None
     return re.sub(r"\s+", " ", value).strip() or None
+
+
+def readable_text(value: str | None) -> str | None:
+    if value is None:
+        return None
+    decoded = html.unescape(value)
+    text = BeautifulSoup(decoded, "html.parser").get_text(" ", strip=True)
+    return clean(text)
 
 
 def iter_jsonld(payload):
@@ -145,6 +192,7 @@ def extract_jsonld(html_text: str, source: dict) -> list[Event]:
                 admission=clean(admission), source_name=source["name"],
                 source_url=source["url"], event_url=item.get("url") or source["url"],
                 confidence="A" if source.get("reliability") in {"official", "tourism"} else "B",
+                distance_miles=source.get("distance_miles"),
             ))
     return events
 
@@ -170,8 +218,18 @@ def extract_generic(html_text: str, source: dict) -> list[Event]:
             description=clean(block.get_text(" ", strip=True)) or "",
             admission=None, source_name=source["name"], source_url=source["url"], event_url=href,
             confidence="A" if source.get("reliability") in {"official", "tourism"} else "B",
+            distance_miles=source.get("distance_miles"),
         ))
     return events
+
+
+def proximity_bonus(distance_miles: float | None) -> int:
+    if distance_miles is None:
+        return 0
+    for maximum_distance, bonus in PROXIMITY_BANDS:
+        if distance_miles <= maximum_distance:
+            return bonus
+    return 0
 
 
 def filter_and_score(event: Event, now: datetime) -> Event | None:
@@ -183,10 +241,13 @@ def filter_and_score(event: Event, now: datetime) -> Event | None:
     start = datetime.fromisoformat(event.start)
     if start < now - timedelta(days=1) or start > now + timedelta(days=180):
         return None
+    city = (event.city or "").casefold().strip()
+    event.distance_miles = CITY_DISTANCE_MILES.get(city, event.distance_miles)
     event.importance = (4 if event.confidence == "A" else 2)
     event.importance += 4 if any(term in text for term in IMPORTANT_TERMS) else 0
     event.importance += 1 if event.venue else 0
     event.importance += 1 if event.city or event.address else 0
+    event.importance += proximity_bonus(event.distance_miles)
     key = "|".join([event.title.lower(), start.strftime("%Y-%m-%d"), (event.city or "").lower()])
     event.fingerprint = hashlib.sha256(key.encode()).hexdigest()
     return event
@@ -231,7 +292,9 @@ def upsert_event(conn: sqlite3.Connection, event: Event, now_iso: str) -> str:
         return "NEW"
     before = json.loads(row[0])
     change = "UNCHANGED"
-    if before != payload:
+    before_content = {field: before.get(field) for field in CHANGE_FIELDS}
+    after_content = {field: payload.get(field) for field in CHANGE_FIELDS}
+    if before_content != after_content:
         change = event.status if event.status in {"CANCELED", "SOLD_OUT"} else "UPDATED"
         conn.execute("INSERT INTO changes(fingerprint,detected_at,change_type,before_json,after_json) VALUES(?,?,?,?,?)",
                      (event.fingerprint, now_iso, change, json.dumps(before), json.dumps(payload)))
@@ -281,7 +344,13 @@ def crawl(conn: sqlite3.Connection, now: datetime) -> tuple[list[Event], list[di
 def query_events(conn: sqlite3.Connection, now: datetime, days: int = 120) -> list[dict]:
     rows = conn.execute("SELECT payload_json FROM events WHERE start>=? AND start<? ORDER BY start,title",
                         (now.isoformat(), (now + timedelta(days=days)).isoformat())).fetchall()
-    return [json.loads(row[0]) for row in rows]
+    events = [json.loads(row[0]) for row in rows]
+    for event in events:
+        for field in ("title", "venue", "address", "city", "description", "admission"):
+            event[field] = readable_text(event.get(field))
+    return sorted(events, key=lambda event: (
+        event["start"], -event.get("importance", 0), event["title"],
+    ))
 
 
 def recent_changes(conn: sqlite3.Connection, now: datetime, hours: int) -> list[dict]:
@@ -297,9 +366,10 @@ def recent_changes(conn: sqlite3.Connection, now: datetime, hours: int) -> list[
 
 def export_csv(events: list[dict]) -> None:
     fields = ["title","start","end","venue","address","city","state","description","admission",
-              "source_name","source_url","event_url","confidence","status","importance","fingerprint"]
+              "source_name","source_url","event_url","confidence","distance_miles","status",
+              "importance","fingerprint"]
     with (OUTPUT / "events.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader(); writer.writerows(events)
 
 
@@ -316,7 +386,9 @@ def render_newsletter(events: list[dict], changes: list[dict], now: datetime) ->
     for month, items in grouped.items():
         md += [f"# {month}", ""]
         html_parts.append(f"<h2>{html.escape(month)}</h2>")
-        for event in items:
+        for event in sorted(items, key=lambda item: (
+            -item.get("importance", 0), item["start"], item["title"],
+        )):
             dt = datetime.fromisoformat(event["start"])
             location = ", ".join(x for x in [event.get("venue"), event.get("address"), event.get("city"), event.get("state")] if x)
             status = event.get("status", "CONFIRMED")
@@ -340,12 +412,19 @@ def render_newsletter(events: list[dict], changes: list[dict], now: datetime) ->
 
 def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
     cards = []
-    for event in events:
+    ranked_events = sorted(events, key=lambda event: (
+        -event.get("importance", 0), event["start"], event["title"],
+    ))
+    for event in ranked_events:
         dt = datetime.fromisoformat(event["start"])
         location = ", ".join(x for x in [event.get("venue"), event.get("city"), event.get("state")] if x)
+        distance = event.get("distance_miles")
+        proximity = "Warsaw area" if distance is not None and distance <= 10 else (
+            f"about {distance:g} miles from Warsaw" if distance is not None else "distance pending"
+        )
         cards.append(f"<article class='card' data-text='{html.escape((event['title']+' '+location).lower())}'>"
                      f"<div class='date'>{dt:%b %d}</div><h2>{html.escape(event['title'])}</h2>"
-                     f"<p>{html.escape(location or 'Location pending')}</p>"
+                     f"<p>{html.escape(location or 'Location pending')} · {html.escape(proximity)}</p>"
                      f"<p>{html.escape((event.get('description') or '')[:280])}</p>"
                      f"<a href='{html.escape(event.get('event_url') or event.get('source_url'))}'>Official source</a></article>")
     ok = sum(x["status"] == "ok" for x in health)
@@ -359,23 +438,30 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
 def send_email(subject: str, html_body: str, markdown_body: str) -> bool:
     username = os.getenv("EMAIL_USERNAME")
     password = os.getenv("EMAIL_APP_PASSWORD")
-    recipient = os.getenv("EMAIL_TO")
-    if not username or not password or not recipient:
+    recipient_value = os.getenv("EMAIL_TO", "")
+    recipients = [
+        address for _, address in getaddresses([recipient_value.replace(";", ",")])
+        if "@" in address
+    ]
+    if not username or not password or not recipients:
         print("Email secrets not configured; skipping email")
         return False
     msg = EmailMessage()
-    msg["Subject"] = subject; msg["From"] = username; msg["To"] = recipient
+    msg["Subject"] = subject
+    msg["From"] = username
+    msg["To"] = username
+    msg["Bcc"] = ", ".join(recipients)
     msg.set_content(markdown_body)
     msg.add_alternative(html_body, subtype="html")
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(username, password)
-        smtp.send_message(msg)
+        smtp.send_message(msg, to_addrs=recipients)
     return True
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["daily", "friday", "manual"], default="manual")
+    parser.add_argument("--mode", choices=["daily", "newsletter", "manual"], default="manual")
     args = parser.parse_args()
     now = datetime.now().astimezone().replace(tzinfo=None)
     conn = sqlite3.connect(DB_PATH)
@@ -393,14 +479,13 @@ def main() -> None:
     (OUTPUT / "weekly_newsletter.md").write_text(markdown, encoding="utf-8")
     (OUTPUT / "weekly_newsletter.html").write_text(email_html, encoding="utf-8")
     (DOCS / "index.html").write_text(render_portal(events, health, now), encoding="utf-8")
-    alerts = [x for x in changes if x.get("importance", 0) >= 7 or x.get("change_type") in {"CANCELED", "SOLD_OUT"}]
+    alerts = sorted(
+        [x for x in changes if x.get("importance", 0) >= 7 or x.get("change_type") in {"CANCELED", "SOLD_OUT"}],
+        key=lambda item: (-item.get("importance", 0), item.get("start", ""), item.get("title", "")),
+    )
     (OUTPUT / "daily_alerts.json").write_text(json.dumps(alerts, indent=2), encoding="utf-8")
-    if args.mode == "friday":
+    if args.mode == "newsletter":
         send_email(f"Warsaw events newsletter · {now:%B %d}", email_html, markdown)
-    elif args.mode == "daily" and alerts:
-        alert_md = "# Important Warsaw-area event updates\n\n" + "\n".join(f"- **{x['change_type']}** {x.get('title')}" for x in alerts)
-        alert_html = "<h1>Important Warsaw-area event updates</h1><ul>" + "".join(f"<li><strong>{html.escape(x['change_type'])}</strong> {html.escape(x.get('title',''))}</li>" for x in alerts) + "</ul>"
-        send_email("Important Warsaw-area event update", alert_html, alert_md)
     print(json.dumps({"mode": args.mode, "crawled": len(crawled), "stored": len(events), "changes": len(changes), "alerts": len(alerts), "email_configured": bool(os.getenv('EMAIL_USERNAME'))}, indent=2))
 
 
