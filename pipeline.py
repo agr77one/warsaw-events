@@ -216,7 +216,11 @@ def upsert_event(conn: sqlite3.Connection, event: Event, now_iso: str) -> str:
     payload = asdict(event)
     row = conn.execute("SELECT payload_json FROM events WHERE fingerprint=?", (event.fingerprint,)).fetchone()
     if row is None:
-        conn.execute("INSERT INTO events VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
+        conn.execute("""INSERT INTO events (
+            fingerprint, title, start, end, venue, address, city, state, description,
+            admission, source_name, source_url, event_url, confidence, status,
+            importance, first_seen, last_seen, payload_json
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""", (
             event.fingerprint, event.title, event.start, event.end, event.venue, event.address,
             event.city, event.state, event.description, event.admission, event.source_name,
             event.source_url, event.event_url, event.confidence, event.status, event.importance,
