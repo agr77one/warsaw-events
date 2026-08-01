@@ -2,15 +2,15 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "ok",
+    "status": "failed",
     "event_count": 0,
-    "error": null
+    "error": "Client error '403 403' for url 'https://timesuniononline.com/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
     "status": "ok",
-    "event_count": 1,
+    "event_count": 0,
     "error": null
   },
   {
@@ -58,9 +58,9 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "ok",
-    "event_count": 5,
-    "error": null
+    "status": "failed",
+    "event_count": 0,
+    "error": "timed out"
   },
   {
     "name": "Visit Fort Wayne",
