@@ -2,33 +2,44 @@ sources:
   - name: Times-Union
     url: https://timesuniononline.com/
     reliability: news
+    distance_miles: 0
   - name: InkFreeNews
     url: https://www.inkfreenews.com/
     reliability: news
+    distance_miles: 0
   - name: News Now Warsaw
     url: https://www.newsnowwarsaw.com/
     reliability: news
+    distance_miles: 0
   - name: Visit Kosciusko County
     url: https://visitkosciuskocounty.org/events/
     reliability: tourism
+    distance_miles: 12
   - name: Kosciusko County Fair
     url: https://www.kcfair.com/events
     reliability: official
+    distance_miles: 0
   - name: Lake City Skiers
     url: https://www.lakecityskiers.org/
     reliability: official
+    distance_miles: 3
   - name: Wagon Wheel Center
     url: https://wagonwheelcenter.org/
     reliability: official
+    distance_miles: 3
   - name: Visit Elkhart County
     url: https://www.visitelkhartcounty.com/events/
     reliability: tourism
+    distance_miles: 41
   - name: Visit Shipshewana
     url: https://visitshipshewana.org/events/
     reliability: tourism
+    distance_miles: 44
   - name: Visit Fort Wayne
     url: https://www.visitfortwayne.com/events/
     reliability: tourism
+    distance_miles: 45
   - name: Visit Wabash County
     url: https://visitwabashcounty.com/events/
     reliability: tourism
+    distance_miles: 33

@@ -1,9 +1,16 @@
-name: Friday Newsletter
+name: Sunday Newsletter
 
 on:
   schedule:
-    - cron: "0 12 * * 5"
+    - cron: "0 9 * * 0"
+      timezone: "America/Indiana/Indianapolis"
   workflow_dispatch:
+    inputs:
+      send_email:
+        description: Send the newsletter email during this manual run
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,14 +29,19 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python pipeline.py --mode friday
+      - name: Generate and send scheduled newsletter
+        if: github.event_name == 'schedule' || inputs.send_email
+        run: python pipeline.py --mode newsletter
+      - name: Generate manual test without sending email
+        if: github.event_name == 'workflow_dispatch' && !inputs.send_email
+        run: python pipeline.py --mode daily
       - name: Commit newsletter, portal, and database
         run: |
           git config user.name "github-actions[bot]"
@@ -38,14 +50,14 @@ jobs:
           if git diff --cached --quiet; then
             echo "No output changes"
           else
-            git commit -m "chore: publish Friday event update"
+            git commit -m "chore: publish Sunday event update"
             git push
           fi
       - uses: actions/upload-artifact@v7
         with:
-          name: friday-newsletter
+          name: sunday-newsletter
           path: |
             output/
             data/events.db
             docs/index.html
-          retention-days: 90
+          retention-days: 30

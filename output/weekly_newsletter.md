@@ -7,7 +7,7 @@ Generated: August 01, 2026
 ## Thursday, August 06 · The Thursday Parlay: Wabash Marketplace
 **Time:** 10:00 AM
 **Location:** IN
-<p>More info coming soon! 😎</p>\n
+More info coming soon! 😎 \n
 **Admission:** Not published
 **Status:** CONFIRMED
 **Source:** https://visitwabashcounty.com/event/the-thursday-parlay-wabash-marketplace/
@@ -15,7 +15,7 @@ Generated: August 01, 2026
 ## Friday, August 07 · Mitchell Tenpenny
 **Time:** 07:30 PM
 **Location:** IN
-<p>Mitchell Tenpenny has captured fans everywhere with his husky voice, memorable hooks, and honest storytelling. With multiple No. 1 hits, including “Drunk Me,” “Truth About You,” and “At The End of a Bar,” and over 2.1 billion global streams, he’s established himself as a major force in country music. He continues to evolve his sound with recent albums like The 3rd, inviting listeners into his personal stories and musical journey.</p>\n
+Mitchell Tenpenny has captured fans everywhere with his husky voice, memorable hooks, and honest storytelling. With multiple No. 1 hits, including “Drunk Me,” “Truth About You,” and “At The End of a Bar,” and over 2.1 billion global streams, he’s established himself as a major force in country music. He continues to evolve his sound with recent albums like The 3rd, inviting listeners into his personal stories and musical journey. \n
 **Admission:** Not published
 **Status:** CONFIRMED
 **Source:** https://visitwabashcounty.com/event/mitchell-tenpenny/
@@ -23,7 +23,7 @@ Generated: August 01, 2026
 ## Saturday, August 08 · Lagro Street Market
 **Time:** 08:00 AM
 **Location:** IN
-<p>Besides the Market on Saturdays, Bikes on the Canal will be showcasing their stunning motorcycles at the Pavilion for everyone to admire and enjoy. Keep an eye on their page […]</p>\n
+Besides the Market on Saturdays, Bikes on the Canal will be showcasing their stunning motorcycles at the Pavilion for everyone to admire and enjoy. Keep an eye on their page […] \n
 **Admission:** Not published
 **Status:** CONFIRMED
 **Source:** https://visitwabashcounty.com/event/lagro-street-market/2026-08-08/
@@ -31,7 +31,7 @@ Generated: August 01, 2026
 ## Saturday, August 08 · Wabash Farmers Market
 **Time:** 08:00 AM
 **Location:** IN
-<p>Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)</p>\n
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!) \n
 **Admission:** Not published
 **Status:** CONFIRMED
 **Source:** https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-08/
@@ -39,7 +39,7 @@ Generated: August 01, 2026
 ## Saturday, August 15 · Wabash Farmers Market
 **Time:** 08:00 AM
 **Location:** IN
-<p>Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)</p>\n
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!) \n
 **Admission:** Not published
 **Status:** CONFIRMED
 **Source:** https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-15/
