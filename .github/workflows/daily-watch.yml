@@ -1,8 +1,8 @@
-name: Daily Event Watch
+name: Hourly Event Watch
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -37,12 +37,12 @@ jobs:
           if git diff --cached --quiet; then
             echo "No output changes"
           else
-            git commit -m "chore: update daily event scan"
+            git commit -m "chore: update hourly event scan"
             git push
           fi
       - uses: actions/upload-artifact@v4
         with:
-          name: daily-event-output
+          name: hourly-event-output
           path: |
             output/
             data/events.db
