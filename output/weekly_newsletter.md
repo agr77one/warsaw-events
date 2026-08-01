@@ -46,6 +46,7 @@ Generated: August 01, 2026
 
 # Changes
 
+- **NEW** Weather Doesn’t Stop Fulton Fun Day Festival
 - **NEW** Love Comes Softly the Musical
 - **NEW** Shipshewana Swap Meet
 - **NEW** Shipshewana Antique Market
