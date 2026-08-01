@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Times-Union",
+    "url": "https://timesuniononline.com/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "InkFreeNews",
+    "url": "https://www.inkfreenews.com/",
+    "status": "ok",
+    "event_count": 3,
+    "error": null
+  },
+  {
+    "name": "News Now Warsaw",
+    "url": "https://www.newsnowwarsaw.com/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Visit Kosciusko County",
+    "url": "https://visitkosciuskocounty.org/events/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Kosciusko County Fair",
+    "url": "https://www.kcfair.com/events",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Lake City Skiers",
+    "url": "https://www.lakecityskiers.org/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Wagon Wheel Center",
+    "url": "https://wagonwheelcenter.org/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Visit Elkhart County",
+    "url": "https://www.visitelkhartcounty.com/events/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Visit Shipshewana",
+    "url": "https://visitshipshewana.org/events/",
+    "status": "ok",
+    "event_count": 6,
+    "error": null
+  },
+  {
+    "name": "Visit Fort Wayne",
+    "url": "https://www.visitfortwayne.com/events/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Visit Wabash County",
+    "url": "https://visitwabashcounty.com/events/",
+    "status": "ok",
+    "event_count": 19,
+    "error": null
+  }
+]
