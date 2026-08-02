@@ -82,17 +82,17 @@
   {
     "name": "Lake City Skiers",
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 35,
+    "event_count": 9,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
@@ -146,9 +146,9 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 12,
+    "event_count": 12,
     "error": null
   },
   {
