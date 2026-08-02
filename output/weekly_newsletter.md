@@ -1,8 +1,32 @@
 # Warsaw-Area Events Newsletter
 
-Generated: August 01, 2026
+Generated: August 02, 2026
 
 # August 2026
+
+## Monday, August 03 · Love Comes Softly the Musical
+**Time:** 08:00 PM
+**Location:** Blue Gate Music Hall, 175 N Van Buren St, Shipshewana, IN
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical". It will sweep you away with its big west sounds, toe-tapping rhythms, and soaring ballads. When newlywed Marty Claridge […] \n
+**Admission:** Not published
+**Status:** CONFIRMED
+**Source:** https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-03/
+
+## Tuesday, August 04 · Shipshewana Flea Market
+**Time:** 08:00 AM
+**Location:** Shipshewana Flea Market Grounds, 345 S Van Buren St, Shipshewana, IN
+Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies, accessories, and everything imaginable. Shipshewana Flea Market Dates & Hours: The outdoor flea market is open rain or shine, May 5 – September 30, 2026 Tuesdays, […] \n
+**Admission:** Not published
+**Status:** CONFIRMED
+**Source:** https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-04/
+
+## Tuesday, August 04 · Love Comes Softly the Musical
+**Time:** 08:00 PM
+**Location:** Blue Gate Music Hall, 175 N Van Buren St, Shipshewana, IN
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical". It will sweep you away with its big west sounds, toe-tapping rhythms, and soaring ballads. When newlywed Marty Claridge […] \n
+**Admission:** Not published
+**Status:** CONFIRMED
+**Source:** https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-04/
 
 ## Thursday, August 06 · The Thursday Parlay: Wabash Marketplace
 **Time:** 10:00 AM
@@ -46,6 +70,11 @@ Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us
 
 # Changes
 
+- **NEW** The Ultimate Bob Seger Tribute Band
+- **NEW** Air Supply &#8211; A Matter of Time Tour
+- **NEW** Love Comes Softly the Musical
+- **NEW** Shipshewana Flea Market
+- **NEW** Love Comes Softly the Musical
 - **NEW** Weather Doesn’t Stop Fulton Fun Day Festival
 - **NEW** Love Comes Softly the Musical
 - **NEW** Shipshewana Swap Meet

@@ -2,9 +2,9 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "failed",
+    "status": "ok",
     "event_count": 0,
-    "error": "Client error '403 403' for url 'https://timesuniononline.com/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    "error": null
   },
   {
     "name": "InkFreeNews",
@@ -44,9 +44,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/",
-    "status": "failed",
+    "status": "ok",
     "event_count": 0,
-    "error": "timed out"
+    "error": null
   },
   {
     "name": "Visit Elkhart County",
@@ -59,7 +59,7 @@
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
     "status": "ok",
-    "event_count": 0,
+    "event_count": 5,
     "error": null
   },
   {
