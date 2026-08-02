@@ -1,16 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 01–August 15, 2026
+Your guide for August 02–August 16, 2026
 
-133 events found in the next two weeks, including 37 in Warsaw and Winona Lake.
+137 events found in the next two weeks, including 38 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Sunday, August 02 — Sunday Service
-**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
 
 ## Sunday, August 02 — Anything Goes
 **2:00 PM · Wagon Wheel Center for the Arts, Warsaw, IN**
@@ -192,6 +187,16 @@ Community · Warsaw area · [Details](https://downtownwarsaw.com/event/le-diner-
 
 Community · Warsaw area · [Details](https://allevents.in/winona-lake/glow-float-winona-lake-night-paddle-2026/100001993973214561)
 
+## Sunday, August 16 — Warsaw Indiana
+**Time to be confirmed · Plaza De Toros Mexico, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-indiana/200030475094047)
+
+## Sunday, August 16 — Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
+**10:00 AM–12:00 PM · Plaza de Toros Mexico, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-banda-los-recoditos-banda-el-recodo-in-warsaw/3300030436942109)
+
 # Around Kosciusko County
 
 ## Sunday, August 02 — Jaxon turns 4!!!!!
@@ -313,23 +318,23 @@ Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.
 
 # Newly found or updated
 
+- **UPDATED** Weather Doesn’t Stop Fulton Fun Day Festival
+- **NEW** Lake City Bank Awards $25K In Scholarships To Elkhart Students
+- **NEW** DTFW Summer Series: Night Market — August 6
+- **NEW** Splash Bash
+- **NEW** Talk Time! English Conversations
+- **UPDATED** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
+- **UPDATED** Nitro Circus Live at Four Winds Field at Coveleski Stadium
+- **UPDATED** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
+- **NEW** Joseph and the Amazing Technicolor Dreamcoat
+- **NEW** Little Shop of Horrors at Morris Performing Arts Center
+- **UPDATED** Candlelight: Tribute to ABBA
+- **UPDATED** Candlelight: Tribute to Pink Floyd
+- **NEW** Movie On The Gridiron: A Minecraft Movie
+- **NEW** Tailgate with McKinnies Realty
+- **NEW** Noel Miller
+- **NEW** Brad Williams
+- **UPDATED** Mushroomhead & Fear Factory
+- **UPDATED** Winter Wonder Dash 2K
+- **NEW** In Conversation with Theresa Caputo at Morris Performing Arts Center
 - **NEW** The Ultimate Bob Seger Tribute Band
-- **NEW** Air Supply &#8211; A Matter of Time Tour
-- **NEW** Love Comes Softly the Musical
-- **NEW** Shipshewana Flea Market
-- **NEW** Love Comes Softly the Musical
-- **NEW** Weather Doesn’t Stop Fulton Fun Day Festival
-- **SOLD_OUT** Air Supply – A Matter of Time Tour
-- **NEW** Home Show
-- **NEW** Division I Nationals Tournament
-- **NEW** Division I Nationals Tournament
-- **NEW** Division I Nationals Tournament
-- **NEW** Home Show
-- **NEW** Indiana Beach Show
-- **NEW** Home Show
-- **UPDATED** Wagon Wheel Conservatory 2026 Fall Session Classes
-- **NEW** Home Show
-- **NEW** The Toddler Lounge
-- **NEW** Story Emporium Used Bookstore
-- **NEW** Chair Yoga
-- **NEW** Family Time @ the Winona Lake Farmers Market
