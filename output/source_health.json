@@ -1,5 +1,40 @@
 [
   {
+    "name": "Warsaw Community Public Library",
+    "url": "https://warsaw.librarycalendar.com/events/list",
+    "status": "ok",
+    "event_count": 23,
+    "error": null
+  },
+  {
+    "name": "Downtown Warsaw",
+    "url": "https://downtownwarsaw.com/events/",
+    "status": "ok",
+    "event_count": 6,
+    "error": null
+  },
+  {
+    "name": "Warsaw events index",
+    "url": "https://allevents.in/warsaw-in/all",
+    "status": "ok",
+    "event_count": 44,
+    "error": null
+  },
+  {
+    "name": "Winona Lake events index",
+    "url": "https://allevents.in/winona-lake/all",
+    "status": "ok",
+    "event_count": 10,
+    "error": null
+  },
+  {
+    "name": "The Village at Winona",
+    "url": "https://villageatwinona.com/events/",
+    "status": "ok",
+    "event_count": 0,
+    "error": null
+  },
+  {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
     "status": "ok",
@@ -43,9 +78,30 @@
   },
   {
     "name": "Wagon Wheel Center",
-    "url": "https://wagonwheelcenter.org/",
+    "url": "https://wagonwheelcenter.org/upcoming-events/",
     "status": "ok",
     "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Rochester events index",
+    "url": "https://allevents.in/rochester-in/all",
+    "status": "ok",
+    "event_count": 21,
+    "error": null
+  },
+  {
+    "name": "Plymouth events index",
+    "url": "https://allevents.in/plymouth/all",
+    "status": "ok",
+    "event_count": 41,
+    "error": null
+  },
+  {
+    "name": "Goshen events index",
+    "url": "https://allevents.in/goshen/all",
+    "status": "ok",
+    "event_count": 44,
     "error": null
   },
   {
@@ -53,6 +109,13 @@
     "url": "https://www.visitelkhartcounty.com/events/",
     "status": "ok",
     "event_count": 0,
+    "error": null
+  },
+  {
+    "name": "Elkhart events index",
+    "url": "https://allevents.in/elkhart/all",
+    "status": "ok",
+    "event_count": 45,
     "error": null
   },
   {
@@ -70,10 +133,24 @@
     "error": null
   },
   {
+    "name": "Fort Wayne events index",
+    "url": "https://allevents.in/fort-wayne/all",
+    "status": "ok",
+    "event_count": 44,
+    "error": null
+  },
+  {
+    "name": "South Bend events index",
+    "url": "https://allevents.in/south-bend/all",
+    "status": "ok",
+    "event_count": 40,
+    "error": null
+  },
+  {
     "name": "Visit Wabash County",
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
-    "event_count": 19,
+    "event_count": 68,
     "error": null
   }
 ]

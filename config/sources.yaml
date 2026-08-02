@@ -1,45 +1,172 @@
 sources:
+  # Warsaw and Winona Lake come first. These calendars intentionally include
+  # classes, markets, family programs, performances, and other everyday events.
+  - name: Warsaw Community Public Library
+    url: https://warsaw.librarycalendar.com/events/list
+    reliability: official
+    distance_miles: 0
+    city: Warsaw
+    state: IN
+    venue: Warsaw Community Public Library
+    address: 310 East Main Street
+    comprehensive: true
+    selectors:
+      event_block: article.event-card
+      title: h2 .lc-event__link
+      date: .lc-list-event-info-item--date
+      venue: .lc-list-event-location
+      description: .lc-list-event-description
+
+  - name: Downtown Warsaw
+    url: https://downtownwarsaw.com/events/
+    reliability: official
+    distance_miles: 0
+    city: Warsaw
+    state: IN
+    venue: Downtown Warsaw
+    comprehensive: true
+    selectors:
+      event_block: a.cards-kind-event
+      title: .cards-header
+      date: .cards-icon-meta
+
+  - name: Warsaw events index
+    url: https://allevents.in/warsaw-in/all
+    reliability: aggregator
+    distance_miles: 0
+    city: Warsaw
+    state: IN
+    comprehensive: true
+
+  - name: Winona Lake events index
+    url: https://allevents.in/winona-lake/all
+    reliability: aggregator
+    distance_miles: 3
+    city: Winona Lake
+    state: IN
+    comprehensive: true
+
+  - name: The Village at Winona
+    url: https://villageatwinona.com/events/
+    reliability: official
+    distance_miles: 3
+    city: Winona Lake
+    state: IN
+    venue: The Village at Winona
+    comprehensive: true
+
   - name: Times-Union
     url: https://timesuniononline.com/
     reliability: news
     distance_miles: 0
+    highlights_only: true
   - name: InkFreeNews
     url: https://www.inkfreenews.com/
     reliability: news
     distance_miles: 0
+    highlights_only: true
   - name: News Now Warsaw
     url: https://www.newsnowwarsaw.com/
     reliability: news
     distance_miles: 0
+    highlights_only: true
   - name: Visit Kosciusko County
     url: https://visitkosciuskocounty.org/events/
     reliability: tourism
     distance_miles: 12
+    comprehensive: true
   - name: Kosciusko County Fair
     url: https://www.kcfair.com/events
     reliability: official
     distance_miles: 0
+    city: Warsaw
+    state: IN
+    comprehensive: true
   - name: Lake City Skiers
     url: https://www.lakecityskiers.org/
     reliability: official
     distance_miles: 3
+    city: Warsaw
+    state: IN
+    comprehensive: true
   - name: Wagon Wheel Center
-    url: https://wagonwheelcenter.org/
+    url: https://wagonwheelcenter.org/upcoming-events/
     reliability: official
     distance_miles: 3
+    city: Warsaw
+    state: IN
+    venue: Wagon Wheel Center for the Arts
+    comprehensive: true
+    extractor: linked
+    link_selector: "a[href*='/event/']"
+
+  # Nearby city indexes fill gaps left by JavaScript-only tourism calendars.
+  # They are lower-confidence than official sources and are deduplicated when
+  # the same event appears on an official calendar.
+  - name: Rochester events index
+    url: https://allevents.in/rochester-in/all
+    reliability: aggregator
+    distance_miles: 24
+    city: Rochester
+    state: IN
+    comprehensive: true
+
+  - name: Plymouth events index
+    url: https://allevents.in/plymouth/all
+    reliability: aggregator
+    distance_miles: 30
+    city: Plymouth
+    state: IN
+    comprehensive: true
+
+  - name: Goshen events index
+    url: https://allevents.in/goshen/all
+    reliability: aggregator
+    distance_miles: 30
+    city: Goshen
+    state: IN
+    comprehensive: true
+
   - name: Visit Elkhart County
     url: https://www.visitelkhartcounty.com/events/
     reliability: tourism
     distance_miles: 41
+    comprehensive: true
+  - name: Elkhart events index
+    url: https://allevents.in/elkhart/all
+    reliability: aggregator
+    distance_miles: 41
+    city: Elkhart
+    state: IN
+    comprehensive: true
   - name: Visit Shipshewana
     url: https://visitshipshewana.org/events/
     reliability: tourism
     distance_miles: 44
+    comprehensive: true
   - name: Visit Fort Wayne
     url: https://www.visitfortwayne.com/events/
     reliability: tourism
     distance_miles: 45
+    comprehensive: true
+  - name: Fort Wayne events index
+    url: https://allevents.in/fort-wayne/all
+    reliability: aggregator
+    distance_miles: 45
+    city: Fort Wayne
+    state: IN
+    comprehensive: true
+  - name: South Bend events index
+    url: https://allevents.in/south-bend/all
+    reliability: aggregator
+    distance_miles: 47
+    city: South Bend
+    state: IN
+    comprehensive: true
   - name: Visit Wabash County
     url: https://visitwabashcounty.com/events/
     reliability: tourism
     distance_miles: 33
+    city: Wabash
+    state: IN
+    comprehensive: true

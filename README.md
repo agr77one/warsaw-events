@@ -1,17 +1,22 @@
 # Warsaw Events Pipeline
 
-Automated discovery, validation, deduplication, tracking, publishing, and email delivery of substantive public events within roughly 75 miles of Warsaw, Indiana.
+Automated discovery, validation, deduplication, tracking, publishing, and email delivery of public events within roughly 75 miles of Warsaw, Indiana. The collection is intentionally comprehensive: library programs, classes, markets, performances, sports, festivals, family activities, and community events are all included.
 
 ## Architecture
 
-- **Crawler:** JSON-LD first, then generic HTML extraction.
+- **Crawler:** JSON-LD first, configurable calendar-card extraction second, and linked official event pages where needed. A curl fallback handles public calendars that reject ordinary HTTP clients.
 - **Tracking:** SQLite database at `data/events.db`.
 - **Exports:** CSV and JSON under `output/`.
 - **Newsletter:** Markdown and HTML under `output/`.
-- **Portal:** Generated static site at `docs/index.html` and deployed with GitHub Pages.
-- **Distance-aware ranking:** Events within 10 miles of Warsaw receive the largest
-  priority boost, decreasing through the 75-mile coverage area.
-- **Sunday email:** Full 14-day newsletter.
+- **Portal:** Generated responsive site at `docs/index.html`, deployed with GitHub Pages, with search plus distance, date, and category filters.
+- **Warsaw-first ranking:** Warsaw and Winona Lake appear first, followed by events within 25 miles, then regional events. Official sources outrank community indexes when duplicate listings are found.
+- **Sunday email:** A polished 14-day guide organized into closest-to-home, nearby, and regional sections.
+
+## Coverage
+
+The configured source set starts with Warsaw Community Public Library, Downtown Warsaw, The Village at Winona, Wagon Wheel, and Warsaw/Winona Lake event indexes. It then expands through Rochester, Plymouth, Goshen, Wabash, Elkhart, Shipshewana, Fort Wayne, and South Bend.
+
+Official venue and tourism calendars receive confidence grade A. Local reporting receives B, and public community indexes receive C. Grade C fills gaps in JavaScript-only and Facebook-first calendars but is clearly labeled on the portal; users should always confirm details at the linked page.
 
 ## Outputs
 
@@ -59,10 +64,7 @@ during a manual run, enable the `send_email` input when dispatching it.
 
 ## Location priority
 
-Each source has an approximate distance from Warsaw, and recognized event cities
-override the source-level distance. Priority bonuses are +4 within 10 miles, +3
-within 25 miles, +2 within 50 miles, +1 within 75 miles, and zero beyond that or
-when distance is unknown. Distance and priority are included in the exports.
+Each source has an approximate distance from Warsaw, and recognized event cities override the source-level distance. Proximity bonuses are weighted strongly enough that local events cannot be displaced by a larger regional festival merely because that festival has a more prominent title. Distance, confidence, category, and priority are included in the exports.
 
 ## Facebook-only sources
 
@@ -81,12 +83,7 @@ been expressly authorized and implemented through a supported interface.
 
 ## Free-tier usage estimate
 
-A measured local crawl takes about 13–18 seconds and produces an artifact of
-about 164 KB. The schedule creates roughly 35 crawler jobs and up to 35 Pages
-deployment jobs per average month. Conservatively rounding every job up to one
-minute gives about **70 runner minutes per month**. With 7-day daily artifact
-retention and 30-day newsletter retention, steady retained artifacts are about
-**1.85 MB**.
+The expanded crawl currently checks 22 sources and follows a small number of official venue detail links. A measured full run completed in about 27 seconds and produced more than 350 upcoming events. The schedule creates roughly 34 crawler jobs and 34 Pages deployments per average month. Conservatively budgeting two minutes per crawler plus one minute per deployment gives about **102 runner minutes per month**. With 7-day daily retention and 30-day newsletter retention, steady compressed artifact storage should remain well under **10 MB**.
 
 Standard GitHub-hosted runners are free for public repositories. See
 [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
