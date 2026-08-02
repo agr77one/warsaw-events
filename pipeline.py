@@ -137,6 +137,17 @@ def parse_event_dates(value: str | None) -> tuple[datetime | None, datetime | No
     if not value:
         return None, None
     normalized = clean(value.replace("@", " at ").replace("–", "-")) or ""
+    normalized = normalized.replace("–", "-")
+    normalized = re.sub(r"^(?:date|time):\s*", "", normalized, flags=re.I)
+    calendar_range = re.fullmatch(
+        r"([A-Za-z]+)\s+(\d{1,2})\s*-\s*(?:([A-Za-z]+)\s+)?(\d{1,2}),\s*(\d{4})",
+        normalized,
+    )
+    if calendar_range:
+        start_month, start_day, end_month, end_day, year = calendar_range.groups()
+        start = parse_date(f"{start_month} {start_day}, {year}")
+        end = parse_date(f"{end_month or start_month} {end_day}, {year}")
+        return start, end
     parts = re.split(r"\s+-\s+", normalized, maxsplit=1)
     start_text = re.sub(r"\s+from\s+", " at ", parts[0], flags=re.I)
     start = parse_date(start_text)
@@ -194,13 +205,145 @@ def fetch_text(client: httpx.Client, url: str) -> str:
     try:
         response = client.get(url)
         response.raise_for_status()
-        return response.text
+        text = response.text
+        if "�" in text:
+            windows_text = response.content.decode("cp1252", errors="replace")
+            if windows_text.count("�") < text.count("�"):
+                text = windows_text
+        return text
     except httpx.HTTPStatusError as exc:
         if exc.response.status_code not in {403, 406, 429}:
             raise
     command = ["curl", "--location", "--fail", "--silent", "--show-error", "--max-time", "35", url]
     result = subprocess.run(command, check=True, capture_output=True, timeout=40)
-    return result.stdout.decode("utf-8", errors="replace")
+    text = result.stdout.decode("utf-8", errors="replace")
+    if "�" in text:
+        windows_text = result.stdout.decode("cp1252", errors="replace")
+        if windows_text.count("�") < text.count("�"):
+            text = windows_text
+    return text
+
+
+class SourceNotConfigured(RuntimeError):
+    """A supported source is intentionally dormant until credentials are supplied."""
+
+
+def infer_admission(description: str | None) -> str | None:
+    text = readable_text(description) or ""
+    if re.search(r"included (?:with|in) (?:gate|fair) admission", text, re.I):
+        return "Included with gate admission"
+    if re.search(r"\bfree\b|no admission|no charge", text, re.I):
+        return "Free"
+    price = re.search(r"(?:\$|USD\s*)(\d+(?:\.\d{2})?)", text, re.I)
+    return f"$ {price.group(1)}" if price else None
+
+
+def parse_ics_datetime(value: str) -> datetime | None:
+    raw = value.strip()
+    for pattern in ("%Y%m%dT%H%M%SZ", "%Y%m%dT%H%M%S", "%Y%m%dT%H%M", "%Y%m%d"):
+        try:
+            parsed = datetime.strptime(raw, pattern)
+            if pattern.endswith("Z"):
+                parsed = parsed.replace(tzinfo=timezone.utc).astimezone(WARSAW_TIMEZONE).replace(tzinfo=None)
+            return parsed
+        except ValueError:
+            continue
+    return None
+
+
+def extract_ics(calendar_text: str, source: dict) -> list[Event]:
+    """Extract public iCalendar feeds, including explicitly listed recurrence dates."""
+    unfolded = re.sub(r"\n[ \t]", "", calendar_text.replace("\r\n", "\n").replace("\r", "\n"))
+    events: list[Event] = []
+    for block in re.findall(r"BEGIN:VEVENT\n(.*?)\nEND:VEVENT", unfolded, re.S):
+        values: dict[str, list[str]] = {}
+        for line in block.splitlines():
+            if ":" not in line:
+                continue
+            key, value = line.split(":", 1)
+            values.setdefault(key.split(";", 1)[0].upper(), []).append(value)
+        starts = list(values.get("DTSTART", []))
+        if not starts:
+            continue
+        starts += [item for entry in values.get("RDATE", []) for item in entry.split(",")]
+        excluded = {item for entry in values.get("EXDATE", []) for item in entry.split(",")}
+        base_start = parse_ics_datetime(starts[0])
+        base_end = parse_ics_datetime((values.get("DTEND") or [""])[0])
+        duration = base_end - base_start if base_start and base_end else None
+        title = readable_text((values.get("SUMMARY") or ["Untitled event"])[0]) or "Untitled event"
+        description = readable_text((values.get("DESCRIPTION") or [""])[0].replace("\\n", "\n")) or ""
+        venue = readable_text((values.get("LOCATION") or [source.get("venue") or ""])[0]) or source.get("venue")
+        event_url = (values.get("URL") or [source["url"]])[0].replace("\\,", ",")
+        image_url = (values.get("ATTACH") or [None])[0]
+        for raw_start in starts:
+            if raw_start in excluded:
+                continue
+            start = parse_ics_datetime(raw_start)
+            if not start:
+                continue
+            end = start + duration if duration else None
+            events.append(Event(
+                title=title, start=start.isoformat(), end=end.isoformat() if end else None,
+                venue=venue, address=source.get("address"), city=source.get("city"),
+                state=source.get("state", "IN"), description=description,
+                admission=infer_admission(description), source_name=source["name"],
+                source_url=source["url"], event_url=event_url,
+                confidence=confidence_for(source), category=categorize(title, description),
+                image_url=image_url, distance_miles=source.get("distance_miles"),
+            ))
+    return events
+
+
+def extract_facebook_graph(client: httpx.Client, source: dict) -> list[Event]:
+    """Use Meta's supported Graph API; never scrape Facebook HTML."""
+    token = os.getenv(source.get("token_env", "FACEBOOK_PAGE_ACCESS_TOKEN"))
+    page_id = source.get("page_id") or os.getenv(source.get("page_id_env", "FACEBOOK_PAGE_ID"))
+    api_version = os.getenv(source.get("api_version_env", "FACEBOOK_GRAPH_API_VERSION"))
+    if not token or not page_id or not api_version:
+        raise SourceNotConfigured("Meta API credentials, Page ID, or API version are not configured")
+    endpoint = f"https://graph.facebook.com/{api_version.strip('/')}/{page_id}/events"
+    fields = "id,name,description,start_time,end_time,place,cover,ticket_uri,event_times,is_canceled"
+    events: list[Event] = []
+    after = None
+    for _ in range(3):
+        params = {"fields": fields, "limit": 100}
+        if after:
+            params["after"] = after
+        response = client.get(endpoint, params=params, headers={"Authorization": f"Bearer {token}"})
+        if response.is_error:
+            raise RuntimeError(f"Meta Graph API returned HTTP {response.status_code}")
+        payload = response.json()
+        for item in payload.get("data", []):
+            occurrences = item.get("event_times") or [item]
+            for occurrence in occurrences:
+                start = parse_date(occurrence.get("start_time") or item.get("start_time"))
+                if not start:
+                    continue
+                end = parse_date(occurrence.get("end_time") or item.get("end_time"))
+                place = item.get("place") if isinstance(item.get("place"), dict) else {}
+                location = place.get("location") if isinstance(place.get("location"), dict) else {}
+                description = readable_text(item.get("description")) or ""
+                event_id = str(occurrence.get("id") or item.get("id") or "")
+                cover = item.get("cover") if isinstance(item.get("cover"), dict) else {}
+                events.append(Event(
+                    title=readable_text(item.get("name")) or "Untitled event",
+                    start=start.isoformat(), end=end.isoformat() if end else None,
+                    venue=readable_text(place.get("name")) or source.get("venue"),
+                    address=readable_text(location.get("street")) or source.get("address"),
+                    city=readable_text(location.get("city")) or source.get("city"),
+                    state=readable_text(location.get("state")) or source.get("state", "IN"),
+                    description=description, admission=infer_admission(description),
+                    source_name=source["name"], source_url=source["url"],
+                    event_url=f"https://www.facebook.com/events/{event_id}/" if event_id else source["url"],
+                    confidence=confidence_for(source), category=categorize(item.get("name", ""), description),
+                    image_url=cover.get("source"), distance_miles=source.get("distance_miles"),
+                    status="CANCELED" if item.get("is_canceled") else "CONFIRMED",
+                ))
+        cursors = payload.get("paging", {}).get("cursors", {})
+        after = cursors.get("after") if payload.get("paging", {}).get("next") else None
+        if not after:
+            break
+    return events
 
 
 def iter_jsonld(payload):
@@ -310,6 +453,74 @@ def extract_generic(html_text: str, source: dict) -> list[Event]:
     return events
 
 
+def extract_paginated_generic(
+    client: httpx.Client, first_page: str, source: dict
+) -> list[Event]:
+    """Walk a bounded, configured set of ordinary `?page=N` calendar pages."""
+    events = extract_generic(first_page, source)
+    seen_urls = {event.event_url for event in events}
+    for page in range(1, int(source.get("pagination_pages", 1))):
+        separator = "&" if "?" in source["url"] else "?"
+        page_url = f"{source['url']}{separator}page={page}"
+        page_source = {**source, "url": page_url}
+        page_events = extract_generic(fetch_text(client, page_url), page_source)
+        new_events = [event for event in page_events if event.event_url not in seen_urls]
+        if not new_events:
+            break
+        for event in new_events:
+            event.source_url = source["url"]
+        events.extend(new_events)
+        seen_urls.update(event.event_url for event in new_events)
+    return events
+
+
+def extract_librarycalendar_feed(html_text: str, source: dict) -> list[Event]:
+    """Read LibraryCalendar's historical daily feed, used for coverage audits."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    events: list[Event] = []
+    for block in soup.select("article.event-card"):
+        link = block.select_one(".lc-event__title .lc-event__link")
+        if not link:
+            continue
+        aria = link.get("aria-label", "")
+        date_match = re.search(r"\bon\s+(.+?)\s+@\s+(.+)$", aria, re.I)
+        if not date_match:
+            continue
+        start = parse_date(f"{date_match.group(1)} at {date_match.group(2)}")
+        if not start:
+            continue
+        time_el = block.select_one(".lc-event-info-item--time")
+        time_text = time_el.get_text(" ", strip=True) if time_el else ""
+        times = re.findall(r"\d{1,2}:\d{2}\s*(?:am|pm)", time_text, re.I)
+        end = parse_date(f"{start:%B %d, %Y} at {times[-1]}") if len(times) > 1 else None
+        if end and end <= start:
+            end += timedelta(days=1)
+        room = block.select_one(".lc-event__room")
+        description_el = block.select_one(".lc-event__body")
+        category_el = block.select_one(".lc-event-info__item--categories, .lc-event__program-types span")
+        image_el = block.select_one("img")
+        title = readable_text(link.get_text(" ", strip=True)) or "Untitled event"
+        description = readable_text(description_el.get_text(" ", strip=True)) if description_el else ""
+        block_text = block.get_text(" ", strip=True).casefold()
+        status = "CANCELED" if "cancel" in block_text else (
+            "SOLD_OUT" if "closed" in block_text else "CONFIRMED"
+        )
+        events.append(Event(
+            title=title, start=start.isoformat(), end=end.isoformat() if end else None,
+            venue=readable_text(room.get_text(" ", strip=True).replace("Room:", "")) if room else source.get("venue"),
+            address=source.get("address"), city=source.get("city"), state=source.get("state", "IN"),
+            description=description or "", admission=infer_admission(description),
+            source_name=source["name"], source_url=source["url"],
+            event_url=urljoin(source["url"], link.get("href", "")),
+            confidence=confidence_for(source),
+            category=readable_text(category_el.get_text(" ", strip=True)) if category_el else categorize(title, description or ""),
+            image_url=urljoin(source["url"], image_el.get("src")) if image_el and image_el.get("src") else None,
+            distance_miles=source.get("distance_miles"),
+            status=status,
+        ))
+    return events
+
+
 def extract_allevents(html_text: str, source: dict) -> list[Event]:
     """Read the public event payload rendered into AllEvents city pages."""
     matches = list(re.finditer(r"_this\.events_data\s*=\s*(\[.*?\]);", html_text, re.S))
@@ -362,22 +573,51 @@ def extract_detail_page(html_text: str, source: dict, event_url: str) -> list[Ev
     date_el = soup.select_one(selectors.get("date", "time"))
     if not title_el or not date_el:
         return []
-    start_dt, end_dt = parse_event_dates(date_el.get("datetime") or date_el.get_text(" ", strip=True))
+    date_text = date_el.get("datetime") or date_el.get_text(" ", strip=True)
+    time_el = soup.select_one(selectors["time"]) if selectors.get("time") else None
+    start_dt, end_dt = parse_event_dates(date_text)
+    if time_el and start_dt:
+        time_text = re.sub(r"^time:\s*", "", time_el.get_text(" ", strip=True), flags=re.I)
+        timed_start, timed_end = parse_event_dates(f"{start_dt:%B %d, %Y} at {time_text}")
+        if timed_start:
+            start_dt = timed_start
+        if end_dt and timed_end:
+            end_dt = end_dt.replace(hour=timed_end.hour, minute=timed_end.minute)
+        elif timed_end:
+            end_dt = timed_end
     if not start_dt:
         return []
     description_el = soup.select_one(selectors.get("description", ".event-description, .entry-content p"))
+    venue_el = soup.select_one(selectors["venue"]) if selectors.get("venue") else None
+    admission_el = soup.select_one(selectors["admission"]) if selectors.get("admission") else None
     image_el = soup.select_one(selectors.get("image", "main img, article img"))
     title = readable_text(title_el.get_text(" ", strip=True)) or "Untitled event"
     description = readable_text(description_el.get_text(" ", strip=True)) if description_el else ""
+    admission = readable_text(admission_el.get_text(" ", strip=True)) if admission_el else infer_admission(description)
     return [Event(
         title=title, start=start_dt.isoformat(), end=end_dt.isoformat() if end_dt else None,
-        venue=source.get("venue"), address=source.get("address"), city=source.get("city"),
-        state=source.get("state", "IN"), description=description or "", admission=None,
+        venue=readable_text(venue_el.get_text(" ", strip=True)) if venue_el else source.get("venue"),
+        address=source.get("address"), city=source.get("city"),
+        state=source.get("state", "IN"), description=description or "", admission=admission,
         source_name=source["name"], source_url=source["url"], event_url=event_url,
         confidence=confidence_for(source), category=categorize(title, description or ""),
         image_url=urljoin(event_url, image_el.get("src")) if image_el and image_el.get("src") else None,
         distance_miles=source.get("distance_miles"),
     )]
+
+
+def extract_detail_admission(html_text: str) -> str | None:
+    page_text = readable_text(BeautifulSoup(html_text, "html.parser").get_text(" ", strip=True)) or ""
+    price_match = re.search(
+        r"Ticket Prices:\s*(.+?)(?:Pricing includes|Content Warnings|Venue|$)",
+        page_text,
+        re.I,
+    )
+    if price_match:
+        return clean(price_match.group(1))
+    if re.search(r"included (?:with|in) (?:gate|fair) admission", page_text, re.I):
+        return "Included with gate admission"
+    return None
 
 
 def extract_linked(client: httpx.Client, html_text: str, source: dict) -> list[Event]:
@@ -396,8 +636,10 @@ def extract_linked(client: httpx.Client, html_text: str, source: dict) -> list[E
             extracted = extract_jsonld(detail_html, source)
             if not extracted:
                 extracted = extract_detail_page(detail_html, source, event_url)
+            published_admission = extract_detail_admission(detail_html)
             for event in extracted:
                 event.event_url = event_url
+                event.admission = event.admission or published_admission
             events.extend(extracted)
         except Exception:
             continue
@@ -419,6 +661,10 @@ def filter_and_score(event: Event, now: datetime, highlights_only: bool = False)
         return None
     if highlights_only and not any(term in text for term in INCLUDE_TERMS):
         return None
+    if re.search(r"\bcancel(?:ed|led|lation)?\b", text):
+        event.status = "CANCELED"
+    elif re.search(r"\bsold out\b", text):
+        event.status = "SOLD_OUT"
     start = datetime.fromisoformat(event.start)
     if start < now - timedelta(days=1) or start > now + timedelta(days=180):
         return None
@@ -506,8 +752,17 @@ def crawl(conn: sqlite3.Connection, now: datetime) -> tuple[list[Event], list[di
     health: list[dict] = []
     for source in load_sources():
         try:
-            html_text = fetch_text(client, source["url"])
-            if "allevents.in/" in source["url"]:
+            if source.get("extractor") == "facebook_graph":
+                extracted = extract_facebook_graph(client, source)
+            else:
+                html_text = fetch_text(client, source["url"])
+            if source.get("extractor") == "facebook_graph":
+                pass
+            elif source.get("extractor") == "ics":
+                extracted = extract_ics(html_text, source)
+            elif source.get("pagination_pages"):
+                extracted = extract_paginated_generic(client, html_text, source)
+            elif "allevents.in/" in source["url"]:
                 extracted = extract_allevents(html_text, source)
             elif source.get("extractor") == "linked":
                 extracted = extract_linked(client, html_text, source)
@@ -519,11 +774,14 @@ def crawl(conn: sqlite3.Connection, now: datetime) -> tuple[list[Event], list[di
                 filter_and_score(x, now, source.get("highlights_only", False)) for x in extracted
             ) if e]
             found.extend(accepted)
-            status, error = "ok", None
+            status = "ok" if accepted else ("no_upcoming" if extracted else "empty")
+            error = None
+        except SourceNotConfigured as exc:
+            extracted, accepted, status, error = [], [], "not_configured", str(exc)
         except Exception as exc:
-            accepted, status, error = [], "failed", str(exc)
+            extracted, accepted, status, error = [], [], "failed", str(exc)
         health.append({"name": source["name"], "url": source["url"], "status": status,
-                       "event_count": len(accepted), "error": error})
+                       "raw_event_count": len(extracted), "event_count": len(accepted), "error": error})
         conn.execute("INSERT INTO source_runs(source_name,source_url,checked_at,status,event_count,error) VALUES(?,?,?,?,?,?)",
                      (source["name"], source["url"], now.isoformat(), status, len(accepted), error))
     conn.commit()
@@ -754,7 +1012,10 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
             f"<div class='card-footer'><span>{html.escape(source_label)} · {html.escape(event.get('source_name', 'Source'))}</span>"
             f"<a href='{html.escape(event.get('event_url') or event.get('source_url'), quote=True)}'>View details <span aria-hidden='true'>↗</span></a></div></div></article>"
         )
-    ok = sum(x["status"] == "ok" for x in health)
+    configured_health = [x for x in health if x["status"] != "not_configured"]
+    checked = sum(x["status"] != "failed" for x in configured_health)
+    contributing = sum(x.get("event_count", 0) > 0 for x in configured_health)
+    pending_sources = len(health) - len(configured_health)
     local_count = len(grouped_cards["local"])
     nearby_count = len(grouped_cards["nearby"])
     week_count = sum(datetime.fromisoformat(event["start"]) <= now + timedelta(days=7) for event in events)
@@ -774,7 +1035,7 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
 @media(max-width:800px){{.hero-inner{{padding:46px 20px 78px}}.stats{{grid-template-columns:repeat(2,1fr);padding:0 16px;margin-top:-38px}}main{{padding:26px 16px 60px}}.filters{{position:relative;top:0;grid-template-columns:1fr 1fr}}.control.search{{grid-column:1/-1}}.event-grid{{grid-template-columns:1fr}}}}
 @media(max-width:480px){{h1{{font-size:44px}}.stats{{gap:8px}}.stat{{padding:15px}}.stat strong{{font-size:28px}}.filters{{grid-template-columns:1fr}}.control.search{{grid-column:auto}}.event-body{{padding:16px}}.event-card h3{{font-size:21px}}.card-footer{{align-items:flex-start;flex-direction:column}}}}
 </style></head><body>
-<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {ok}/{len(health)} sources reached</p></div></header>
+<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {checked} sources checked · {contributing} contributing{f' · {pending_sources} integration pending' if pending_sources else ''}</p></div></header>
 <div class='stats'><div class='stat'><strong>{local_count}</strong><span>Warsaw & Winona Lake</span></div><div class='stat'><strong>{nearby_count}</strong><span>within 25 miles</span></div><div class='stat'><strong>{week_count}</strong><span>in the next 7 days</span></div><div class='stat'><strong>{len(events)}</strong><span>upcoming events</span></div></div>
 <main><div class='filters' aria-label='Event filters'><div class='control search'><label for='search'>Search</label><input id='search' type='search' placeholder='Music, markets, Warsaw…'></div><div class='control'><label for='distance'>Distance</label><select id='distance'><option value='all'>Everywhere</option><option value='local'>Warsaw & Winona Lake</option><option value='nearby'>Within 25 miles</option><option value='regional'>Within 50 miles</option></select></div><div class='control'><label for='date-range'>When</label><select id='date-range'><option value='all'>Any date</option><option value='7'>Next 7 days</option><option value='14'>Next 2 weeks</option><option value='30'>Next 30 days</option></select></div><div class='control'><label for='category'>Category</label><select id='category'><option value='all'>All categories</option>{options}</select></div></div>
 <div class='results-bar'><span id='result-count'>{len(events)} events shown</span><button id='clear' type='button'>Clear filters</button></div>{sections}<div class='empty' id='empty'><h2>No events match those filters.</h2><p>Try a wider distance, date range, or a shorter search.</p></div></main>

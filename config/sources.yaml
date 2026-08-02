@@ -10,6 +10,7 @@ sources:
     venue: Warsaw Community Public Library
     address: 310 East Main Street
     comprehensive: true
+    pagination_pages: 6
     selectors:
       event_block: article.event-card
       title: h2 .lc-event__link
@@ -54,6 +55,12 @@ sources:
     state: IN
     venue: The Village at Winona
     comprehensive: true
+    extractor: linked
+    link_selector: "a[href*='/events/']"
+    detail_selectors:
+      title: h2
+      date: h1.p1
+      description: article p
 
   - name: Times-Union
     url: https://timesuniononline.com/
@@ -81,14 +88,27 @@ sources:
     distance_miles: 0
     city: Warsaw
     state: IN
+    venue: Kosciusko County Fair Grounds
     comprehensive: true
+    extractor: linked
+    link_selector: "a[href*='/events/20']"
+    history_urls:
+      - https://www.kcfair.com/events/2026/109th-kosciusko-county-fair
+    detail_selectors:
+      title: h1.detail
+      date: .eventDetailDetailDate
+      time: .eventDetailDetailTime
+      venue: .eventDetailDetailLocation
+      description: .eventDetailDescription
   - name: Lake City Skiers
-    url: https://www.lakecityskiers.org/
+    url: https://www.lakecityskiers.org/feed/eo-events/
     reliability: official
     distance_miles: 3
     city: Warsaw
     state: IN
+    venue: Hidden Lake
     comprehensive: true
+    extractor: ics
   - name: Wagon Wheel Center
     url: https://wagonwheelcenter.org/upcoming-events/
     reliability: official
@@ -99,6 +119,27 @@ sources:
     comprehensive: true
     extractor: linked
     link_selector: "a[href*='/event/']"
+    history_urls:
+      - https://wagonwheelcenter.org/event/cats-musical-wagon-wheel-2026/
+      - https://wagonwheelcenter.org/event/carousel-musical-wagon-wheel-2026/
+      - https://wagonwheelcenter.org/event/footloose-musical-wagon-wheel-2026/
+      - https://wagonwheelcenter.org/event/dial-m-for-murder-wagon-wheel-2026/
+      - https://wagonwheelcenter.org/event/anything-goes-musical-wagon-wheel-2026/
+
+  # Facebook HTML is not scraped. This source becomes active only after a
+  # permitted Meta Graph API token, Page ID, and API version are configured.
+  - name: North Pointe Cinemas Facebook
+    url: https://www.facebook.com/NorthPointeCinemas/
+    reliability: official
+    distance_miles: 0
+    city: Warsaw
+    state: IN
+    venue: North Pointe Cinemas
+    comprehensive: true
+    extractor: facebook_graph
+    token_env: FACEBOOK_PAGE_ACCESS_TOKEN
+    page_id_env: FACEBOOK_NORTHPOINTE_PAGE_ID
+    api_version_env: FACEBOOK_GRAPH_API_VERSION
 
   # Nearby city indexes fill gaps left by JavaScript-only tourism calendars.
   # They are lower-confidence than official sources and are deduplicated when

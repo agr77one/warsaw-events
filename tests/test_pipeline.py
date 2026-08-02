@@ -9,7 +9,13 @@ from pipeline import (
     categorize,
     dedupe_event_dicts,
     extract_allevents,
+    extract_detail_page,
+    extract_detail_admission,
+    extract_facebook_graph,
     extract_generic,
+    extract_ics,
+    extract_librarycalendar_feed,
+    extract_paginated_generic,
     filter_and_score,
     init_db,
     parse_event_dates,
@@ -19,6 +25,7 @@ from pipeline import (
     render_newsletter,
     render_portal,
     send_email,
+    SourceNotConfigured,
     upsert_event,
 )
 
@@ -158,6 +165,12 @@ class ProximityScoringTests(unittest.TestCase):
 
 
 class ExpandedCoverageTests(unittest.TestCase):
+    def test_calendar_multi_day_range_inherits_year(self):
+        start, end = parse_event_dates("Date: July 12 - July 18, 2026")
+
+        self.assertEqual(start, datetime(2026, 7, 12))
+        self.assertEqual(end, datetime(2026, 7, 18))
+
     def test_calendar_date_range_keeps_start_and_end_times(self):
         start, end = parse_event_dates(
             "Saturday, August 29, 2026 at 10:30am - 1:30pm"
@@ -198,6 +211,105 @@ class ExpandedCoverageTests(unittest.TestCase):
         self.assertEqual(events[0].start, "2026-08-08T09:00:00")
         self.assertEqual(events[0].end, "2026-08-08T13:00:00")
         self.assertEqual(events[0].event_url, "https://example.com/events/farmers-market")
+
+    @patch("pipeline.fetch_text")
+    def test_paginated_calendar_collects_later_pages(self, fetch_text):
+        source = {
+            "name": "Library", "url": "https://example.com/events", "reliability": "official",
+            "city": "Warsaw", "state": "IN", "distance_miles": 0, "pagination_pages": 3,
+            "selectors": {"event_block": "article", "title": "h2", "date": "time"},
+        }
+        first = '<article><h2><a href="/one">One</a></h2><time>August 3, 2026 at 1:00 pm</time></article>'
+        fetch_text.side_effect = [
+            '<article><h2><a href="/two">Two</a></h2><time>September 3, 2026 at 1:00 pm</time></article>',
+            '<article><h2><a href="/three">Three</a></h2><time>October 3, 2026 at 1:00 pm</time></article>',
+        ]
+
+        events = extract_paginated_generic(MagicMock(), first, source)
+
+        self.assertEqual([event.title for event in events], ["One", "Two", "Three"])
+
+    def test_library_history_feed_keeps_time_room_and_description(self):
+        markup = '''
+        <article class="event-card">
+          <h3 class="lc-event__title"><a class="lc-event__link" href="/event/dino" aria-label='View Details - "Family Dino Crafts" on Monday, June 1, 2026 @ 10:30am'>Family Dino Crafts</a></h3>
+          <div class="lc-event-info-item--time">10:30am–7:00pm</div>
+          <div class="lc-event__room"><strong>Room:</strong> Meeting Room C</div>
+          <div class="lc-event-info__item--categories">Youth Program</div>
+          <div class="lc-event__body"><p>Free dinosaur crafts for all ages.</p></div>
+        </article>
+        '''
+        source = {"name": "Library", "url": "https://example.com/events", "reliability": "official", "city": "Warsaw", "state": "IN", "distance_miles": 0}
+
+        events = extract_librarycalendar_feed(markup, source)
+
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0].start, "2026-06-01T10:30:00")
+        self.assertEqual(events[0].end, "2026-06-01T19:00:00")
+        self.assertEqual(events[0].venue, "Meeting Room C")
+        self.assertEqual(events[0].admission, "Free")
+
+    def test_ics_feed_keeps_recurrence_price_and_link(self):
+        calendar = """BEGIN:VCALENDAR
+BEGIN:VEVENT
+DTSTART;TZID=America/Indiana/Indianapolis:20260620T100000
+DTEND;TZID=America/Indiana/Indianapolis:20260620T130000
+RDATE;TZID=America/Indiana/Indianapolis:20260725T100000
+SUMMARY:Learn to Ski Clinic
+DESCRIPTION:The clinic costs $20.00 per participant.
+LOCATION:Hidden Lake
+URL;VALUE=URI:https://example.com/clinic
+END:VEVENT
+END:VCALENDAR"""
+        source = {"name": "Lake City Skiers", "url": "https://example.com/feed.ics", "reliability": "official", "city": "Warsaw", "state": "IN", "distance_miles": 3}
+
+        events = extract_ics(calendar, source)
+
+        self.assertEqual(len(events), 2)
+        self.assertEqual(events[1].start, "2026-07-25T10:00:00")
+        self.assertEqual(events[1].end, "2026-07-25T13:00:00")
+        self.assertEqual(events[0].admission, "$ 20.00")
+        self.assertEqual(events[0].event_url, "https://example.com/clinic")
+
+    def test_configured_detail_selectors_keep_fair_time_and_venue(self):
+        markup = '''<h1 class="detail">Annual Fair Parade</h1><div class="eventDetailDetailDate">Date: July 12, 2026</div><div class="eventDetailDetailTime">Time: 2:00 PM - 4:00 PM</div><div class="eventDetailDetailLocation">Kosciusko County Fair Grounds</div><div class="copy">Free community parade.</div>'''
+        source = {"name": "Fair", "url": "https://example.com/events", "reliability": "official", "city": "Warsaw", "state": "IN", "distance_miles": 0, "detail_selectors": {"title": "h1.detail", "date": ".eventDetailDetailDate", "time": ".eventDetailDetailTime", "venue": ".eventDetailDetailLocation", "description": ".copy"}}
+
+        events = extract_detail_page(markup, source, "https://example.com/parade")
+
+        self.assertEqual(events[0].start, "2026-07-12T14:00:00")
+        self.assertEqual(events[0].end, "2026-07-12T16:00:00")
+        self.assertEqual(events[0].venue, "Kosciusko County Fair Grounds")
+        self.assertEqual(events[0].admission, "Free")
+
+    def test_detail_page_keeps_published_ticket_prices(self):
+        markup = """<dl><dt>Ticket Prices:</dt><dd>Adult — $55.00 Senior — $50.00</dd><dt>Pricing includes all fees.</dt></dl><h3>Venue</h3>"""
+
+        admission = extract_detail_admission(markup)
+
+        self.assertEqual(admission, "Adult — $55.00 Senior — $50.00")
+
+    def test_facebook_graph_requires_supported_api_configuration(self):
+        with patch.dict("os.environ", {}, clear=True):
+            with self.assertRaises(SourceNotConfigured):
+                extract_facebook_graph(MagicMock(), {"name": "Facebook", "url": "https://facebook.com/page"})
+
+    def test_facebook_graph_maps_event_fields_without_html_scraping(self):
+        response = MagicMock()
+        response.is_error = False
+        response.json.return_value = {"data": [{"id": "123", "name": "Free Movie Day", "description": "Free admission", "start_time": "2026-08-08T10:00:00-04:00", "end_time": "2026-08-08T12:00:00-04:00", "place": {"name": "North Pointe Cinemas", "location": {"street": "1060 Mariners Dr", "city": "Warsaw", "state": "IN"}}, "cover": {"source": "https://example.com/movie.jpg"}}]}
+        client = MagicMock()
+        client.get.return_value = response
+        source = {"name": "North Pointe Cinemas Facebook", "url": "https://facebook.com/NorthPointeCinemas", "reliability": "official", "city": "Warsaw", "state": "IN", "distance_miles": 0}
+
+        with patch.dict("os.environ", {"FACEBOOK_PAGE_ACCESS_TOKEN": "secret", "FACEBOOK_PAGE_ID": "page", "FACEBOOK_GRAPH_API_VERSION": "v1.0"}, clear=True):
+            events = extract_facebook_graph(client, source)
+
+        self.assertEqual(events[0].title, "Free Movie Day")
+        self.assertEqual(events[0].admission, "Free")
+        self.assertEqual(events[0].venue, "North Pointe Cinemas")
+        self.assertEqual(events[0].event_url, "https://www.facebook.com/events/123/")
+        self.assertEqual(client.get.call_args.kwargs["headers"], {"Authorization": "Bearer secret"})
 
     def test_comprehensive_sources_keep_normal_local_programs(self):
         event = Event(

@@ -26,6 +26,8 @@ Official venue and tourism calendars receive confidence grade A. Local reporting
 - `output/daily_alerts.json`
 - `output/weekly_newsletter.md`
 - `output/weekly_newsletter.html`
+- `output/historical_validation.json`
+- `output/historical_validation.md`
 - `docs/index.html`
 - `data/events.db`
 
@@ -68,10 +70,26 @@ Each source has an approximate distance from Warsaw, and recognized event cities
 
 ## Facebook-only sources
 
-Direct Facebook HTML scraping is intentionally disabled. Facebook commonly
-requires login for page content, and Meta's automated-data terms require express
-permission for automated collection. Safe source options, in preference order,
-are:
+Direct Facebook HTML scraping remains disabled. Facebook currently presents the
+North Pointe Cinemas public page behind a login dialog, and Meta's automated-data
+terms require express permission for automated collection. The pipeline now has
+an optional **Meta Graph API** extractor for North Pointe Cinemas. It maps event
+names, recurring times, venue/address, description, cover image, cancellation,
+admission text, and the canonical Facebook event link without scraping HTML.
+
+To activate it, obtain API access authorized by the Page owner (or Meta-approved
+access to public Page content), then configure:
+
+- Actions secret `FACEBOOK_PAGE_ACCESS_TOKEN`
+- Actions secret `FACEBOOK_NORTHPOINTE_PAGE_ID`
+- Actions variable `FACEBOOK_GRAPH_API_VERSION`, set to the version approved for
+  the Meta app
+
+Until all three values exist, source health reports `not_configured`; daily and
+Sunday jobs continue normally and do not attempt a Facebook HTML request. Never
+paste the token into `config/sources.yaml`, workflow YAML, an issue, or a log.
+
+Safe source options, in preference order, remain:
 
 1. A venue-owned public website, calendar, RSS feed, or newsletter.
 2. A Meta-supported API integration authorized by the Page owner.
@@ -81,9 +99,39 @@ See [Meta's Automated Data Collection Terms](https://www.facebook.com/legal/auto
 Do not add a Facebook page URL to `config/sources.yaml` unless collection has
 been expressly authorized and implemented through a supported interface.
 
+## Historical validation
+
+`historical_audit.py` reconstructs the previous two complete calendar months
+from preserved official LibraryCalendar daily feeds, the Lake City Skiers iCal
+feed, Wagon Wheel detail pages, and the Kosciusko County Fair archive. It compares
+official record counts, field completeness, and a fixed set of exact historical
+title/date/time checks without adding past events to the live dashboard.
+
+This is a local-official-source validation set, not a claim that every regional
+website preserves a complete public archive. Aggregators and several tourism/news
+sites remove past listings, so they cannot be independently back-tested after the
+fact. Their future collection remains covered by normal source health and output
+tests.
+
+Run the August 1, 2026 baseline with:
+
+```powershell
+python historical_audit.py --as-of 2026-08-01
+```
+
+The resulting evidence is written to `output/historical_validation.json` and
+`output/historical_validation.md`.
+
 ## Free-tier usage estimate
 
-The expanded crawl currently checks 22 sources and follows a small number of official venue detail links. A measured full run completed in about 27 seconds and produced more than 350 upcoming events. The schedule creates roughly 34 crawler jobs and 34 Pages deployments per average month. Conservatively budgeting two minutes per crawler plus one minute per deployment gives about **102 runner minutes per month**. With 7-day daily retention and 30-day newsletter retention, steady compressed artifact storage should remain well under **10 MB**.
+The expanded crawl currently checks 22 web/calendar sources plus one optional
+Facebook Graph API source. A measured full run completed in about 80 seconds and
+produced more than 470 upcoming events. The schedule creates roughly 35 crawler
+jobs and 35 Pages deployments per average month. Budgeting two minutes per crawler
+plus one minute per deployment gives about **105 runner minutes per average month**
+(108 in a 31-day month with five Sundays). With 7-day daily retention and 30-day
+newsletter retention, steady compressed artifact storage should remain around
+**10 MB**.
 
 Standard GitHub-hosted runners are free for public repositories. See
 [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
