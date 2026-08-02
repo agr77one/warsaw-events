@@ -37,9 +37,9 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "ok",
+    "status": "failed",
     "event_count": 0,
-    "error": null
+    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
   },
   {
     "name": "InkFreeNews",
