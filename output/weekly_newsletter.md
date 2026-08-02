@@ -2,7 +2,7 @@
 
 Your guide for August 01–August 15, 2026
 
-129 events found in the next two weeks, including 33 in Warsaw and Winona Lake.
+133 events found in the next two weeks, including 37 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
@@ -16,6 +16,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service
 **2:00 PM · Wagon Wheel Center for the Arts, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes/2300030316261748)
+
+## Sunday, August 02 — Home Show
+**6:30 PM–7:30 PM · Hidden Lake, Warsaw, IN**
+The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
+Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
 
 ## Monday, August 03 — Peanut's Music Bingo Event
 **Time to be confirmed · 3687 N Barbee Drive, Warsaw, IN, United States, Indiana 46582**
@@ -57,6 +62,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/global-leaders
 Join us for a fun time building miniature rooms, dioramas, and 3D puzzles with Robotime kits while connecting with others. Materials are included, but registration is required.
 Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/diy-craft-club-meetup-3397)
 
+## Friday, August 07 — Division I Nationals Tournament
+**Time to be confirmed · Waterhawks, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
+
 ## Friday, August 07 — Winona Monster Weekend 2026
 **11:00 AM · 904 Park Avenue, Winona Lake, IN, United States, Indiana 46590**
 
@@ -71,6 +81,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-the-hobbit
 **7:00 PM–8:30 PM · 225 E Fort Wayne St Warsaw, IN 46580**
 
 Music & shows · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-summer-concert-series-2026/200029883892949)
+
+## Saturday, August 08 — Division I Nationals Tournament
+**Time to be confirmed · Waterhawks, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
 
 ## Saturday, August 08 — Kids P.O.P. (Power of Produce)
 **Time to be confirmed · 705 Park Avenue, Winona Lake, IN, United States, Indiana 46590**
@@ -111,6 +126,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/mahjong-and-mi
 **2:00 PM–5:00 PM · Rodeheaver Auditorium, Winona Lake, IN**
 
 Arts & learning · Warsaw area · [Details](https://allevents.in/winona-lake/an-afternoon-with-the-guardians-and-no-name-quartet/200030144548602)
+
+## Sunday, August 09 — Division I Nationals Tournament
+**Time to be confirmed · Waterhawks, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
 
 ## Monday, August 10 — Genre Book Club
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
@@ -299,17 +319,17 @@ Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.
 - **NEW** Shipshewana Flea Market
 - **NEW** Love Comes Softly the Musical
 - **NEW** Weather Doesn’t Stop Fulton Fun Day Festival
-- **NEW** Eel River Music Fest
-- **NEW** Miles & Smiles Run & Walk
-- **NEW** Wabash Farmers Market
-- **NEW** Liking For Biking
-- **NEW** Eel River Music Fest
-- **NEW** Annual Themed Art Competition
-- **NEW** Game Night Chronicles: Trekking the National Parks
-- **NEW** Annual Themed Art Competition
-- **NEW** Spanish Storytime
-- **NEW** Annual Themed Art Competition
-- **NEW** Walking Wednesday
-- **NEW** Silent Book Club
-- **NEW** Annual Themed Art Competition
-- **NEW** Literacy Babytime
+- **SOLD_OUT** Air Supply – A Matter of Time Tour
+- **NEW** Home Show
+- **NEW** Division I Nationals Tournament
+- **NEW** Division I Nationals Tournament
+- **NEW** Division I Nationals Tournament
+- **NEW** Home Show
+- **NEW** Indiana Beach Show
+- **NEW** Home Show
+- **UPDATED** Wagon Wheel Conservatory 2026 Fall Session Classes
+- **NEW** Home Show
+- **NEW** The Toddler Lounge
+- **NEW** Story Emporium Used Bookstore
+- **NEW** Chair Yoga
+- **NEW** Family Time @ the Winona Lake Farmers Market
