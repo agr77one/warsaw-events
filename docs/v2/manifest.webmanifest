@@ -1,0 +1,10 @@
+{
+  "name": "Warsaw Weekend",
+  "short_name": "Warsaw Events",
+  "description": "A Warsaw-first guide to public events in Kosciusko County and northern Indiana.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#173b3f"
+}
