@@ -1,9 +1,11 @@
-const CACHE_NAME = "warsaw-weekend-v2-2";
+const CACHE_NAME = "kosciusko-community-calendar-v2-3";
 const SHELL = [
   "./",
   "index.html",
+  "about.html",
   "styles.css",
   "enhancements.css",
+  "about.css",
   "app.js",
   "submit-event.js",
   "manifest.webmanifest",
