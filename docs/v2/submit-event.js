@@ -69,9 +69,11 @@ submitForm.addEventListener("submit", async (event) => {
     "",
     "## Review required",
     "- Verify the organizer or venue source",
-    "- Check for duplicates",
+    "- Check for duplicates and geographic relevance",
     "- Check age restrictions and content warnings",
-    "- Reject malware, scams, illegal activity, explicit sexual content, or unsafe material",
+    "- Apply the family-friendly content policy",
+    "- Reject malware, scams, illegal activity, pornography, explicit sexual content, hate promotion, or unsafe material",
+    "- Base the decision on event content, age suitability, source credibility, legality, local relevance, and safety",
     "- Standard submission is free; sponsorship never bypasses review",
   ].join("\n");
 
