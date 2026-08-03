@@ -1,5 +1,13 @@
-const CACHE_NAME = "warsaw-weekend-v2-1";
-const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest"];
+const CACHE_NAME = "warsaw-weekend-v2-2";
+const SHELL = [
+  "./",
+  "index.html",
+  "styles.css",
+  "enhancements.css",
+  "app.js",
+  "submit-event.js",
+  "manifest.webmanifest",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL)));
