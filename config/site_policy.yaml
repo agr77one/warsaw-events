@@ -18,6 +18,12 @@ site_identity:
     - safety
   exclude_based_only_on_personal_identity: false
 
+editorial_scope:
+  family_faith_service_civic_and_general_community_events: include
+  sexuality_or_gender_identity_advocacy_events_all_viewpoints: outside_scope
+  organizer_performer_or_attendee_identity_alone: never_a_rejection_reason
+  political_or_ideological_advocacy_requires_local_public_interest_review: true
+
 advertising:
   third_party_ad_networks: false
   behavioral_analytics: false
