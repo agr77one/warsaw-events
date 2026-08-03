@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#173b3f">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; font-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self' https://github.com; upgrade-insecure-requests">
-  <meta name="description" content="An ad-free, Warsaw-first guide to events in Kosciusko County and northern Indiana.">
+  <meta name="description" content="A Warsaw-first guide to events in Kosciusko County and northern Indiana without third-party ad networks or tracking.">
   <title>Warsaw Weekend V2</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
@@ -21,7 +21,7 @@
         <span class="brand-mark" aria-hidden="true">W</span>
         <span>
           <strong>Warsaw Weekend</strong>
-          <small>Ad-free local event guide</small>
+          <small>Local event guide</small>
         </span>
       </a>
       <nav class="header-actions" aria-label="Site links">
@@ -38,7 +38,7 @@
         <p class="eyebrow">Warsaw, Winona Lake, and nearby</p>
         <h1 id="page-title">Find events without digging through 491 cards.</h1>
         <p>Browse by date first, then narrow by distance, category, admission, and source quality. The complete calendar remains available.</p>
-        <p class="no-ads-note">No ads, sponsored placements, affiliate links, or paid rankings</p>
+        <p class="no-ads-note">No third-party ad network, affiliate tracking, or behavioral analytics. Optional sponsored event highlights are disabled by default and must always be labeled.</p>
         <p class="freshness" id="freshness">Loading the latest event data...</p>
       </div>
       <div class="hero-summary" aria-label="Event summary">
@@ -62,7 +62,7 @@
       <div>
         <p class="eyebrow">Help complete the calendar</p>
         <h2 id="missing-event-title">Know about a missing event?</h2>
-        <p>Send the official or public event-page link. Submissions are reviewed before they enter the calendar.</p>
+        <p>Send the official or public event-page link. Nothing is published automatically. Every submission is checked for source quality, duplicates, age restrictions, and safety.</p>
       </div>
       <button class="submit-event-button" type="button" data-open-submit>Send missing event link</button>
     </section>
@@ -167,7 +167,7 @@
     <div class="dialog-body no-hero">
       <p class="eyebrow">Community submission</p>
       <h2>Send a missing event</h2>
-      <p>Paste the official venue, organizer, ticket, or public event-page link. No paid placement or sponsored ranking is accepted.</p>
+      <p>Paste the official venue, organizer, ticket, or public event-page link. Standard event submission is free. Sponsorship is a separate optional program and never bypasses review.</p>
       <form id="missing-event-form" class="submit-form">
         <label class="field">
           <span>Event link</span>
@@ -178,13 +178,23 @@
           <input id="missing-event-name" type="text" autocomplete="off" maxlength="160">
         </label>
         <label class="field">
+          <span>Audience or age restriction</span>
+          <select id="missing-event-audience">
+            <option value="Unknown">Unknown</option>
+            <option value="All ages">All ages</option>
+            <option value="13+">13+</option>
+            <option value="18+">18+</option>
+            <option value="21+">21+</option>
+          </select>
+        </label>
+        <label class="field">
           <span>Notes, optional</span>
-          <textarea id="missing-event-notes" maxlength="1000" placeholder="Date, city, or anything that helps verify the listing"></textarea>
+          <textarea id="missing-event-notes" maxlength="1000" placeholder="Date, city, content warning, or anything that helps verify the listing"></textarea>
         </label>
         <button class="dialog-primary" type="submit">Continue to submit</button>
         <p id="submit-status" class="submit-status" role="status" aria-live="polite"></p>
       </form>
-      <p class="submission-note">The submission opens as a public GitHub issue for review, so a GitHub sign-in is required. The formatted submission is also copied to your clipboard when permitted.</p>
+      <p class="submission-note">Current prototype submissions open as public GitHub issues. Do not paste private information or explicit material. Before broad public launch, intake should move to a private moderation queue so unsafe links are quarantined before review.</p>
     </div>
   </dialog>
 
@@ -194,8 +204,8 @@
   </dialog>
 
   <footer>
-    <p>Built from public calendars. Confirm time, price, registration, and availability with the linked source.</p>
-    <p class="ad-policy">This site contains no advertising network, sponsored placement, affiliate link, paid ranking, or third-party analytics script. Event flyers may contain organizer or sponsor artwork from the original event source.</p>
+    <p>Built from public calendars. Confirm time, price, registration, age restrictions, and availability with the linked source.</p>
+    <p class="ad-policy">No third-party advertising network, affiliate tracking, or behavioral analytics. Sponsored local event highlights are an optional feature controlled by site policy. When enabled, they must be clearly labeled, separated from organic ranking, frequency-limited, and hideable by the visitor.</p>
     <p><a href="../">Open the current dashboard</a> · <a href="https://github.com/agr77one/warsaw-events">View the data pipeline</a></p>
   </footer>
 
