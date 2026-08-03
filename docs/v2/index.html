@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b3f">
+  <meta name="description" content="A clear, Warsaw-first guide to events in Kosciusko County and northern Indiana.">
+  <title>Warsaw Weekend V2</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#events">Skip to events</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Warsaw Weekend home">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span>
+          <strong>Warsaw Weekend</strong>
+          <small>Local event guide</small>
+        </span>
+      </a>
+      <nav class="header-actions" aria-label="Site links">
+        <a href="../">Current site</a>
+        <a href="https://github.com/agr77one/warsaw-events">Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Warsaw, Winona Lake, and nearby</p>
+        <h1 id="page-title">Find events without digging through 491 cards.</h1>
+        <p>Browse by date first, then narrow by distance, category, admission, and source quality. The complete calendar remains available.</p>
+        <p class="freshness" id="freshness">Loading the latest event data...</p>
+      </div>
+      <div class="hero-summary" aria-label="Event summary">
+        <article><strong id="today-count">0</strong><span>Today</span></article>
+        <article><strong id="weekend-count">0</strong><span>This weekend</span></article>
+        <article><strong id="week-count">0</strong><span>Next 7 days</span></article>
+        <article><strong id="total-count">0</strong><span>Upcoming</span></article>
+      </div>
+    </section>
+
+    <section class="date-shortcuts" aria-label="Quick date filters">
+      <button type="button" data-date-preset="today">Today</button>
+      <button type="button" data-date-preset="tomorrow">Tomorrow</button>
+      <button type="button" data-date-preset="weekend">This weekend</button>
+      <button type="button" data-date-preset="7" class="active">Next 7 days</button>
+      <button type="button" data-date-preset="30">Next 30 days</button>
+      <button type="button" data-date-preset="all">All dates</button>
+    </section>
+
+    <section class="workspace">
+      <aside class="filter-panel" aria-labelledby="filter-title">
+        <div class="filter-heading">
+          <div>
+            <p class="eyebrow">Refine results</p>
+            <h2 id="filter-title">Filters</h2>
+          </div>
+          <button id="reset-filters" class="text-button" type="button">Reset</button>
+        </div>
+
+        <label class="field">
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Music, market, Warsaw, venue...">
+        </label>
+
+        <label class="field">
+          <span>Distance</span>
+          <select id="distance">
+            <option value="10">Warsaw area, within 10 miles</option>
+            <option value="25" selected>Within 25 miles</option>
+            <option value="50">Within 50 miles</option>
+            <option value="75">Within 75 miles</option>
+            <option value="all">Everywhere collected</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Category</span>
+          <select id="category">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Admission</span>
+          <select id="admission">
+            <option value="all">Any admission</option>
+            <option value="free">Free</option>
+            <option value="priced">Price listed</option>
+            <option value="unknown">Not published</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Source quality</span>
+          <select id="confidence">
+            <option value="all">All public listings</option>
+            <option value="AB">Official and local reporting</option>
+            <option value="A">Official calendars only</option>
+          </select>
+        </label>
+
+        <label class="check-field">
+          <input id="images" type="checkbox" checked>
+          <span>Show event images</span>
+        </label>
+
+        <div class="source-key">
+          <h3>Source labels</h3>
+          <p><span class="source-dot official"></span><strong>Official</strong> venue or tourism calendar</p>
+          <p><span class="source-dot reporting"></span><strong>Reported</strong> local publication</p>
+          <p><span class="source-dot community"></span><strong>Community</strong> public event index</p>
+        </div>
+      </aside>
+
+      <section class="results" id="events" aria-labelledby="results-title">
+        <div class="results-header">
+          <div>
+            <p class="eyebrow" id="range-label">Next 7 days</p>
+            <h2 id="results-title"><span id="result-count">0</span> events</h2>
+          </div>
+          <label class="sort-control">
+            <span>Sort</span>
+            <select id="sort">
+              <option value="date">Soonest first</option>
+              <option value="distance">Closest first</option>
+              <option value="quality">Official sources first</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="active-filters" class="active-filters" aria-live="polite"></div>
+        <div id="event-groups" class="event-groups" aria-live="polite"></div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <h3>No events match these filters.</h3>
+          <p>Increase the distance, choose a wider date range, or remove a filter.</p>
+          <button type="button" id="empty-reset">Reset filters</button>
+        </div>
+
+        <button id="load-more" class="load-more" type="button" hidden>Show more events</button>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="event-dialog" class="event-dialog">
+    <button class="dialog-close" type="button" aria-label="Close event details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer>
+    <p>Built from public calendars. Confirm time, price, registration, and availability with the linked source.</p>
+    <p><a href="../">Open the current dashboard</a> · <a href="https://github.com/agr77one/warsaw-events">View the data pipeline</a></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
