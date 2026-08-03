@@ -1,3 +1,23 @@
+site_identity:
+  name: Kosciusko Community Calendar
+  family_friendly_default: true
+  christian_informed_values:
+    - truthfulness
+    - human_dignity
+    - family
+    - service
+    - stewardship
+    - responsibility
+    - neighborliness
+  editorial_decisions_based_on:
+    - event_content
+    - age_suitability
+    - source_credibility
+    - legality
+    - local_relevance
+    - safety
+  exclude_based_only_on_personal_identity: false
+
 advertising:
   third_party_ad_networks: false
   behavioral_analytics: false
@@ -29,9 +49,12 @@ content_policy:
   lawful_13_plus_events: allow_with_age_label
   lawful_18_plus_events: manual_review_and_hidden_by_default
   lawful_21_plus_nightlife: allow_with_age_label
-  sexually_explicit_events: reject
+  adult_entertainment_or_sexually_explicit_performances: reject
+  pornography_or_graphic_sexual_material: reject
   malware_or_phishing: reject
   scams_or_illegal_activity: reject
   hate_or_extremist_events: reject
+  targeted_harassment_or_credible_violence: reject
   weapons_or_illegal_drug_sales: reject
   gambling_promotions: manual_review
+  identity_specific_events: evaluate_under_same_content_age_source_and_safety_rules
