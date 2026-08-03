@@ -3,6 +3,7 @@ const submitForm = document.querySelector("#missing-event-form");
 const submitStatus = document.querySelector("#submit-status");
 const submitUrl = document.querySelector("#missing-event-url");
 const submitName = document.querySelector("#missing-event-name");
+const submitAudience = document.querySelector("#missing-event-audience");
 const submitNotes = document.querySelector("#missing-event-notes");
 
 function openSubmitDialog() {
@@ -39,6 +40,7 @@ submitForm.addEventListener("submit", async (event) => {
 
   const eventUrl = submitUrl.value.trim();
   const eventName = submitName.value.trim();
+  const audience = submitAudience.value;
   const notes = submitNotes.value.trim();
 
   let parsedUrl;
@@ -59,12 +61,18 @@ submitForm.addEventListener("submit", async (event) => {
     "## Event name",
     eventName || "Not provided",
     "",
+    "## Audience or age restriction",
+    audience,
+    "",
     "## Notes",
     notes || "No additional notes provided.",
     "",
-    "## Submission rules",
-    "- Public event with a verifiable source",
-    "- No paid placement or sponsored ranking requested",
+    "## Review required",
+    "- Verify the organizer or venue source",
+    "- Check for duplicates",
+    "- Check age restrictions and content warnings",
+    "- Reject malware, scams, illegal activity, explicit sexual content, or unsafe material",
+    "- Standard submission is free; sponsorship never bypasses review",
   ].join("\n");
 
   const issueUrl = new URL("https://github.com/agr77one/warsaw-events/issues/new");
