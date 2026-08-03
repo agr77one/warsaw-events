@@ -1,7 +1,7 @@
 {
-  "name": "Warsaw Weekend",
-  "short_name": "Warsaw Events",
-  "description": "A Warsaw-first guide to public events in Kosciusko County and northern Indiana.",
+  "name": "Kosciusko Community Calendar",
+  "short_name": "Kosciusko Events",
+  "description": "A family-friendly guide to public events in Kosciusko County and nearby northern Indiana communities.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
