@@ -4,10 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#173b3f">
-  <meta name="description" content="A clear, Warsaw-first guide to events in Kosciusko County and northern Indiana.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; font-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self' https://github.com; upgrade-insecure-requests">
+  <meta name="description" content="An ad-free, Warsaw-first guide to events in Kosciusko County and northern Indiana.">
   <title>Warsaw Weekend V2</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="enhancements.css">
 </head>
 <body>
   <a class="skip-link" href="#events">Skip to events</a>
@@ -18,12 +21,13 @@
         <span class="brand-mark" aria-hidden="true">W</span>
         <span>
           <strong>Warsaw Weekend</strong>
-          <small>Local event guide</small>
+          <small>Ad-free local event guide</small>
         </span>
       </a>
       <nav class="header-actions" aria-label="Site links">
         <a href="../">Current site</a>
         <a href="https://github.com/agr77one/warsaw-events">Project</a>
+        <button class="header-submit" type="button" data-open-submit>Submit event</button>
       </nav>
     </div>
   </header>
@@ -34,6 +38,7 @@
         <p class="eyebrow">Warsaw, Winona Lake, and nearby</p>
         <h1 id="page-title">Find events without digging through 491 cards.</h1>
         <p>Browse by date first, then narrow by distance, category, admission, and source quality. The complete calendar remains available.</p>
+        <p class="no-ads-note">No ads, sponsored placements, affiliate links, or paid rankings</p>
         <p class="freshness" id="freshness">Loading the latest event data...</p>
       </div>
       <div class="hero-summary" aria-label="Event summary">
@@ -51,6 +56,15 @@
       <button type="button" data-date-preset="7" class="active">Next 7 days</button>
       <button type="button" data-date-preset="30">Next 30 days</button>
       <button type="button" data-date-preset="all">All dates</button>
+    </section>
+
+    <section class="submission-callout" aria-labelledby="missing-event-title">
+      <div>
+        <p class="eyebrow">Help complete the calendar</p>
+        <h2 id="missing-event-title">Know about a missing event?</h2>
+        <p>Send the official or public event-page link. Submissions are reviewed before they enter the calendar.</p>
+      </div>
+      <button class="submit-event-button" type="button" data-open-submit>Send missing event link</button>
     </section>
 
     <section class="workspace">
@@ -148,6 +162,32 @@
     </section>
   </main>
 
+  <dialog id="submit-event-dialog" class="event-dialog submit-dialog">
+    <button id="close-submit-event" class="dialog-close" type="button" aria-label="Close missing event form">×</button>
+    <div class="dialog-body no-hero">
+      <p class="eyebrow">Community submission</p>
+      <h2>Send a missing event</h2>
+      <p>Paste the official venue, organizer, ticket, or public event-page link. No paid placement or sponsored ranking is accepted.</p>
+      <form id="missing-event-form" class="submit-form">
+        <label class="field">
+          <span>Event link</span>
+          <input id="missing-event-url" type="url" inputmode="url" autocomplete="url" placeholder="https://..." required>
+        </label>
+        <label class="field">
+          <span>Event name, optional</span>
+          <input id="missing-event-name" type="text" autocomplete="off" maxlength="160">
+        </label>
+        <label class="field">
+          <span>Notes, optional</span>
+          <textarea id="missing-event-notes" maxlength="1000" placeholder="Date, city, or anything that helps verify the listing"></textarea>
+        </label>
+        <button class="dialog-primary" type="submit">Continue to submit</button>
+        <p id="submit-status" class="submit-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="submission-note">The submission opens as a public GitHub issue for review, so a GitHub sign-in is required. The formatted submission is also copied to your clipboard when permitted.</p>
+    </div>
+  </dialog>
+
   <dialog id="event-dialog" class="event-dialog">
     <button class="dialog-close" type="button" aria-label="Close event details">×</button>
     <div id="dialog-content"></div>
@@ -155,9 +195,11 @@
 
   <footer>
     <p>Built from public calendars. Confirm time, price, registration, and availability with the linked source.</p>
+    <p class="ad-policy">This site contains no advertising network, sponsored placement, affiliate link, paid ranking, or third-party analytics script. Event flyers may contain organizer or sponsor artwork from the original event source.</p>
     <p><a href="../">Open the current dashboard</a> · <a href="https://github.com/agr77one/warsaw-events">View the data pipeline</a></p>
   </footer>
 
   <script src="app.js" defer></script>
+  <script src="submit-event.js" defer></script>
 </body>
 </html>
