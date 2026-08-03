@@ -1,0 +1,37 @@
+advertising:
+  third_party_ad_networks: false
+  behavioral_analytics: false
+  affiliate_tracking: false
+
+sponsored_events:
+  enabled: false
+  default_visible: false
+  visitor_can_hide: true
+  required_label: Sponsored
+  affects_organic_ranking: false
+  maximum_per_20_organic_events: 1
+  requires_manual_approval: true
+  expires_after_event: true
+
+submissions:
+  current_intake_mode: public_github_issue_prototype
+  production_intake_required: private_quarantine_queue
+  automatic_publication: false
+  requires_manual_approval: true
+  verify_source: true
+  check_duplicates: true
+  scan_url_safety: true
+  classify_age_restriction: true
+  classify_content_safety: true
+
+content_policy:
+  all_ages_events: allow_after_verification
+  lawful_13_plus_events: allow_with_age_label
+  lawful_18_plus_events: manual_review_and_hidden_by_default
+  lawful_21_plus_nightlife: allow_with_age_label
+  sexually_explicit_events: reject
+  malware_or_phishing: reject
+  scams_or_illegal_activity: reject
+  hate_or_extremist_events: reject
+  weapons_or_illegal_drug_sales: reject
+  gambling_promotions: manual_review
