@@ -15,6 +15,16 @@ function closeSubmitDialog() {
   submitDialog.close();
 }
 
+function showFallbackLink(issueUrl) {
+  submitStatus.textContent = "Your browser blocked the new tab. ";
+  const link = document.createElement("a");
+  link.href = issueUrl;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Open the submission page";
+  submitStatus.append(link, ".");
+}
+
 document.querySelectorAll("[data-open-submit]").forEach((button) => {
   button.addEventListener("click", openSubmitDialog);
 });
@@ -69,8 +79,10 @@ submitForm.addEventListener("submit", async (event) => {
     submitStatus.textContent = "GitHub is opening so you can review and send the event link.";
   }
 
-  const opened = window.open(issueUrl.href, "_blank", "noopener,noreferrer");
-  if (!opened) {
-    submitStatus.innerHTML = `Your browser blocked the new tab. <a href="${issueUrl.href}" target="_blank" rel="noopener noreferrer">Open the submission page</a>.`;
+  const opened = window.open(issueUrl.href, "_blank");
+  if (opened) {
+    opened.opener = null;
+  } else {
+    showFallbackLink(issueUrl.href);
   }
 });
