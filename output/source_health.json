@@ -4,7 +4,7 @@
     "url": "https://warsaw.librarycalendar.com/events/list",
     "status": "ok",
     "raw_event_count": 140,
-    "event_count": 136,
+    "event_count": 135,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 40,
+    "event_count": 39,
     "error": null
   },
   {
@@ -124,7 +124,7 @@
     "url": "https://allevents.in/goshen/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 44,
+    "event_count": 45,
     "error": null
   },
   {
@@ -179,8 +179,8 @@
     "name": "Visit Wabash County",
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
-    "raw_event_count": 85,
-    "event_count": 64,
+    "raw_event_count": 94,
+    "event_count": 72,
     "error": null
   }
 ]

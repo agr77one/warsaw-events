@@ -1,36 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 02–August 16, 2026
+Your guide for August 03–August 17, 2026
 
-147 events found in the next two weeks, including 42 in Warsaw and Winona Lake.
+148 events found in the next two weeks, including 40 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Monday, August 03 — Peanut's Music Bingo Event
-**Time to be confirmed · 3687 N Barbee Drive, Warsaw, IN, United States, Indiana 46582**
-
-Music & shows · Warsaw area · [Details](https://allevents.in/warsaw/peanuts-music-bingo-event/200030371444903)
-
-## Monday, August 03 — Certified Peer Support Professional Training
-**8:00 AM · Ivy Tech Community College Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/certified-peer-support-professional-training/100001977734102941)
-
-## Monday, August 03 — Friends of the Library
-**1:00 PM–2:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-The Friends of the Library is an organization supporting the Warsaw Community Public Library. Individuals are encouraged to attend and learn more about FOL projects and community involvement.
-Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/friends-library-2688)
-
-## Monday, August 03 — Paper Quilling
-**6:00 PM–7:30 PM · Meeting Room C at Warsaw Community Public Library, IN**
-Learn the art of paper quilling. Materials are provided, but registration is required. All beginners are welcome!
-Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/paper-quilling-3378)
-
-## Monday, August 03 — Anything Goes
-**7:00 PM · Ramada - Wagon Wheel Theatre, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes/2300029767450115)
 
 ## Tuesday, August 04 — Story Emporium Used Bookstore
 **4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
@@ -48,7 +23,7 @@ Join us for a fun time building miniature rooms, dioramas, and 3D puzzles with R
 Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/diy-craft-club-meetup-3397)
 
 ## Thursday, August 06 — Thursday Night Thunder Monthly Series-August
-**5:00 PM–5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
+**5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night-thunder-monthly-series-august/200030130898229)
 
@@ -61,6 +36,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes-
 **Time to be confirmed · Waterhawks, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
+
+## Friday, August 07 — Five Below Grand Opening Weekend!
+**10:00 AM · 2804 FRONTAGE ROAD, SUITE 6, Warsaw, IN 46580**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/five-below-grand-opening-weekend/200030503116357)
 
 ## Friday, August 07 — Winona Monster Weekend 2026
 **11:00 AM · 904 Park Avenue, Winona Lake, IN, United States, Indiana 46590**
@@ -126,6 +106,11 @@ Arts & learning · Warsaw area · [Details](https://allevents.in/winona-lake/an-
 **Time to be confirmed · Waterhawks, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
+
+## Sunday, August 09 — Sunday Service
+**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
 
 ## Monday, August 10 — Genre Book Club
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
@@ -203,7 +188,7 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-b
 Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-open-play/200030498330859)
 
 ## Sunday, August 16 — BANDA EL RECODO, LOS RECODITOS & MAS
-**2:00 PM · Plaza de Toros Mexico, Warsaw, IN**
+**2:00 PM–4:00 PM · Plaza de Toros Mexico, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recodo-los-recoditos-and-mas/2900030341669406)
 
@@ -217,12 +202,12 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/gran-jaripeo-c
 The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
 Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
 
+## Monday, August 17 — Remembering Elvis
+**6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+We will remember the life of Elvis with trivia, favorite songs & movies, and a sing-a-long. This come and go event will be a wonderful reminder of "The King of Rock n' Roll."
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/remembering-elvis-3360)
+
 # Around Kosciusko County
-
-## Monday, August 03 — Water Aerobics at the City Pool
-**Time to be confirmed · Rochester City Pool, IN**
-
-Community · About 24 miles away · [Details](https://allevents.in/rochester/water-aerobics-at-the-city-pool/200030088846136)
 
 ## Friday, August 07 — Comedy Fundraiser for Fulton County Animal Center
 **7:00 PM · The Times Theater, Rochester, IN**
@@ -240,31 +225,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/ser
 Food & markets · About 24 miles away · [Details](https://allevents.in/rochester/rust-and-relics-market-craft-show-swap-meet-flea-market/200030023030842)
 
 # Worth the drive
-
-## Monday, August 03 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-03/)
-
-## Monday, August 03 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-03/)
-
-## Monday, August 03 — The Carpenters Once More: Tribute
-**4:00 PM–6:30 PM · Blue Gate Music Hall, Shipshewana, IN**
-Come celebrate one Unforgettable Voice and one unforgettable duo, with the sounds of The Carpenters Once More featuring vocalists Diana Lynn. From the birth of this dynamic duo to the last of their public…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/the-carpenters-once-more-tribute/2026-08-03/)
-
-## Monday, August 03 — Game Night Chronicles: Trekking the National Parks
-**6:00 PM–7:00 PM · Wabash, IN**
-You may be familiar with jigsaw puzzles, chess and Sorry, but what about all those new board games on store shelves? What are those about? If all you know of board games is Candy Land, Monopoly and Connect 4, come to…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/game-night-chronicles-trekking-the-national-parks/)
-
-## Monday, August 03 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-03/)
 
 ## Tuesday, August 04 — Shipshewana Flea Market
 **8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
@@ -316,40 +276,65 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-05/)
 
-## Wednesday, August 05 — Walking Wednesday
-**9:00 AM–10:00 PM · Wabash, IN**
-Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-05/)
-
 ## Wednesday, August 05 — Bluebird Acres Blossoms U Pick
 **10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
 Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
 Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-05/)
 
-## Wednesday, August 05 — It Takes Two: Famous Duets
-**1:00 PM–3:30 PM · IN**
-It Take Two, starring Branson\'s King and Queen of Diamonds, Keith Allynn and Diana Lynn. Join them and their rotating cast of Branson Superstars as they celebrate famous duets with comedy and music from the stories…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/it-takes-two-famous-duets/2026-08-05/)
+## Wednesday, August 05 — Love Comes Softly the Musical
+**5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-05/)
+
+## Wednesday, August 05 — Salute to the King
+**7:30 PM–9:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+Salute to the King is an exciting rock-and-roll experience that takes you on an unforgettable journey through the legendary music of Elvis Presley! Spanning three incredible decades of chart-topping hits, this…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/salute-to-the-king/)
+
+## Friday, August 07 — Senior Luncheon @ Salamonie Lake
+**12:00 PM–3:00 PM · Wabash, IN**
+Join Upper Wabash Interpretive Services for the Senior Luncheon at Salamonie Lake Interpretive Center. Guests ages 50 and older are invited to enjoy a carry-in meal and hear from U.S. […]
+Community · About 33 miles away · [Details](https://visitwabashcounty.com/event/senior-luncheon-salamonie-lake/)
+
+## Saturday, August 08 — Green Hat Lounge Live Music: Carolyn Martin
+**7:00 PM–10:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/8: Carolyn Martin
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-carolyn-martin/)
+
+## Sunday, August 09 — Green Hat Lounge Live Music: Eric Clancy
+**5:00 PM–8:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/9: Eric Clancy
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-eric-clancy/)
+
+## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
+**7:00 PM–10:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/15: The Nobles (Mike Neglia & Jack Wellington)
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-the-nobles/)
+
+## Sunday, August 16 — Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
+**5:00 PM–8:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
 
 # Newly found or updated
 
-- **UPDATED** Lake City Bank Awards $25K In Scholarships To Elkhart Students
-- **NEW** Entertainment Planned During Pierceton’s Heirloom Tomato Festival
-- **NEW** Anything Goes
-- **NEW** Anything Goes at Wagon Wheel Center for the Arts
-- **NEW** Arrival from Sweden – Abba Tribute
-- **NEW** Shipshewana Flea Market
-- **NEW** Miscellaneous & Antique Weekly Auctions
-- **NEW** Weekly Livestock Auction
-- **NEW** Bluebird Acres Blossoms U Pick
-- **NEW** It Takes Two: Famous Duets
+- **NEW** Baseball Theme, New Foods, Music At State Fair
+- **NEW** Attorney General Todd Rokita Invites Hoosiers To Claim Their Money At The Indiana State Fair
+- **NEW** Love Comes Softly the Musical
+- **NEW** Salute to the King
 - **UPDATED** Thursday Night Thunder Monthly Series-August
-- **NEW** Anything Goes - Warsaw
+- **NEW** Five Below Grand Opening Weekend!
+- **NEW** Senior Luncheon @ Salamonie Lake
+- **NEW** Urban Night
+- **NEW** Green Hat Lounge Live Music: Carolyn Martin
+- **NEW** Sunday Service
+- **NEW** Green Hat Lounge Live Music: Eric Clancy
+- **UPDATED** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
 - **UPDATED** The Bar-Kays
-- **UPDATED** TrueScale Truck Show
-- **NEW** Latin Dance JAM!
-- **NEW** Celebration of Life for Teresa Douglas (TW)
-- **NEW** Anniversary Party- Picnic and Dance
-- **NEW** MTG Commander Open Play
-- **UPDATED** Fort Wayne Tincaps vs. Great Lakes Loons
-- **NEW** MTG Commander Party: The Hobbit
+- **UPDATED** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
+- **UPDATED** Boots on the Bend Music Festival - Friday - With Hardy, Brandon Lake, Chase Rice, and more
+- **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
+- **NEW** Green Hat Lounge Live Music: The Nobles
+- **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
+- **NEW** Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
+- **NEW** Learn to ski clinic
