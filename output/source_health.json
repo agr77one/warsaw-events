@@ -4,7 +4,7 @@
     "url": "https://warsaw.librarycalendar.com/events/list",
     "status": "ok",
     "raw_event_count": 140,
-    "event_count": 135,
+    "event_count": 136,
     "error": null
   },
   {
@@ -50,9 +50,9 @@
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "ok",
+    "status": "no_upcoming",
     "raw_event_count": 30,
-    "event_count": 2,
+    "event_count": 0,
     "error": null
   },
   {
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 39,
+    "event_count": 40,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 94,
-    "event_count": 72,
+    "event_count": 70,
     "error": null
   }
 ]

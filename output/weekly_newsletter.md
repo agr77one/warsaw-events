@@ -1,16 +1,16 @@
 # Warsaw Weekend
 
-Your guide for August 03–August 17, 2026
+Your guide for August 04–August 18, 2026
 
-148 events found in the next two weeks, including 40 in Warsaw and Winona Lake.
+148 events found in the next two weeks, including 41 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
 
-## Tuesday, August 04 — Story Emporium Used Bookstore
-**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
-The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2560)
+## Thursday, August 06 — Anything Goes - Warsaw
+**Time to be confirmed · Wagon Wheel Center for the Arts, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes-warsaw/3200029982640250)
 
 ## Thursday, August 06 — Global Leadership Summit 2026
 **9:00 AM · 1855 S County Farm Rd, Warsaw, IN 46580-6002, United States**
@@ -26,11 +26,6 @@ Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/d
 **5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night-thunder-monthly-series-august/200030130898229)
-
-## Thursday, August 06 — Anything Goes - Warsaw
-**8:00 PM · Wagon Wheel Center for the Arts, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes-warsaw/3200029982640250)
 
 ## Friday, August 07 — Division I Nationals Tournament
 **Time to be confirmed · Waterhawks, Warsaw, IN**
@@ -188,7 +183,7 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-b
 Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-open-play/200030498330859)
 
 ## Sunday, August 16 — BANDA EL RECODO, LOS RECODITOS & MAS
-**2:00 PM–4:00 PM · Plaza de Toros Mexico, Warsaw, IN**
+**2:00 PM · Plaza de Toros Mexico, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recodo-los-recoditos-and-mas/2900030341669406)
 
@@ -206,6 +201,16 @@ Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/eve
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
 We will remember the life of Elvis with trivia, favorite songs & movies, and a sing-a-long. This come and go event will be a wonderful reminder of "The King of Rock n' Roll."
 Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/remembering-elvis-3360)
+
+## Tuesday, August 18 — Story Emporium Used Bookstore
+**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
+The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2562)
+
+## Tuesday, August 18 — Book Trivia
+**5:30 PM–6:30 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+All lovers of books, come and enjoy a great time of trivia covering all genres and eras. Meet people who enjoy books and win some small prizes.
+Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/book-trivia-3377)
 
 # Around Kosciusko County
 
@@ -225,36 +230,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/ser
 Food & markets · About 24 miles away · [Details](https://allevents.in/rochester/rust-and-relics-market-craft-show-swap-meet-flea-market/200030023030842)
 
 # Worth the drive
-
-## Tuesday, August 04 — Shipshewana Flea Market
-**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
-Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-04/)
-
-## Tuesday, August 04 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-04/)
-
-## Tuesday, August 04 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-04/)
-
-## Tuesday, August 04 — Spanish Storytime
-**10:00 AM–10:30 AM · Wabash, IN**
-Introduce your little ones to the wonderful world of languages with Spanish Storytime! Enjoy songs, a craft, and a special story read in both Spanish and English by our director, Andrea Zwiebel. Start building a love…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/spanish-storytime/)
-
-## Tuesday, August 04 — Arrival from Sweden – Abba Tribute
-**7:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-ARRIVAL From Sweden THE MUSIC OF ABBA was founded by ABBA Original Musician Rutger Gunnarsson and the Swedish artist Vicky Zetterberg in 1995 in Gothenburg, Sweden and very soon became one of the world\'s most…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/arrival-from-sweden-abba-tribute/)
-
-## Tuesday, August 04 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-04/)
 
 ## Wednesday, August 05 — Shipshewana Flea Market
 **8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
@@ -276,20 +251,50 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-05/)
 
+## Wednesday, August 05 — Walking Wednesday
+**9:00 AM–10:00 PM · Wabash, IN**
+Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-05/)
+
 ## Wednesday, August 05 — Bluebird Acres Blossoms U Pick
 **10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
 Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
 Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-05/)
+
+## Wednesday, August 05 — It Takes Two: Famous Duets
+**1:00 PM–3:30 PM · IN**
+It Take Two, starring Branson\'s King and Queen of Diamonds, Keith Allynn and Diana Lynn. Join them and their rotating cast of Branson Superstars as they celebrate famous duets with comedy and music from the stories…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/it-takes-two-famous-duets/2026-08-05/)
 
 ## Wednesday, August 05 — Love Comes Softly the Musical
 **5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
 The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-05/)
 
+## Wednesday, August 05 — Silent Book Club
+**6:00 PM–7:00 PM · Wabash, IN**
+Looking to find a community of fellow readers, but intimidated by traditional book clubs? Put down your phone, pick up a book, and spend quality time with fellow book lovers – no homework or chit chat required! Bring…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/silent-book-club-5/)
+
 ## Wednesday, August 05 — Salute to the King
 **7:30 PM–9:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
 Salute to the King is an exciting rock-and-roll experience that takes you on an unforgettable journey through the legendary music of Elvis Presley! Spanning three incredible decades of chart-topping hits, this…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/salute-to-the-king/)
+
+## Thursday, August 06 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-06/)
+
+## Thursday, August 06 — Neil Diamond Tribute
+**1:00 PM–3:30 PM · Blue Gate Music Hall, Shipshewana, IN**
+A Neil Diamond Tribute is a Broadway style production, in which Diamond look and sound alike Keith Allynn, unveils the story of Diamond\'s life and career through Diamond\'s own songs from the 60\'s through today.…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/neil-diamond-tribute/2026-08-06/)
+
+## Thursday, August 06 — Riverwood Pottery Summer Carving Classes
+**5:00 PM–6:30 PM · Riverwood Pottery, Shipshewana, IN**
+Join us here in the pottery studio for some fun out of the sun and getting dirty with clay! We can\'t wait to create with you something special and unique that you can use over and over again. We want you to get your…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/riverwood-pottery-summer-carving-classes/2026-08-06/1/)
 
 ## Friday, August 07 — Senior Luncheon @ Salamonie Lake
 **12:00 PM–3:00 PM · Wabash, IN**
@@ -318,23 +323,23 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 
 # Newly found or updated
 
-- **NEW** Baseball Theme, New Foods, Music At State Fair
-- **NEW** Attorney General Todd Rokita Invites Hoosiers To Claim Their Money At The Indiana State Fair
-- **NEW** Love Comes Softly the Musical
-- **NEW** Salute to the King
-- **UPDATED** Thursday Night Thunder Monthly Series-August
-- **NEW** Five Below Grand Opening Weekend!
-- **NEW** Senior Luncheon @ Salamonie Lake
-- **NEW** Urban Night
-- **NEW** Green Hat Lounge Live Music: Carolyn Martin
-- **NEW** Sunday Service
-- **NEW** Green Hat Lounge Live Music: Eric Clancy
+- **NEW** Cole Porter's Anything Goes
+- **NEW** Anything Goes
+- **NEW** Anything Goes at Wagon Wheel Center for the Arts
+- **NEW** Bluey's Big Play
+- **UPDATED** Anything Goes - Warsaw
+- **NEW** Bluebird Acres Blossoms U Pick
+- **NEW** Neil Diamond Tribute
+- **NEW** Riverwood Pottery Summer Carving Classes
+- **NEW** Elkhart Farmers Market
 - **UPDATED** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
 - **UPDATED** The Bar-Kays
 - **UPDATED** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
 - **UPDATED** Boots on the Bend Music Festival - Friday - With Hardy, Brandon Lake, Chase Rice, and more
+- **UPDATED** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
 - **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
-- **NEW** Green Hat Lounge Live Music: The Nobles
 - **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
-- **NEW** Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
-- **NEW** Learn to ski clinic
+- **UPDATED** Fort Wayne Tincaps vs. Great Lakes Loons
+- **UPDATED** Class of 2006 20th Year Reunion
+- **UPDATED** Little Shop of Horrors at Morris Performing Arts Center
+- **UPDATED** Candlelight: Tribute to ABBA
