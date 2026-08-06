@@ -50,9 +50,9 @@
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "no_upcoming",
+    "status": "ok",
     "raw_event_count": 30,
-    "event_count": 0,
+    "event_count": 1,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 94,
-    "event_count": 70,
+    "event_count": 68,
     "error": null
   }
 ]
