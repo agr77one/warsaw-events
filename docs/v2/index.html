@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b3f">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; font-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self' https://github.com; upgrade-insecure-requests">
+  <meta name="description" content="A family-friendly guide to events in Kosciusko County and nearby northern Indiana communities without third-party ad networks or tracking.">
+  <title>Kosciusko Community Calendar</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="enhancements.css">
+</head>
+<body>
+  <a class="skip-link" href="#events">Skip to events</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Kosciusko Community Calendar home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span>
+          <strong>Kosciusko Community Calendar</strong>
+          <small>Family-friendly local event guide</small>
+        </span>
+      </a>
+      <nav class="header-actions" aria-label="Site links">
+        <a href="about.html">About</a>
+        <a href="../">Current site</a>
+        <a href="https://github.com/agr77one/warsaw-events">Project</a>
+        <button class="header-submit" type="button" data-open-submit>Submit event</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Warsaw, Winona Lake, Kosciusko County, and nearby</p>
+        <h1 id="page-title">Find local events without digging through hundreds of listings.</h1>
+        <p>Browse by date first, then narrow by distance, category, admission, and source quality. The complete calendar remains available.</p>
+        <p class="no-ads-note">No third-party ad network, affiliate tracking, or behavioral analytics. Optional sponsored event highlights are disabled by default and must always be labeled.</p>
+        <p class="freshness" id="freshness">Loading the latest event data...</p>
+      </div>
+      <div class="hero-summary" aria-label="Event summary">
+        <article><strong id="today-count">0</strong><span>Today</span></article>
+        <article><strong id="weekend-count">0</strong><span>This weekend</span></article>
+        <article><strong id="week-count">0</strong><span>Next 7 days</span></article>
+        <article><strong id="total-count">0</strong><span>Upcoming</span></article>
+      </div>
+    </section>
+
+    <section class="date-shortcuts" aria-label="Quick date filters">
+      <button type="button" data-date-preset="today">Today</button>
+      <button type="button" data-date-preset="tomorrow">Tomorrow</button>
+      <button type="button" data-date-preset="weekend">This weekend</button>
+      <button type="button" data-date-preset="7" class="active">Next 7 days</button>
+      <button type="button" data-date-preset="30">Next 30 days</button>
+      <button type="button" data-date-preset="all">All dates</button>
+    </section>
+
+    <section class="submission-callout" aria-labelledby="missing-event-title">
+      <div>
+        <p class="eyebrow">Help complete the calendar</p>
+        <h2 id="missing-event-title">Know about a missing event?</h2>
+        <p>Send the official or public event-page link. Nothing is published automatically. Every submission is checked for source quality, duplicates, age restrictions, content suitability, and safety.</p>
+      </div>
+      <button class="submit-event-button" type="button" data-open-submit>Send missing event link</button>
+    </section>
+
+    <section class="workspace">
+      <aside class="filter-panel" aria-labelledby="filter-title">
+        <div class="filter-heading">
+          <div>
+            <p class="eyebrow">Refine results</p>
+            <h2 id="filter-title">Filters</h2>
+          </div>
+          <button id="reset-filters" class="text-button" type="button">Reset</button>
+        </div>
+
+        <label class="field">
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Music, market, Warsaw, venue...">
+        </label>
+
+        <label class="field">
+          <span>Distance</span>
+          <select id="distance">
+            <option value="10">Warsaw area, within 10 miles</option>
+            <option value="25" selected>Within 25 miles</option>
+            <option value="50">Within 50 miles</option>
+            <option value="75">Within 75 miles</option>
+            <option value="all">Everywhere collected</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Category</span>
+          <select id="category">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Admission</span>
+          <select id="admission">
+            <option value="all">Any admission</option>
+            <option value="free">Free</option>
+            <option value="priced">Price listed</option>
+            <option value="unknown">Not published</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Source quality</span>
+          <select id="confidence">
+            <option value="all">All public listings</option>
+            <option value="AB">Official and local reporting</option>
+            <option value="A">Official calendars only</option>
+          </select>
+        </label>
+
+        <label class="check-field">
+          <input id="images" type="checkbox" checked>
+          <span>Show event images</span>
+        </label>
+
+        <div class="source-key">
+          <h3>Source labels</h3>
+          <p><span class="source-dot official"></span><strong>Official</strong> venue or tourism calendar</p>
+          <p><span class="source-dot reporting"></span><strong>Reported</strong> local publication</p>
+          <p><span class="source-dot community"></span><strong>Community</strong> public event index</p>
+        </div>
+      </aside>
+
+      <section class="results" id="events" aria-labelledby="results-title">
+        <div class="results-header">
+          <div>
+            <p class="eyebrow" id="range-label">Next 7 days</p>
+            <h2 id="results-title"><span id="result-count">0</span> events</h2>
+          </div>
+          <label class="sort-control">
+            <span>Sort</span>
+            <select id="sort">
+              <option value="date">Soonest first</option>
+              <option value="distance">Closest first</option>
+              <option value="quality">Official sources first</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="active-filters" class="active-filters" aria-live="polite"></div>
+        <div id="event-groups" class="event-groups" aria-live="polite"></div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <h3>No events match these filters.</h3>
+          <p>Increase the distance, choose a wider date range, or remove a filter.</p>
+          <button type="button" id="empty-reset">Reset filters</button>
+        </div>
+
+        <button id="load-more" class="load-more" type="button" hidden>Show more events</button>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="submit-event-dialog" class="event-dialog submit-dialog">
+    <button id="close-submit-event" class="dialog-close" type="button" aria-label="Close missing event form">×</button>
+    <div class="dialog-body no-hero">
+      <p class="eyebrow">Community submission</p>
+      <h2>Send a missing event</h2>
+      <p>Paste the official venue, organizer, ticket, or public event-page link. Standard event submission is free. Sponsorship is a separate optional program and never bypasses review.</p>
+      <form id="missing-event-form" class="submit-form">
+        <label class="field">
+          <span>Event link</span>
+          <input id="missing-event-url" type="url" inputmode="url" autocomplete="url" placeholder="https://..." required>
+        </label>
+        <label class="field">
+          <span>Event name, optional</span>
+          <input id="missing-event-name" type="text" autocomplete="off" maxlength="160">
+        </label>
+        <label class="field">
+          <span>Audience or age restriction</span>
+          <select id="missing-event-audience">
+            <option value="Unknown">Unknown</option>
+            <option value="All ages">All ages</option>
+            <option value="13+">13+</option>
+            <option value="18+">18+</option>
+            <option value="21+">21+</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Notes, optional</span>
+          <textarea id="missing-event-notes" maxlength="1000" placeholder="Date, city, content warning, or anything that helps verify the listing"></textarea>
+        </label>
+        <button class="dialog-primary" type="submit">Continue to submit</button>
+        <p id="submit-status" class="submit-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="submission-note">Current prototype submissions open as public GitHub issues. Do not paste private information or explicit material. Before broad public launch, intake should move to a private moderation queue so unsafe links are quarantined before review.</p>
+    </div>
+  </dialog>
+
+  <dialog id="event-dialog" class="event-dialog">
+    <button class="dialog-close" type="button" aria-label="Close event details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer>
+    <p>Built from public calendars. Confirm time, price, registration, age restrictions, and availability with the linked source.</p>
+    <p class="ad-policy">No third-party advertising network, affiliate tracking, or behavioral analytics. Sponsored local event highlights are an optional feature controlled by site policy. When enabled, they must be clearly labeled, separated from organic ranking, frequency-limited, and hideable by the visitor.</p>
+    <p><a href="about.html">About and editorial standards</a> · <a href="../">Open the current dashboard</a> · <a href="https://github.com/agr77one/warsaw-events">View the data pipeline</a></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+  <script src="submit-event.js" defer></script>
+</body>
+</html>
