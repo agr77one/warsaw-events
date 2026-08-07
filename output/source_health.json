@@ -4,7 +4,7 @@
     "url": "https://warsaw.librarycalendar.com/events/list",
     "status": "ok",
     "raw_event_count": 140,
-    "event_count": 136,
+    "event_count": 135,
     "error": null
   },
   {
@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 9,
-    "event_count": 9,
+    "raw_event_count": 10,
+    "event_count": 10,
     "error": null
   },
   {
@@ -50,9 +50,9 @@
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "ok",
-    "raw_event_count": 30,
-    "event_count": 1,
+    "status": "no_upcoming",
+    "raw_event_count": 35,
+    "event_count": 0,
     "error": null
   },
   {
@@ -90,10 +90,10 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
-    "error": null
+    "status": "failed",
+    "raw_event_count": 0,
+    "event_count": 0,
+    "error": "timed out"
   },
   {
     "name": "North Pointe Cinemas Facebook",
@@ -124,7 +124,7 @@
     "url": "https://allevents.in/goshen/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 45,
+    "event_count": 44,
     "error": null
   },
   {
@@ -172,15 +172,15 @@
     "url": "https://allevents.in/south-bend/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 40,
+    "event_count": 41,
     "error": null
   },
   {
     "name": "Visit Wabash County",
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
-    "raw_event_count": 94,
-    "event_count": 68,
+    "raw_event_count": 100,
+    "event_count": 71,
     "error": null
   }
 ]

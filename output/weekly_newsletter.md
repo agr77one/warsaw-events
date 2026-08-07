@@ -1,31 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 05–August 19, 2026
+Your guide for August 06–August 20, 2026
 
-149 events found in the next two weeks, including 41 in Warsaw and Winona Lake.
+144 events found in the next two weeks, including 39 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Thursday, August 06 — Anything Goes - Warsaw
-**Time to be confirmed · Wagon Wheel Center for the Arts, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes-warsaw/3200029982640250)
-
-## Thursday, August 06 — Global Leadership Summit 2026
-**9:00 AM · 1855 S County Farm Rd, Warsaw, IN 46580-6002, United States**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/global-leadership-summit-2026/200030085280027)
-
-## Thursday, August 06 — Make & Mingle Miniatures
-**2:00 PM–5:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-Join us for a fun time building miniature rooms, dioramas, and 3D puzzles with Robotime kits while connecting with others. Materials are included, but registration is required.
-Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/diy-craft-club-meetup-3397)
-
-## Thursday, August 06 — Thursday Night Thunder Monthly Series-August
-**5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night-thunder-monthly-series-august/200030130898229)
 
 ## Friday, August 07 — Division I Nationals Tournament
 **Time to be confirmed · Waterhawks, Warsaw, IN**
@@ -46,6 +26,11 @@ Community · Warsaw area · [Details](https://allevents.in/winona-lake/winona-mo
 **6:00 PM–10:00 PM · Chimp's Comix, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-the-hobbit-prerelease-6-pm/200030240731419)
+
+## Friday, August 07 — Anything Goes
+**7:00 PM · Wagon Wheel Center for the Arts, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes/2300030316261748)
 
 ## Friday, August 07 — Warsaw Summer Concert Series 2026
 **7:00 PM–8:30 PM · 225 E Fort Wayne St Warsaw, IN 46580**
@@ -137,6 +122,11 @@ Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/c
 Discover how to choose, plant, and maintain bulbs to bring vibrant seasonal color to your garden and landscape. Suitable for both beginners and experienced gardeners!
 Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/planting-and-caring-bulbs-3466)
 
+## Thursday, August 13 — Thursday Night Thunder Monthly Series-August
+**5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night-thunder-monthly-series-august/200030130898229)
+
 ## Friday, August 14 — TrueScale Truck Show
 **9:00 AM · Warsaw Fairground, IN**
 
@@ -183,7 +173,7 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-b
 Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-open-play/200030498330859)
 
 ## Sunday, August 16 — BANDA EL RECODO, LOS RECODITOS & MAS
-**2:00 PM–4:00 PM · Plaza de Toros Mexico, Warsaw, IN**
+**2:00 PM · Plaza de Toros Mexico, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recodo-los-recoditos-and-mas/2900030341669406)
 
@@ -236,60 +226,10 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/con
 
 # Worth the drive
 
-## Thursday, August 06 — Annual Themed Art Competition
+## Friday, August 07 — Annual Themed Art Competition
 **8:00 AM–5:00 PM · Wabash, IN**
 This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-06/)
-
-## Thursday, August 06 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-06/)
-
-## Thursday, August 06 — Literacy Babytime
-**10:00 AM–10:30 AM · Wabash, IN**
-Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/literacy-babytime-3/)
-
-## Thursday, August 06 — Mahjong Mornings
-**10:00 AM–12:00 PM · Wabash, IN**
-NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/mahjong-mornings-10/)
-
-## Thursday, August 06 — Neil Diamond Tribute
-**1:00 PM–3:30 PM · Blue Gate Music Hall, Shipshewana, IN**
-A Neil Diamond Tribute is a Broadway style production, in which Diamond look and sound alike Keith Allynn, unveils the story of Diamond\'s life and career through Diamond\'s own songs from the 60\'s through today.…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/neil-diamond-tribute/2026-08-06/)
-
-## Thursday, August 06 — Riverwood Pottery Summer Carving Classes
-**5:00 PM–6:30 PM · Riverwood Pottery, Shipshewana, IN**
-Join us here in the pottery studio for some fun out of the sun and getting dirty with clay! We can\'t wait to create with you something special and unique that you can use over and over again. We want you to get your…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/riverwood-pottery-summer-carving-classes/2026-08-06/1/)
-
-## Thursday, August 06 — Essenhaus Classic Car Cruise-In
-**5:30 PM–9:00 PM · Das Dutchman Essenhaus, Middlebury, IN**
-Whether you are a classic car owner or a car enthusiast, this event is for you! We invite you to join us for our 2026 Cruise-Ins every Thursday evening starting at 4:30pm, beginning May 7 through September 24.…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/essenhaus-classic-car-cruise-in-3/2026-08-06/)
-
-## Thursday, August 06 — Groovin’ in the Gardens
-**7:00 PM–10:00 PM · Wellfield Botanic Gardens, Elkhart, IN**
-Summer is here and that means live music, warm evenings, and the most beautiful backdrop in Elkhart. Groovin in the Gardens returns June 25th with six incredible nights of music right here at Wellfield. Grab a…
-Music & shows · About 41 miles away · [Details](https://visitshipshewana.org/event/groovin-in-the-gardens/2026-08-06/)
-
-## Thursday, August 06 — Chonda Pierce
-**7:30 PM–9:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-Emmy®-nominated and best-selling comedian Chonda Pierce, or "the country comic" as Billboard Magazine dubbed her, has been making audiences laugh for more than three decades with her winning combination of fierce wit…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/chonda-pierce/)
-
-## Thursday, August 06 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-06/)
-
-## Thursday, August 06 — Retro Reels: The Outsiders – The Complete Novel
-**9:00 PM–11:00 PM · Wabash, IN**
-Thursday Retro Reels Classic Movies $10 carloads​​​ Gates open at 8 pm, movie at dark
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/retro-reels-the-outsiders-the-complete-novel/)
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-07/)
 
 ## Friday, August 07 — Bluebird Acres Blossoms U Pick
 **10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
@@ -306,6 +246,46 @@ Community · About 33 miles away · [Details](https://visitwabashcounty.com/even
 Come celebrate one Unforgettable Voice and one unforgettable duo, with the sounds of The Carpenters Once More featuring vocalists Diana Lynn. From the birth of this dynamic duo to the last of their public…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/the-carpenters-once-more-tribute/2026-08-07/)
 
+## Friday, August 07 — It Takes Two: Famous Duets
+**4:00 PM–6:30 PM · IN**
+It Take Two, starring Branson\'s King and Queen of Diamonds, Keith Allynn and Diana Lynn. Join them and their rotating cast of Branson Superstars as they celebrate famous duets with comedy and music from the stories…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/it-takes-two-famous-duets/2026-08-07/)
+
+## Friday, August 07 — First Friday – Back to School Bash
+**5:00 PM–8:00 PM · Wabash, IN**
+This event will feature a Foam Party and Laser Tag! Kid Street, Vendor Row and Food Truck Plaza will be open for this event. Please visit our website for in […]
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/first-friday-7/)
+
+## Friday, August 07 — Food Truck Friday
+**6:00 PM–9:00 PM · Trading Post Outfitters, Mongo, IN**
+Summer is here & one of our favorite things about the season is Food Truck Friday! Join us every Friday in Mongo from 5pm-8pm for great food, river views & the perfect way to kick off the weekend. Hosted by Trading…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/food-truck-friday/2026-08-07/)
+
+## Friday, August 07 — PT & The Cruisers
+**6:00 PM–9:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
+Join us for the PT & The Cruisers! Experience the Best of Blues, Classic Rock, and Oldies PT and the Cruisers is a 4-piece band based in La Porte, IN, delivering a unique blend of blues, classic rock, oldies, and…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/pt-the-cruisers/)
+
+## Friday, August 07 — Party in the Pasture @ The Black Sheep
+**7:00 PM–9:00 PM · The Black Sheep, Shipshewana, IN**
+Different themed dinners like Point & Click, Murder Mystery, and Acoustic Anthem.
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/party-in-the-pasture-the-black-sheep/2026-08-07/)
+
+## Friday, August 07 — Mitchell Tenpenny
+**7:30 PM–9:00 PM · Wabash, IN**
+Mitchell Tenpenny has captured fans everywhere with his husky voice, memorable hooks, and honest storytelling. With multiple No. 1 hits, including “Drunk Me,” “Truth About You,” and “At The End of a Bar,” and over…
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/mitchell-tenpenny/)
+
+## Saturday, August 08 — Lagro Street Market
+**8:00 AM–5:00 PM · Wabash, IN**
+Besides the Market on Saturdays, Bikes on the Canal will be showcasing their stunning motorcycles at the Pavilion for everyone to admire and enjoy. Keep an eye on their page […]
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/lagro-street-market/2026-08-08/)
+
+## Saturday, August 08 — Miles & Smiles Run & Walk
+**8:00 AM–9:00 AM · Wabash, IN**
+Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-08/)
+
 ## Saturday, August 08 — Green Hat Lounge Live Music: Carolyn Martin
 **7:00 PM–10:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/8: Carolyn Martin
@@ -315,6 +295,11 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 **5:00 PM–8:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/9: Eric Clancy
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-eric-clancy/)
+
+## Monday, August 10 — Storytime
+**10:00 AM–10:30 AM · Wabash, IN**
+Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime/)
 
 ## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
 **7:00 PM–10:00 PM · Wabash, IN**
@@ -326,25 +311,30 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
 
+## Monday, August 17 — Storytime
+**10:00 AM–10:30 AM · Wabash, IN**
+Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
+
 # Newly found or updated
 
 - **NEW** Bluey's Big Play
+- **NEW** Bluey's Big Play at Embassy Theatre - Fort Wayne
+- **UPDATED** Riverwood Pottery Summer Carving Classes
+- **NEW** August First Fridays: Celebrate Summer
+- **NEW** Food Truck Friday
+- **NEW** PT & The Cruisers
 - **NEW** Anything Goes
+- **NEW** Anything Goes - Warsaw
 - **NEW** Anything Goes at Wagon Wheel Center for the Arts
-- **NEW** Community Invited To 25th Anniversary 9/11 Memorial
-- **NEW** Essenhaus Classic Car Cruise-In
-- **NEW** Groovin’ in the Gardens
-- **NEW** Chonda Pierce
-- **NEW** Love Comes Softly the Musical
-- **NEW** Bluebird Acres Blossoms U Pick
-- **NEW** The Carpenters Once More: Tribute
-- **NEW** It Takes Two: Famous Duets
-- **UPDATED** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
-- **UPDATED** Nitro Circus Live at Four Winds Field at Coveleski Stadium
-- **UPDATED** The Bar-Kays
+- **NEW** Party in the Pasture @ The Black Sheep
+- **NEW** Potawatomi Park Summer Concert Series
+- **NEW** Storytime
+- **NEW** Thursday Night Thunder Monthly Series-August
+- **NEW** PHOEBE BRIDGERS MIDNIGHT RELEASE PARTY
 - **UPDATED** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
 - **UPDATED** Boots on the Bend Music Festival - Friday - With Hardy, Brandon Lake, Chase Rice, and more
 - **UPDATED** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
-- **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
+- **NEW** The Bar-Kays: TK Soul
 - **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
-- **UPDATED** Fort Wayne Tincaps vs. Great Lakes Loons
+- **NEW** Storytime
