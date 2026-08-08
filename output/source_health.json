@@ -82,18 +82,18 @@
   {
     "name": "Lake City Skiers",
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
-    "status": "ok",
-    "raw_event_count": 35,
-    "event_count": 9,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "failed",
-    "raw_event_count": 0,
-    "event_count": 0,
-    "error": "timed out"
+    "status": "ok",
+    "raw_event_count": 6,
+    "event_count": 5,
+    "error": null
   },
   {
     "name": "North Pointe Cinemas Facebook",
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 21,
-    "event_count": 19,
+    "raw_event_count": 22,
+    "event_count": 20,
     "error": null
   },
   {
@@ -146,9 +146,9 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "ok",
-    "raw_event_count": 12,
-    "event_count": 12,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 100,
-    "event_count": 71,
+    "event_count": 67,
     "error": null
   }
 ]

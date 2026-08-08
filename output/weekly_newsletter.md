@@ -1,41 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 06–August 20, 2026
+Your guide for August 07–August 21, 2026
 
-144 events found in the next two weeks, including 39 in Warsaw and Winona Lake.
+130 events found in the next two weeks, including 34 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Friday, August 07 — Division I Nationals Tournament
-**Time to be confirmed · Waterhawks, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
-
-## Friday, August 07 — Five Below Grand Opening Weekend!
-**10:00 AM · 2804 FRONTAGE ROAD, SUITE 6, Warsaw, IN 46580**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/five-below-grand-opening-weekend/200030503116357)
-
-## Friday, August 07 — Winona Monster Weekend 2026
-**11:00 AM · 904 Park Avenue, Winona Lake, IN, United States, Indiana 46590**
-
-Community · Warsaw area · [Details](https://allevents.in/winona-lake/winona-monster-weekend-2026/200030371009742)
-
-## Friday, August 07 — MTG The Hobbit Prerelease 6 pm
-**6:00 PM–10:00 PM · Chimp's Comix, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-the-hobbit-prerelease-6-pm/200030240731419)
-
-## Friday, August 07 — Anything Goes
-**7:00 PM · Wagon Wheel Center for the Arts, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/anything-goes/2300030316261748)
-
-## Friday, August 07 — Warsaw Summer Concert Series 2026
-**7:00 PM–8:30 PM · 225 E Fort Wayne St Warsaw, IN 46580**
-
-Music & shows · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-summer-concert-series-2026/200029883892949)
 
 ## Saturday, August 08 — Division I Nationals Tournament
 **Time to be confirmed · Waterhawks, Warsaw, IN**
@@ -173,7 +143,7 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-b
 Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-open-play/200030498330859)
 
 ## Sunday, August 16 — BANDA EL RECODO, LOS RECODITOS & MAS
-**2:00 PM · Plaza de Toros Mexico, Warsaw, IN**
+**2:00 PM–4:00 PM · Plaza de Toros Mexico, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recodo-los-recoditos-and-mas/2900030341669406)
 
@@ -202,12 +172,17 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 All lovers of books, come and enjoy a great time of trivia covering all genres and eras. Meet people who enjoy books and win some small prizes.
 Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/book-trivia-3377)
 
+## Friday, August 21 — KBOR Car Show
+**5:00 PM–8:00 PM · Downtown Warsaw, IN**
+KBOR Car Show August 21 @ 5 pm - 8 pm Warsaw, IN
+Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-show-2026-08-21/)
+
 # Around Kosciusko County
 
-## Friday, August 07 — Comedy Fundraiser for Fulton County Animal Center
-**7:00 PM · The Times Theater, Rochester, IN**
+## Monday, August 10 — Water Aerobics at the City Pool
+**Time to be confirmed · Rochester City Pool, IN**
 
-Music & shows · About 24 miles away · [Details](https://allevents.in/rochester/comedy-fundraiser-for-fulton-county-animal-center/200030321607508)
+Community · About 24 miles away · [Details](https://allevents.in/rochester/water-aerobics-at-the-city-pool/200030088846136)
 
 ## Thursday, August 13 — Serenity on the Water 2026
 **7:00 PM–8:00 PM · Rochester City Pool, IN**
@@ -224,57 +199,12 @@ Food & markets · About 24 miles away · [Details](https://allevents.in/rocheste
 
 Community · About 24 miles away · [Details](https://allevents.in/rochester/connection-corner/200030409492400)
 
+## Friday, August 21 — 8th Annual FCAC Rummage Sale Fundraiser
+**10:00 AM · Fulton County Historical Society Inc., Rochester, IN**
+
+Community · About 24 miles away · [Details](https://allevents.in/rochester/8th-annual-fcac-rummage-sale-fundraiser/200030446920345)
+
 # Worth the drive
-
-## Friday, August 07 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-07/)
-
-## Friday, August 07 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-07/)
-
-## Friday, August 07 — Senior Luncheon @ Salamonie Lake
-**12:00 PM–3:00 PM · Wabash, IN**
-Join Upper Wabash Interpretive Services for the Senior Luncheon at Salamonie Lake Interpretive Center. Guests ages 50 and older are invited to enjoy a carry-in meal and hear from U.S. […]
-Community · About 33 miles away · [Details](https://visitwabashcounty.com/event/senior-luncheon-salamonie-lake/)
-
-## Friday, August 07 — The Carpenters Once More: Tribute
-**1:00 PM–3:30 PM · Blue Gate Music Hall, Shipshewana, IN**
-Come celebrate one Unforgettable Voice and one unforgettable duo, with the sounds of The Carpenters Once More featuring vocalists Diana Lynn. From the birth of this dynamic duo to the last of their public…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/the-carpenters-once-more-tribute/2026-08-07/)
-
-## Friday, August 07 — It Takes Two: Famous Duets
-**4:00 PM–6:30 PM · IN**
-It Take Two, starring Branson\'s King and Queen of Diamonds, Keith Allynn and Diana Lynn. Join them and their rotating cast of Branson Superstars as they celebrate famous duets with comedy and music from the stories…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/it-takes-two-famous-duets/2026-08-07/)
-
-## Friday, August 07 — First Friday – Back to School Bash
-**5:00 PM–8:00 PM · Wabash, IN**
-This event will feature a Foam Party and Laser Tag! Kid Street, Vendor Row and Food Truck Plaza will be open for this event. Please visit our website for in […]
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/first-friday-7/)
-
-## Friday, August 07 — Food Truck Friday
-**6:00 PM–9:00 PM · Trading Post Outfitters, Mongo, IN**
-Summer is here & one of our favorite things about the season is Food Truck Friday! Join us every Friday in Mongo from 5pm-8pm for great food, river views & the perfect way to kick off the weekend. Hosted by Trading…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/food-truck-friday/2026-08-07/)
-
-## Friday, August 07 — PT & The Cruisers
-**6:00 PM–9:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
-Join us for the PT & The Cruisers! Experience the Best of Blues, Classic Rock, and Oldies PT and the Cruisers is a 4-piece band based in La Porte, IN, delivering a unique blend of blues, classic rock, oldies, and…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/pt-the-cruisers/)
-
-## Friday, August 07 — Party in the Pasture @ The Black Sheep
-**7:00 PM–9:00 PM · The Black Sheep, Shipshewana, IN**
-Different themed dinners like Point & Click, Murder Mystery, and Acoustic Anthem.
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/party-in-the-pasture-the-black-sheep/2026-08-07/)
-
-## Friday, August 07 — Mitchell Tenpenny
-**7:30 PM–9:00 PM · Wabash, IN**
-Mitchell Tenpenny has captured fans everywhere with his husky voice, memorable hooks, and honest storytelling. With multiple No. 1 hits, including “Drunk Me,” “Truth About You,” and “At The End of a Bar,” and over…
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/mitchell-tenpenny/)
 
 ## Saturday, August 08 — Lagro Street Market
 **8:00 AM–5:00 PM · Wabash, IN**
@@ -286,20 +216,65 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
 Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-08/)
 
+## Saturday, August 08 — Wabash Farmers Market
+**8:00 AM–12:00 PM · Wabash, IN**
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-08/)
+
+## Saturday, August 08 — Liking For Biking
+**9:00 AM–10:00 AM · Wabash, IN**
+Open to anyone this FREE health program welcomes individuals of all fitness levels and ages! L4B encourages riders at any proficiency level to partake in their weekly rides around Wabash County. Spikes […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/liking-for-biking/2026-08-08/)
+
+## Saturday, August 08 — Elkhart Grand Prix Coachmen Auto Club car show
+**10:00 AM · Downtown Elkhart, Elkhart, IN**
+
+Arts & learning · About 41 miles away · [Details](https://allevents.in/elkhart/elkhart-grand-prix-coachmen-auto-club-car-show/200029922253738)
+
+## Saturday, August 08 — Festival of Hope
+**5:00 PM–9:00 PM · Goshen Brewing Company, IN**
+
+Festivals · About 30 miles away · [Details](https://allevents.in/goshen/festival-of-hope/200030336453308)
+
 ## Saturday, August 08 — Green Hat Lounge Live Music: Carolyn Martin
 **7:00 PM–10:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/8: Carolyn Martin
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-carolyn-martin/)
+
+## Saturday, August 08 — The 1985 - Totally 80's Mixtape LIVE @ BBQ and Brew Festival | Elkhart, IN
+**8:00 PM · Elkhart Co. 4-H Fairgrounds, Goshen, IN**
+
+Arts & learning · About 30 miles away · [Details](https://allevents.in/goshen/the-1985-totally-80s-mixtape-live-bbq-and-brew-festival-elkhart-in/200030472888324)
 
 ## Sunday, August 09 — Green Hat Lounge Live Music: Eric Clancy
 **5:00 PM–8:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/9: Eric Clancy
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-eric-clancy/)
 
+## Monday, August 10 — Annual Themed Art Competition
+**8:00 AM–5:00 PM · Wabash, IN**
+This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-10/)
+
 ## Monday, August 10 — Storytime
 **10:00 AM–10:30 AM · Wabash, IN**
 Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime/)
+
+## Tuesday, August 11 — Annual Themed Art Competition
+**8:00 AM–5:00 PM · Wabash, IN**
+This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-11/)
+
+## Wednesday, August 12 — Annual Themed Art Competition
+**8:00 AM–5:00 PM · Wabash, IN**
+This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-12/)
+
+## Wednesday, August 12 — Walking Wednesday
+**9:00 AM–10:00 PM · Wabash, IN**
+Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-12/)
 
 ## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
 **7:00 PM–10:00 PM · Wabash, IN**
@@ -316,8 +291,24 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
 
+## Friday, August 21 — Stuffed Animal Sleep Over
+**4:00 PM–4:30 PM · Wabash, IN**
+Bring your favorite stuffie to a special storytime at the library. They will stay the night and you can pick them up on Saturday after 1:00 PM.
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-sleep-over/)
+
 # Newly found or updated
 
+- **NEW** FREE Back To School Haircuts & Pictures
+- **NEW** Water Aerobics at the City Pool
+- **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
+- **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
+- **UPDATED** Brooks And Dunn: Neon Moon Tour
+- **NEW** Marjon Student Union Freshers Fusion Fest Pass 2026
+- **NEW** Parker McCollum
+- **NEW** Elkhart Hispanic Heritage Festival
+- **NEW** Soul Taker's Acres Haunted House
+- **NEW** Jurassic Quest | Allen County War Memorial Coliseum | Fort Wayne, IN 2026
+- **NEW** Toledo Walleye at Fort Wayne Komets
 - **NEW** Bluey's Big Play
 - **NEW** Bluey's Big Play at Embassy Theatre - Fort Wayne
 - **UPDATED** Riverwood Pottery Summer Carving Classes
@@ -327,14 +318,3 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/s
 - **NEW** Anything Goes
 - **NEW** Anything Goes - Warsaw
 - **NEW** Anything Goes at Wagon Wheel Center for the Arts
-- **NEW** Party in the Pasture @ The Black Sheep
-- **NEW** Potawatomi Park Summer Concert Series
-- **NEW** Storytime
-- **NEW** Thursday Night Thunder Monthly Series-August
-- **NEW** PHOEBE BRIDGERS MIDNIGHT RELEASE PARTY
-- **UPDATED** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
-- **UPDATED** Boots on the Bend Music Festival - Friday - With Hardy, Brandon Lake, Chase Rice, and more
-- **UPDATED** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
-- **NEW** The Bar-Kays: TK Soul
-- **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
-- **NEW** Storytime
