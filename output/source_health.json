@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 10,
-    "event_count": 10,
+    "raw_event_count": 8,
+    "event_count": 8,
     "error": null
   },
   {
@@ -42,17 +42,17 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "no_upcoming",
+    "status": "ok",
     "raw_event_count": 35,
-    "event_count": 0,
+    "event_count": 2,
     "error": null
   },
   {
@@ -82,18 +82,18 @@
   {
     "name": "Lake City Skiers",
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 35,
+    "event_count": 8,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
-    "error": null
+    "status": "failed",
+    "raw_event_count": 0,
+    "event_count": 0,
+    "error": "timed out"
   },
   {
     "name": "North Pointe Cinemas Facebook",
@@ -146,10 +146,10 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "timed out"
   },
   {
     "name": "Visit Fort Wayne",
@@ -180,7 +180,15 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 100,
-    "event_count": 67,
+    "event_count": 63,
+    "error": null
+  },
+  {
+    "name": "Approved community submissions",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform",
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   }
 ]

@@ -1,56 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 07–August 21, 2026
+Your guide for August 08–August 22, 2026
 
-130 events found in the next two weeks, including 34 in Warsaw and Winona Lake.
+127 events found in the next two weeks, including 35 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Saturday, August 08 — Division I Nationals Tournament
-**Time to be confirmed · Waterhawks, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
-
-## Saturday, August 08 — Kids P.O.P. (Power of Produce)
-**Time to be confirmed · 705 Park Avenue, Winona Lake, IN, United States, Indiana 46590**
-
-Family · Warsaw area · [Details](https://allevents.in/winona-lake/kids-pop-power-of-produce/200029977074817)
-
-## Saturday, August 08 — Farmers Market
-**9:00 AM–1:00 PM · Downtown Warsaw, IN**
-Farmers Market August 8 @ 9 am - 1 pm Warsaw, IN
-Food & markets · Warsaw area · [Details](https://downtownwarsaw.com/event/farmers-market-2026/2026-08-08/)
-
-## Saturday, August 08 — Greyt Readers
-**10:30 AM–12:00 PM · Warsaw Community Public Library, IN**
-Greyt Readers is back! This come and go event is wonderful for kids of all ages, and any dog lover. You can visit with the greyhounds and even read them a story. They love stories!
-Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/greyt-readers-3461)
-
-## Saturday, August 08 — Story Emporium Used Bookstore
-**10:30 AM–1:30 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
-The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2613)
-
-## Saturday, August 08 — Coraline Market 🪡 🐈‍⬛
-**12:00 PM–5:00 PM · Kosciusko County Community Fair, Warsaw, IN**
-
-Food & markets · Warsaw area · [Details](https://allevents.in/warsaw/coraline-market/200030207976213)
-
-## Saturday, August 08 — MTG The Hobbit Prerelease Noon
-**12:00 PM–4:00 PM · Chimp's Comix, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-the-hobbit-prerelease-noon/200030240732122)
-
-## Saturday, August 08 — Mahjong & Mingle
-**12:00 PM–3:00 PM · Warsaw, Indiana, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/mahjong-and-mingle/200030477782614)
-
-## Saturday, August 08 — An afternoon with the Guardians and No Name Quartet
-**2:00 PM–5:00 PM · Rodeheaver Auditorium, Winona Lake, IN**
-
-Arts & learning · Warsaw area · [Details](https://allevents.in/winona-lake/an-afternoon-with-the-guardians-and-no-name-quartet/200030144548602)
 
 ## Sunday, August 09 — Division I Nationals Tournament
 **Time to be confirmed · Waterhawks, Warsaw, IN**
@@ -112,6 +67,11 @@ Community · Warsaw area · [Details](https://downtownwarsaw.com/event/sip-n-sho
 
 Community · Warsaw area · [Details](https://allevents.in/winona-lake/backyard-cafe/200030440825123)
 
+## Saturday, August 15 — Farmers Market
+**9:00 AM–1:00 PM · Downtown Warsaw, IN**
+Farmers Market August 15 @ 9 am - 1 pm Warsaw, IN
+Food & markets · Warsaw area · [Details](https://downtownwarsaw.com/event/farmers-market-2026/2026-08-15/)
+
 ## Saturday, August 15 — Story Emporium Used Bookstore
 **10:30 AM–1:30 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
 The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
@@ -126,11 +86,6 @@ Community · Warsaw area · [Details](https://downtownwarsaw.com/event/le-diner-
 **8:00 PM–10:00 PM · Winona Lake Limitless Park and Splash Pad, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/winona-lake/glow-float-winona-lake-night-paddle-2026/100001993973214561)
-
-## Sunday, August 16 — Warsaw Indiana
-**Time to be confirmed · Plaza De Toros Mexico, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-indiana/200030475094047)
 
 ## Sunday, August 16 — Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
 **10:00 AM–12:00 PM · Plaza de Toros Mexico, Warsaw, IN**
@@ -152,6 +107,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recod
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/gran-jaripeo-con-el-90´s-banda-tour/200030380401613)
 
+## Sunday, August 16 — Warsaw Indiana
+**5:00 PM · Plaza De Toros Mexico, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-indiana/200030475094047)
+
 ## Sunday, August 16 — Home Show
 **6:30 PM–7:30 PM · Hidden Lake, Warsaw, IN**
 The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
@@ -172,10 +132,55 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 All lovers of books, come and enjoy a great time of trivia covering all genres and eras. Meet people who enjoy books and win some small prizes.
 Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/book-trivia-3377)
 
+## Wednesday, August 19 — Kosciusko Business Social
+**5:30 PM–7:00 PM · Spikes Beach Grill, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/kosciusko-business-social/200030526301051)
+
 ## Friday, August 21 — KBOR Car Show
 **5:00 PM–8:00 PM · Downtown Warsaw, IN**
 KBOR Car Show August 21 @ 5 pm - 8 pm Warsaw, IN
 Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-show-2026-08-21/)
+
+## Saturday, August 22 — Race Day!
+**Time to be confirmed · Hire Park BMX, Warsaw, IN**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/race-day/200029984459243)
+
+## Saturday, August 22 — Canal Days
+**10:00 AM–4:00 PM · The Village at Winona, Winona Lake, IN**
+Vendor Applications Will Open In Mid June
+Festivals · Warsaw area · [Details](https://villageatwinona.com/events/canal-days/)
+
+## Saturday, August 22 — Learn to ski clinic
+**10:00 AM–1:00 PM · Hidden Lake, Warsaw, IN**
+Online Registration only!! Register for the August 22 Learn to Ski clinic. There will be 2 time slots to select from. Group 1 10:00am – 11:30am Group 2 11:30am – 1:00pm Additional Information: This is a basic skills…
+Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/learn-to-ski-clinic/)
+
+## Saturday, August 22 — Library LEGO
+**10:00 AM–1:00 PM · Meeting Room C at Warsaw Community Public Library, IN**
+Do you like to build with LEGOs? We supply the LEGOs. You supply the creativity. Build together as a family or go solo. Stay for a few minutes or the entire time. What can you build in a room full of LEGOs?
+Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/library-lego-3156)
+
+## Saturday, August 22 — Grouchy Greg 4 County Hamfest
+**10:00 AM–4:00 PM · 6280 W Crystal Lake Road, Warsaw IN 46580**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/grouchy-greg-4-county-hamfest/200030384069410)
+
+## Saturday, August 22 — Adult Scrabble Tournament
+**10:30 AM–1:30 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+We will start with groups of 2 person challenges in Scrabble and work down to the final pair. Bring people with you or just come and join in! Please register with the library.
+Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/adult-scrabble-tournament-3152)
+
+## Saturday, August 22 — Story Emporium Used Bookstore
+**10:30 AM–1:30 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
+The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2615)
+
+## Saturday, August 22 — Indiana Beach Show
+**12:00 PM–3:40 PM · Indiana Beach Boardwalk Resort, Warsaw, IN**
+The Lake City Skiers will be performing three shows at Indiana Beach.
+Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/indiana-beach-show/)
 
 # Around Kosciusko County
 
@@ -204,37 +209,22 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/con
 
 Community · About 24 miles away · [Details](https://allevents.in/rochester/8th-annual-fcac-rummage-sale-fundraiser/200030446920345)
 
+## Saturday, August 22 — Customer Appreciation & Jon Ringer Memorial Shoot
+**8:00 AM–12:00 PM · 6400 County Road 325 W, Rochester, IN**
+
+Community · About 24 miles away · [Details](https://allevents.in/rochester/customer-appreciation-and-jon-ringer-memorial-shoot/200030180298934)
+
+## Saturday, August 22 — 8/22/26 Rochester's Nickel Plate Music Feast-ival with Friends of Fred
+**11:00 AM–10:30 PM · Fulton County Courthouse (Rochester, Indiana), IN**
+
+Music & shows · About 24 miles away · [Details](https://allevents.in/rochester/8-22-26-rochesters-nickel-plate-music-feast-ival-with-friends-of-fred/200030130940542)
+
+## Saturday, August 22 — Nickel Plate Music & Arts Festiva
+**11:00 AM · Rochester Downtown Historic District, IN**
+
+Music & shows · About 24 miles away · [Details](https://allevents.in/rochester/nickel-plate-music-and-arts-festiva/200029689331625)
+
 # Worth the drive
-
-## Saturday, August 08 — Lagro Street Market
-**8:00 AM–5:00 PM · Wabash, IN**
-Besides the Market on Saturdays, Bikes on the Canal will be showcasing their stunning motorcycles at the Pavilion for everyone to admire and enjoy. Keep an eye on their page […]
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/lagro-street-market/2026-08-08/)
-
-## Saturday, August 08 — Miles & Smiles Run & Walk
-**8:00 AM–9:00 AM · Wabash, IN**
-Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-08/)
-
-## Saturday, August 08 — Wabash Farmers Market
-**8:00 AM–12:00 PM · Wabash, IN**
-Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-08/)
-
-## Saturday, August 08 — Liking For Biking
-**9:00 AM–10:00 AM · Wabash, IN**
-Open to anyone this FREE health program welcomes individuals of all fitness levels and ages! L4B encourages riders at any proficiency level to partake in their weekly rides around Wabash County. Spikes […]
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/liking-for-biking/2026-08-08/)
-
-## Saturday, August 08 — Elkhart Grand Prix Coachmen Auto Club car show
-**10:00 AM · Downtown Elkhart, Elkhart, IN**
-
-Arts & learning · About 41 miles away · [Details](https://allevents.in/elkhart/elkhart-grand-prix-coachmen-auto-club-car-show/200029922253738)
-
-## Saturday, August 08 — Festival of Hope
-**5:00 PM–9:00 PM · Goshen Brewing Company, IN**
-
-Festivals · About 30 miles away · [Details](https://allevents.in/goshen/festival-of-hope/200030336453308)
 
 ## Saturday, August 08 — Green Hat Lounge Live Music: Carolyn Martin
 **7:00 PM–10:00 PM · Wabash, IN**
@@ -276,6 +266,31 @@ Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.co
 Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-12/)
 
+## Wednesday, August 12 — Sew Much Fun: Beginner Cross Stitch
+**3:30 PM–4:30 PM · Wabash, IN**
+Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
+
+## Thursday, August 13 — Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
+**10:00 AM–10:30 AM · Wabash, IN**
+Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/educational-babytime-creating-predictable-moments-in-the-day-with-christy-garau/)
+
+## Thursday, August 13 — Mahjong Mornings
+**10:00 AM–12:00 PM · Wabash, IN**
+NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/mahjong-mornings-11/)
+
+## Thursday, August 13 — Vandenberg: My Whitesnake Years
+**7:00 PM–9:00 PM · Wabash, IN**
+Vandenberg: My Whitesnake Years with Marco Mendoza and Vinnie Moore delivers an electrifying night of iconic hits and guitar mastery, led by former Whitesnake guitarist Adrian Vandenberg, known for hits like “Here I…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/vandenberg-my-whitesnake-years/)
+
+## Friday, August 14 — Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
+**3:30 AM · St. Joseph County Fairgrounds, South Bend, IN**
+
+Music & shows · About 47 miles away · [Details](https://allevents.in/south-bend/boots-on-the-bend-music-festival-2-day-pass-with-eric-church-hardy-brandon-lake-and-more/3200029984884829)
+
 ## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
 **7:00 PM–10:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/15: The Nobles (Mike Neglia & Jack Wellington)
@@ -296,25 +311,30 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/s
 Bring your favorite stuffie to a special storytime at the library. They will stay the night and you can pick them up on Saturday after 1:00 PM.
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-sleep-over/)
 
+## Saturday, August 22 — Stuffed Animal Pickup
+**1:00 PM–4:30 PM · Wabash, IN**
+Pick up your stuffed animal after their sleepover at the library! For participants in the Stuffed Animal Sleepover, held on Friday, August 21.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-pickup/)
+
 # Newly found or updated
 
+- **NEW** Registration Open For Acting, Musical, Latin Dance Classes In Goshen
+- **UPDATED** Mahjong & Mingle
+- **NEW** Butter, Baseball And A Brand-New Train: Indiana State Fair Returns
+- **NEW** Comedy Night Starring SHAMA MREMA with Bailey Hostetler at Funny Pharm Comedy Club in Goshen, IN
+- **NEW** Farmers Market
+- **UPDATED** Warsaw Indiana
+- **NEW** Kosciusko Business Social
+- **UPDATED** Candlelight: The Best of Hans Zimmer
+- **NEW** Friday Night Lights: Kicking the Stigma
+- **NEW** SOAR EVENT
+- **NEW** Cowboy Canter 5K for Magical Meadows
+- **NEW** Toledo Walleye at Fort Wayne Komets
+- **NEW** Genre Book Club
+- **NEW** Story Emporium Used Bookstore
 - **NEW** FREE Back To School Haircuts & Pictures
 - **NEW** Water Aerobics at the City Pool
 - **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
 - **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
 - **UPDATED** Brooks And Dunn: Neon Moon Tour
 - **NEW** Marjon Student Union Freshers Fusion Fest Pass 2026
-- **NEW** Parker McCollum
-- **NEW** Elkhart Hispanic Heritage Festival
-- **NEW** Soul Taker's Acres Haunted House
-- **NEW** Jurassic Quest | Allen County War Memorial Coliseum | Fort Wayne, IN 2026
-- **NEW** Toledo Walleye at Fort Wayne Komets
-- **NEW** Bluey's Big Play
-- **NEW** Bluey's Big Play at Embassy Theatre - Fort Wayne
-- **UPDATED** Riverwood Pottery Summer Carving Classes
-- **NEW** August First Fridays: Celebrate Summer
-- **NEW** Food Truck Friday
-- **NEW** PT & The Cruisers
-- **NEW** Anything Goes
-- **NEW** Anything Goes - Warsaw
-- **NEW** Anything Goes at Wagon Wheel Center for the Arts
