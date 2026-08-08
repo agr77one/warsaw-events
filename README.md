@@ -5,12 +5,27 @@ Automated discovery, validation, deduplication, tracking, publishing, and email 
 ## Architecture
 
 - **Crawler:** JSON-LD first, configurable calendar-card extraction second, and linked official event pages where needed. A curl fallback handles public calendars that reject ordinary HTTP clients.
+- **Community submissions:** a public Google Form feeds a private moderation workbook; only approved event fields are mirrored into a separate public CSV feed for the crawler.
 - **Tracking:** SQLite database at `data/events.db`.
 - **Exports:** CSV and JSON under `output/`.
 - **Newsletter:** Markdown and HTML under `output/`.
 - **Portal:** Generated responsive site at `docs/index.html`, deployed with GitHub Pages, with search plus distance, date, and category filters.
 - **Warsaw-first ranking:** Warsaw and Winona Lake appear first, followed by events within 25 miles, then regional events. Official sources outrank community indexes when duplicate listings are found.
 - **Sunday email:** A polished 14-day guide organized into closest-to-home, nearby, and regional sections.
+
+## Submit and review an event
+
+Use the [Warsaw Weekend event form](https://docs.google.com/forms/d/e/1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform) to suggest a missing event. New submissions enter the private review queue as `Pending`. An owner checks the official link, date, time, venue, address, price, and local relevance, then chooses one of these statuses:
+
+- `Pending`: waiting for review
+- `Needs Information`: the submitter or organizer must clarify a detail
+- `Approved`: eligible for the public feed and the next site update
+- `Rejected`: not published
+- `Withdrawn`: removed from the public feed at the next successful update
+
+The public workbook contains only the submission ID and event details. Submitter names, email addresses, reviewer identity, and review notes remain in the private workbook. The crawler reads the sanitized [approved-event CSV feed](https://docs.google.com/spreadsheets/d/1Yh1bXAiwe_ArXnINUhSSZyWbDWXu9Dz_W4Lg0t_HyYI/gviz/tq?tqx=out:csv&sheet=Approved%20Events) during the 8:00 PM daily run and Sunday newsletter run. A failed feed request leaves previously published community events untouched; a successful feed removes items that are no longer approved.
+
+`COMMUNITY_EVENTS_FEED_URL` can override the built-in public feed URL for testing or migration. It is not a secret and must point only to a sanitized CSV with the documented event columns.
 
 ## Coverage
 
@@ -141,3 +156,4 @@ Standard GitHub-hosted runners are free for public repositories. See
 Open **Actions**, select a workflow, and choose **Run workflow**.
 
 The first successful run establishes the baseline. Later runs detect new and changed events.
+
