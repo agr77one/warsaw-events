@@ -8,6 +8,7 @@ from unittest.mock import MagicMock, patch
 from pipeline import (
     Event,
     categorize,
+    consolidate_stored_duplicates,
     crawl,
     dedupe_event_dicts,
     extract_approved_submissions,
@@ -404,6 +405,33 @@ END:VCALENDAR"""
         self.assertEqual(events[0].event_url, "https://www.facebook.com/events/123/")
         self.assertEqual(client.get.call_args.kwargs["headers"], {"Authorization": "Bearer secret"})
 
+    def test_facebook_graph_reports_api_error_without_exposing_token(self):
+        response = MagicMock()
+        response.is_error = True
+        response.status_code = 400
+        response.json.return_value = {"error": {"message": "Unsupported get request", "code": 100}}
+        client = MagicMock()
+        client.get.return_value = response
+        source = {"name": "Facebook", "url": "https://facebook.com/page"}
+
+        with patch.dict("os.environ", {"FACEBOOK_PAGE_ACCESS_TOKEN": "do-not-leak", "FACEBOOK_PAGE_ID": "page", "FACEBOOK_GRAPH_API_VERSION": "v1.0"}, clear=True):
+            with self.assertRaisesRegex(RuntimeError, "Unsupported get request.*code 100") as raised:
+                extract_facebook_graph(client, source)
+
+        self.assertNotIn("do-not-leak", str(raised.exception))
+
+    def test_facebook_graph_skips_invalid_items(self):
+        response = MagicMock()
+        response.is_error = False
+        response.json.return_value = {"data": [None, {"id": "no-start", "name": "Incomplete"}]}
+        client = MagicMock()
+        client.get.return_value = response
+
+        with patch.dict("os.environ", {"FACEBOOK_PAGE_ACCESS_TOKEN": "secret", "FACEBOOK_PAGE_ID": "page", "FACEBOOK_GRAPH_API_VERSION": "v1.0"}, clear=True):
+            events = extract_facebook_graph(client, {"name": "Facebook", "url": "https://facebook.com/page"})
+
+        self.assertEqual(events, [])
+
     def test_comprehensive_sources_keep_normal_local_programs(self):
         event = Event(
             title="Paper Quilling",
@@ -483,7 +511,9 @@ END:VCALENDAR"""
         self.assertIn("id='about'", portal)
         self.assertIn("About the creator", portal)
         self.assertIn("Hi, I&rsquo;m Arseniy.", portal)
-        self.assertIn("Submit an event", portal)
+        self.assertIn("Add a new event", portal)
+        self.assertIn("Send a correction or suggest a source", portal)
+        self.assertNotIn("warsaw-events/issues", portal)
         self.assertIn("https://github.com/agr77one", portal)
         self.assertIn("private moderation workbook", portal)
 
@@ -512,6 +542,76 @@ END:VCALENDAR"""
 
         self.assertEqual(len(deduped), 1)
         self.assertEqual(deduped[0]["source_name"], "Downtown Warsaw")
+
+    def test_duplicate_merge_keeps_official_source_and_missing_details(self):
+        official = {
+            "title": "Free Movie Day",
+            "start": "2026-08-08T10:00:00",
+            "city": "Warsaw",
+            "venue": "North Pointe Cinemas",
+            "description": "Official event",
+            "admission": None,
+            "image_url": None,
+            "event_url": "https://facebook.com/events/123",
+            "source_url": "https://facebook.com/NorthPointeCinemas",
+            "source_name": "North Pointe Cinemas Facebook",
+            "confidence": "A",
+            "importance": 10,
+            "distance_miles": 0,
+        }
+        aggregator = {
+            **official,
+            "title": "Free Movie Day - Warsaw",
+            "description": "Aggregator copy",
+            "admission": "Free",
+            "image_url": "https://example.com/movie.jpg",
+            "source_name": "Community index",
+            "confidence": "C",
+        }
+
+        deduped = dedupe_event_dicts([aggregator, official])
+
+        self.assertEqual(len(deduped), 1)
+        self.assertEqual(deduped[0]["source_name"], "North Pointe Cinemas Facebook")
+        self.assertEqual(deduped[0]["admission"], "Free")
+        self.assertEqual(deduped[0]["image_url"], "https://example.com/movie.jpg")
+
+    def test_separate_same_day_showtimes_are_not_collapsed(self):
+        first = {"title": "Family Movie", "start": "2026-08-08T10:00:00", "city": "Warsaw", "venue": "Cinema", "confidence": "A"}
+        second = {**first, "start": "2026-08-08T13:00:00"}
+
+        self.assertEqual(len(dedupe_event_dicts([first, second])), 2)
+
+    def test_fingerprint_includes_start_time(self):
+        common = dict(
+            title="Family Movie", end=None, venue="Cinema", address=None, city="Warsaw", state="IN",
+            description="", admission=None, source_name="Cinema", source_url="https://example.com",
+            event_url="https://example.com/movie", confidence="A",
+        )
+        morning = filter_and_score(Event(start="2026-08-08T10:00:00", **common), datetime(2026, 8, 1))
+        afternoon = filter_and_score(Event(start="2026-08-08T13:00:00", **common), datetime(2026, 8, 1))
+
+        self.assertNotEqual(morning.fingerprint, afternoon.fingerprint)
+
+    def test_stored_duplicates_are_merged_and_removed(self):
+        conn = sqlite3.connect(":memory:")
+        init_db(conn)
+        common = dict(
+            start="2026-08-08T10:00:00", end=None, venue="North Pointe Cinemas",
+            address="1060 Mariners Dr", city="Warsaw", state="IN", description="Free movie",
+            admission="Free", source_url="https://example.com/events", event_url="https://example.com/movie",
+            category="Family", distance_miles=0, status="CONFIRMED", importance=10,
+        )
+        upsert_event(conn, Event(title="Free Movie Day", source_name="Official", confidence="A", fingerprint="official", **common), "2026-08-01T12:00:00")
+        upsert_event(conn, Event(title="Free Movie Day - Warsaw", source_name="Index", confidence="C", fingerprint="index", **common), "2026-08-01T12:00:00")
+
+        removed = consolidate_stored_duplicates(conn, "2026-08-02T12:00:00")
+
+        self.assertEqual(removed, 1)
+        self.assertEqual(conn.execute("SELECT COUNT(*) FROM events").fetchone()[0], 1)
+        self.assertEqual(conn.execute("SELECT source_name FROM events").fetchone()[0], "Official")
+        self.assertEqual(conn.execute("SELECT COUNT(*) FROM changes WHERE change_type='DUPLICATE_REMOVED'").fetchone()[0], 1)
+        conn.close()
 
 
 class EmailPrivacyTests(unittest.TestCase):
