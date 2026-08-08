@@ -2,7 +2,7 @@
 
 Your guide for August 08–August 22, 2026
 
-127 events found in the next two weeks, including 35 in Warsaw and Winona Lake.
+129 events found in the next two weeks, including 35 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
@@ -224,17 +224,12 @@ Music & shows · About 24 miles away · [Details](https://allevents.in/rochester
 
 Music & shows · About 24 miles away · [Details](https://allevents.in/rochester/nickel-plate-music-and-arts-festiva/200029689331625)
 
+## Saturday, August 22 — Park Fest 2026
+**6:00 PM–9:00 PM · Barnhart Field at Falls Park, Rochester, IN**
+
+Community · About 24 miles away · [Details](https://allevents.in/rochester/park-fest-2026/200030130941444)
+
 # Worth the drive
-
-## Saturday, August 08 — Green Hat Lounge Live Music: Carolyn Martin
-**7:00 PM–10:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/8: Carolyn Martin
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-carolyn-martin/)
-
-## Saturday, August 08 — The 1985 - Totally 80's Mixtape LIVE @ BBQ and Brew Festival | Elkhart, IN
-**8:00 PM · Elkhart Co. 4-H Fairgrounds, Goshen, IN**
-
-Arts & learning · About 30 miles away · [Details](https://allevents.in/goshen/the-1985-totally-80s-mixtape-live-bbq-and-brew-festival-elkhart-in/200030472888324)
 
 ## Sunday, August 09 — Green Hat Lounge Live Music: Eric Clancy
 **5:00 PM–8:00 PM · Wabash, IN**
@@ -271,6 +266,11 @@ Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.co
 Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
 
+## Wednesday, August 12 — Annual Themed Art Competition Reception
+**5:30 PM–7:00 PM · Wabash, IN**
+This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition-reception/)
+
 ## Thursday, August 13 — Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
 **10:00 AM–10:30 AM · Wabash, IN**
 Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
@@ -286,10 +286,20 @@ Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.
 Vandenberg: My Whitesnake Years with Marco Mendoza and Vinnie Moore delivers an electrifying night of iconic hits and guitar mastery, led by former Whitesnake guitarist Adrian Vandenberg, known for hits like “Here I…
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/vandenberg-my-whitesnake-years/)
 
-## Friday, August 14 — Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
-**3:30 AM · St. Joseph County Fairgrounds, South Bend, IN**
+## Friday, August 14 — Quilting & Crafting Club
+**10:00 AM–4:00 PM · Wabash, IN**
+If you love crafting, and enjoy gatherings of other creative minds to work on projects together, this club is for you! Gather your current projects, and head to the library to meet up with fellow crafters and work on…
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/quilting-crafting-club/)
 
-Music & shows · About 47 miles away · [Details](https://allevents.in/south-bend/boots-on-the-bend-music-festival-2-day-pass-with-eric-church-hardy-brandon-lake-and-more/3200029984884829)
+## Saturday, August 15 — Miles & Smiles Run & Walk
+**8:00 AM–9:00 AM · Wabash, IN**
+Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-15/)
+
+## Saturday, August 15 — Wabash Farmers Market
+**8:00 AM–12:00 PM · Wabash, IN**
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-15/)
 
 ## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
 **7:00 PM–10:00 PM · Wabash, IN**
@@ -301,40 +311,35 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
 
-## Monday, August 17 — Storytime
-**10:00 AM–10:30 AM · Wabash, IN**
-Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
+## Friday, August 21 — Dave Kunkel Cruise-in
+**3:00 PM–9:00 PM · Wabash, IN**
+One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-21/)
 
-## Friday, August 21 — Stuffed Animal Sleep Over
-**4:00 PM–4:30 PM · Wabash, IN**
-Bring your favorite stuffie to a special storytime at the library. They will stay the night and you can pick them up on Saturday after 1:00 PM.
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-sleep-over/)
-
-## Saturday, August 22 — Stuffed Animal Pickup
-**1:00 PM–4:30 PM · Wabash, IN**
-Pick up your stuffed animal after their sleepover at the library! For participants in the Stuffed Animal Sleepover, held on Friday, August 21.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-pickup/)
+## Saturday, August 22 — Dave Kunkel Cruise-in
+**9:00 AM–3:00 PM · Wabash, IN**
+One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-22/)
 
 # Newly found or updated
 
+- **NEW** Mitchell Tenpenny
+- **NEW** Elkhart Farmers Market
+- **NEW** Kids P.O.P. (Power of Produce)
+- **NEW** The Birthplace Hospital Group Tour
+- **NEW** Lagro Street Market
+- **NEW** Miles & Smiles Run & Walk
+- **NEW** Rock the Quarry | 2026
+- **NEW** Wabash Farmers Market
+- **NEW** Back to School Bash
+- **NEW** Fort Wayne Muddy River Run 2026
+- **NEW** Liking For Biking
+- **NEW** Elkhart Grand Prix Coachmen Auto Club car show
 - **NEW** Registration Open For Acting, Musical, Latin Dance Classes In Goshen
-- **UPDATED** Mahjong & Mingle
-- **NEW** Butter, Baseball And A Brand-New Train: Indiana State Fair Returns
-- **NEW** Comedy Night Starring SHAMA MREMA with Bailey Hostetler at Funny Pharm Comedy Club in Goshen, IN
-- **NEW** Farmers Market
-- **UPDATED** Warsaw Indiana
-- **NEW** Kosciusko Business Social
-- **UPDATED** Candlelight: The Best of Hans Zimmer
-- **NEW** Friday Night Lights: Kicking the Stigma
-- **NEW** SOAR EVENT
-- **NEW** Cowboy Canter 5K for Magical Meadows
-- **NEW** Toledo Walleye at Fort Wayne Komets
-- **NEW** Genre Book Club
-- **NEW** Story Emporium Used Bookstore
-- **NEW** FREE Back To School Haircuts & Pictures
-- **NEW** Water Aerobics at the City Pool
-- **UPDATED** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
-- **UPDATED** BANDA EL RECODO, LOS RECODITOS & MAS
-- **UPDATED** Brooks And Dunn: Neon Moon Tour
-- **NEW** Marjon Student Union Freshers Fusion Fest Pass 2026
+- **NEW** Fiesta Fort Wayne 2026
+- **NEW** Splash Bash
+- **NEW** Coraline Market 🪡 🐈‍⬛
+- **NEW** MTG The Hobbit Prerelease Noon
+- **NEW** Mahjong & Mingle
+- **NEW** An afternoon with the Guardians and No Name Quartet
+- **NEW** BBQ & Brew Fest 2026

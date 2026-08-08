@@ -6363,27 +6363,6 @@
     "fingerprint": "170d17e5588aaef71f7ea95f6b7e75c6436bceee6806cfa583962324ddd0e69b"
   },
   {
-    "title": "Green Hat Lounge Live Music: Carolyn Martin",
-    "start": "2026-08-08T19:00:00",
-    "end": "2026-08-08T22:00:00",
-    "venue": null,
-    "address": null,
-    "city": "Wabash",
-    "state": "IN",
-    "description": "Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/8: Carolyn Martin",
-    "admission": null,
-    "source_name": "Visit Wabash County",
-    "source_url": "https://visitwabashcounty.com/events/",
-    "event_url": "https://visitwabashcounty.com/event/green-hat-lounge-live-music-carolyn-martin/",
-    "confidence": "A",
-    "category": "Music & shows",
-    "image_url": null,
-    "distance_miles": 33,
-    "status": "CONFIRMED",
-    "importance": 13,
-    "fingerprint": "992c193541f2d1f78451595bf16254bd16d72f3432ceffab9e1c5bd3d1c57cef"
-  },
-  {
     "title": "Green Hat Lounge Live Music: Eric Clancy",
     "start": "2026-08-09T17:00:00",
     "end": "2026-08-09T20:00:00",
@@ -6422,8 +6401,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "4a9a16cf77521210d2e4f865a74b933925f69ee82e7d6fc8c68b0af497e343e6"
+    "importance": 13,
+    "fingerprint": "cd86fae5ab4d5b6d559e4ae5537d16fdd880810537385e4c2612a3325bcc31bc"
   },
   {
     "title": "Storytime",
@@ -6464,8 +6443,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "be5438a85fbe7a50357e627fb3787683514282d5ac22c8a687fb550c759b2468"
+    "importance": 13,
+    "fingerprint": "a96b4bbe451a5a9e1ad1ec1c6dc5da3710893228fc90f4f3d883f339f5a210fe"
   },
   {
     "title": "Annual Themed Art Competition",
@@ -6485,8 +6464,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "233089e1dd461e28defeffe6a95459fa3e25cb93608e44e491fa26510d682b1f"
+    "importance": 13,
+    "fingerprint": "12e9698bbfc9d3020e1c668e55b2ae3ac9c0fda861be58518d37ef3ef270b79d"
   },
   {
     "title": "Walking Wednesday",
@@ -6506,8 +6485,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "f4ea5d6eec755184609da40972bf12efbce918aeaf1436422177f186769436c8"
+    "importance": 13,
+    "fingerprint": "f4a6fecf989b7882d51c842ec09c56ac10abfdca915292fa787a2715fa7d1b43"
   },
   {
     "title": "Sew Much Fun: Beginner Cross Stitch",
@@ -6527,8 +6506,29 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "338cde8d3488c979a532648f7fbe81b1887feb7a3cf51dead88418f902cd9992"
+    "importance": 13,
+    "fingerprint": "75f00635772fbec0b6e7d14a0a8c640357705e0658a9ea344e9497dede22a3e1"
+  },
+  {
+    "title": "Annual Themed Art Competition Reception",
+    "start": "2026-08-12T17:30:00",
+    "end": "2026-08-12T19:00:00",
+    "venue": null,
+    "address": null,
+    "city": "Wabash",
+    "state": "IN",
+    "description": "This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new \u201ctheme\u201d is presented to challenge artists to create new and engaging works of art. Unlimited creativity is encouraged, and all media will be accepted. The theme for 2026 is \"Windows.\" Whether appreciating beautiful architecture, a favorite view, or the metaphorical windows to the soul, artists are encouraged to use this theme to give the audience a peek into their unique world. Reception at 5:30pm August 12.",
+    "admission": null,
+    "source_name": "Visit Wabash County",
+    "source_url": "https://visitwabashcounty.com/events/",
+    "event_url": "https://visitwabashcounty.com/event/annual-themed-art-competition-reception/",
+    "confidence": "A",
+    "category": "Arts & learning",
+    "image_url": null,
+    "distance_miles": 33,
+    "status": "CONFIRMED",
+    "importance": 13,
+    "fingerprint": "3b58df75217be4571d40eea8fc31823797ee055e487cf3764f7ff31e9ef2a1d9"
   },
   {
     "title": "Educational Babytime: Creating Predictable Moments in the Day with Christy Garau",
@@ -6548,8 +6548,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "086e0a4f9ec004338d507783bf80744ceb7970180d490a784bb72cffc6fd17f2"
+    "importance": 13,
+    "fingerprint": "9a1fa5ffe7e6349bc8692b5ec6eb3bc82dc9850519a63719030f30eb097d6c89"
   },
   {
     "title": "Mahjong Mornings",
@@ -6569,8 +6569,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "4582c0384b95a8ac7ebc90a112d723a1d0089db3478e761750b3b5e7af8ae603"
+    "importance": 13,
+    "fingerprint": "55a19ed616a2ec7edce72b9475a060f58a90a089e333e2d5d8f15191c2edff6c"
   },
   {
     "title": "Vandenberg: My Whitesnake Years",
@@ -6590,8 +6590,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "cb2655b4f6437d346b551977b5f779edfd04b3d734cdc968f842250ce51f4b0f"
+    "importance": 13,
+    "fingerprint": "ae62c279bf2aad00425952720da1ea63c79e47ee06147827b179baab6e32f861"
   },
   {
     "title": "Quilting & Crafting Club",
@@ -6611,8 +6611,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "33b670a623304080e11aef3ad523fe386aa60c1268d0d02b48773b5e32cbf4ba"
+    "importance": 13,
+    "fingerprint": "09315238ec1741ca192c8a9079bbb0a40fef69ec9690a8dadaabd7defe1cbb4e"
   },
   {
     "title": "Miles & Smiles Run & Walk",
@@ -6632,8 +6632,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "d5a8c8f7378a799fe7fd77fff62f697e8cdc4cba01cdb711603a0ea123780050"
+    "importance": 13,
+    "fingerprint": "0f615aef28c250bb98ab0e860c50c48f84783d6872e03382733ecfbbf8acf228"
   },
   {
     "title": "Wabash Farmers Market",
@@ -6653,8 +6653,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "657e55b98de21f7bb97bcebb92bc6a7fef19ba33ad8cc87ca04025568890f7ee"
+    "importance": 13,
+    "fingerprint": "2d6dbca2b5e82c32d07e7f918108a3881f571e72e4198b22cb983ac675b159e4"
   },
   {
     "title": "Green Hat Lounge Live Music: The Nobles",
@@ -6737,8 +6737,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "1e95ccf42fca2a83d45b5003fad15581c2c36ea0d9cf160dc48e082a0714ddfe"
+    "importance": 13,
+    "fingerprint": "a0f1d5864303b1f22a5891af7feaf95119ac976038dc9a20427acb35dc8f0d26"
   },
   {
     "title": "Sensory Story Hour",
@@ -6758,8 +6758,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "18e6548be22aa02edb5c6c462ccf11488e0e52e06ac6928eafcfc749a4019673"
+    "importance": 13,
+    "fingerprint": "e9ac790a709eb5d391b64d822d4954bafe21c07cd08aeefabf1eb27b79c407a0"
   },
   {
     "title": "Walking Wednesday",
@@ -6779,8 +6779,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "1b7daccd3f8f1282371d84e7b12abb1a96d7af86ef016d991c5ff7b6db933399"
+    "importance": 13,
+    "fingerprint": "a0502a315efc474e5964e30e5aa816b62853ddcb67819baff2b122d45c508947"
   },
   {
     "title": "Sew Much Fun: Beginner Cross Stitch",
@@ -6800,8 +6800,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "10aee3e885772629f76a223ee65dd56825c63c3fb7915e44f00b279a86bc8646"
+    "importance": 13,
+    "fingerprint": "a5fb879b55c17ce60e8b8af85903a78d7717d8822ac91d50dda0045bac652bc5"
   },
   {
     "title": "Silent Book Club",
@@ -6821,8 +6821,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "64c1b59a6c082073ff5688b56a7b356fbd36ee1a8e213e00cda1087a2c969c61"
+    "importance": 13,
+    "fingerprint": "5105cebd7f4cbd2f1ccf04452a199c133efb622c3f6e2177b63a5ea71b801c83"
   },
   {
     "title": "Mahjong Mornings",
@@ -6842,8 +6842,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "c580230e0b9f7cd6b87a159e31020707d15750d573531470082473c651b8bd5a"
+    "importance": 13,
+    "fingerprint": "1a7692bef50c41f9f968d6b8da239fb6d44abf51336cae0cd87e6c3607de637c"
   },
   {
     "title": "Sensory Babytime",
@@ -6863,8 +6863,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "16961985e225b5402a4fac6306eda7593f8d4237ae3cb896bf8453cb718bb0ad"
+    "importance": 13,
+    "fingerprint": "f48d756d75554ed13136447e8c450d54b6645e407ed9f1f33ea9685d97420667"
   },
   {
     "title": "Dave Kunkel Cruise-in",
@@ -6880,12 +6880,12 @@
     "source_url": "https://visitwabashcounty.com/events/",
     "event_url": "https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-21/",
     "confidence": "A",
+    "category": "Food & markets",
+    "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 10,
-    "fingerprint": "d4be93724256c7af06294aee016c48fbf598d099d6557d8b6214ceea14280cf0",
-    "category": "Food & markets",
-    "image_url": null
+    "importance": 16,
+    "fingerprint": "423768cbe9ee0cd3c2737acd67381223f04f4a22968b7825283895fb14548e01"
   },
   {
     "title": "Stuffed Animal Sleep Over",
@@ -6926,8 +6926,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "57095ec7b80e0b05392dcff57a2e39911b9a3eb6207efb3b0812031cb3b7c3f8"
+    "importance": 13,
+    "fingerprint": "db16364568756523cb76388bfa77f6685bc20fabf8c24f48ee82e2aea3b46583"
   },
   {
     "title": "5K Tree Trail Trot",
@@ -6947,8 +6947,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "b6f698e73c44b324ab3e5ff16a2b4c330d861bb8d5ad2e8a3a12d42d98b65fcc"
+    "importance": 13,
+    "fingerprint": "99b0a45f51dc7761d3eb9ceff982ca6f9e3aab0ae10b3679fb919849bafa83a6"
   },
   {
     "title": "Miles & Smiles Run & Walk",
@@ -6968,8 +6968,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "1a332be2bd5b93d987aca0d863287c40ba426afc83b234f0ef5f6040dfd4db94"
+    "importance": 13,
+    "fingerprint": "fb8c89cfd8a407fb40857fcca338deccbf4a10426ee8a78e5e0d0463a0b673f6"
   },
   {
     "title": "Wabash Farmers Market",
@@ -6989,8 +6989,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "c295c151b4f10625a19e9fa2cb958d7a9f7da77aea6800e3f55e17587aad0c63"
+    "importance": 13,
+    "fingerprint": "57e8dd935da8c0076d4a4c86c6f03f1f0c7fd643100f41dacb2906d89fe7dea2"
   },
   {
     "title": "Dave Kunkel Cruise-in",
@@ -7006,12 +7006,12 @@
     "source_url": "https://visitwabashcounty.com/events/",
     "event_url": "https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-22/",
     "confidence": "A",
+    "category": "Food & markets",
+    "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 10,
-    "fingerprint": "def4414ed3a7d443800d61331da76e8866d56bf8c0cd821258418f0fa2fe3ec4",
-    "category": "Food & markets",
-    "image_url": null
+    "importance": 16,
+    "fingerprint": "0bb353d69fcb3d896b5be8be11417ff813125a500609b214f1a2de45f5c75ebe"
   },
   {
     "title": "Stuffed Animal Pickup",
@@ -7052,8 +7052,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "c43ea3a19df4a485849f4856ae84e17ac1068a1d62334237e6d166e32cc29bdb"
+    "importance": 13,
+    "fingerprint": "635180ba00d69e1f05a772bea7ae20bcfbe82e0112995d5114aeeccf0305c30c"
   },
   {
     "title": "Green Hat Lounge Live Music: Reggie Berg & Renee Gonzalez",
@@ -7115,8 +7115,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "e60f59b22a2ad2984250b6051a077c29d23dfa80380327b16621287ab3dbb8ac"
+    "importance": 13,
+    "fingerprint": "1eb9c2c9a54d8810bc4ddbc323dfa211884243c542228ae85f75788b0077187f"
   },
   {
     "title": "Storytime",
@@ -7157,8 +7157,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "363555c1751ea6f4ccef2b53b921521c92f790ba0747851366b8b9d8045bc919"
+    "importance": 13,
+    "fingerprint": "472e200ab9601e1d34b3146fdf6ca4b8032953c28905b8e2544e835a8bd64ac3"
   },
   {
     "title": "George Thorogood and The Destroyers",
@@ -7178,8 +7178,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "f981ab64f9a74cf4a25a22890d482d97b0368a8fa9e02034ba72ab17c57929e9"
+    "importance": 13,
+    "fingerprint": "9d9d6a2f492531da32d6bf005910fb949406113830c46d2aec94bebf4a5b0c5f"
   },
   {
     "title": "Baby-Led Feeding: Dipped Apple Pancakes",
@@ -7199,8 +7199,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "1625ddaae7915e09e027ecd3d391f8661f13e2cdea7e2ff1a0d61854dd5d995c"
+    "importance": 13,
+    "fingerprint": "0aaee4b1c285d9e6846b1ca937e32829b0125e4c36ed7d5839877e2d4ccbd08d"
   },
   {
     "title": "@ The Landing Concert Series",
@@ -7216,12 +7216,12 @@
     "source_url": "https://visitwabashcounty.com/events/",
     "event_url": "https://visitwabashcounty.com/event/the-landing-concert-series-3/",
     "confidence": "A",
+    "category": "Music & shows",
+    "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 6,
-    "fingerprint": "80636b630603849af350acf96c5cf37fa05f5ecb45ab6675e7817afb09cc87d6",
-    "category": "Music & shows",
-    "image_url": null
+    "importance": 13,
+    "fingerprint": "f65185c08a4a8de49197a1160777a882fcfc78fd5be66b1a5be5b952a2748d36"
   },
   {
     "title": "Wabash Founders Festival",
@@ -7241,8 +7241,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 15,
-    "fingerprint": "525b9e4398bd334048eaf5acb8096b51f528324d1ac1a56a8e8694f28dec8bcf"
+    "importance": 16,
+    "fingerprint": "540c0d89daa674bfc7d9cbd5ff12544c651da151740ccbbe72f4b3dffb03bf4d"
   },
   {
     "title": "Wabash Kiwanis Trivia Fundraiser for Riley Children\u2019s Health",
@@ -7258,12 +7258,12 @@
     "source_url": "https://visitwabashcounty.com/events/",
     "event_url": "https://visitwabashcounty.com/event/wabash-kiwanis-trivia-fundraiser-for-riley-childrens-health/",
     "confidence": "A",
+    "category": "Family",
+    "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 10,
-    "fingerprint": "f9d4740ce243da0dd7e7c014b53d80db8478f2f6d1fa107b8aef55a28c8c831c",
-    "category": "Family",
-    "image_url": null
+    "importance": 16,
+    "fingerprint": "5b869302067e88596fed80d9720f1cce253e056199f8348dd05af0ea3790c2a9"
   },
   {
     "title": "Miles & Smiles Run & Walk",
@@ -7283,8 +7283,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "3ccb1d4cabe2a64b86fa90cf485b053e0eb9581e146924b350895d27dc1cb0e5"
+    "importance": 13,
+    "fingerprint": "be2b29da04580142cb401e53e0420dd8689cfb8b34932751848c9d25555736c6"
   },
   {
     "title": "Wabash Farmers Market",
@@ -7304,8 +7304,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "b7896f350df4a486bc75dfdf8da8f1edf0898a6a3279f6c6e0cb29251d78d5ba"
+    "importance": 13,
+    "fingerprint": "916cd92874da3a06cecf23e4f9516b71d9526af7550f8c8253e0164bc57b6fd7"
   },
   {
     "title": "Wabash Founders Festival",
@@ -7325,8 +7325,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 15,
-    "fingerprint": "cedeebf82b212759d578707bb681e0b7197439b7cb2f94a1ff5fed02305bdcc1"
+    "importance": 16,
+    "fingerprint": "4d02b45615094c58e856fdb2b8e265892ea984e0b4fb1367d1b2f48f528ac0d1"
   },
   {
     "title": "Bluegrass at Hopewell",
@@ -7346,8 +7346,8 @@
     "image_url": "https://visitwabashcounty.com/wp-content/uploads/2026/01/Bluegrass-1.jpg",
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "4f28bee32a3407fc708bbbcc7b41689c97b756a14cb273a1bff14bccd6524194"
+    "importance": 13,
+    "fingerprint": "c5bcaa2edea3fa3802ceab524bf51a86c8d7485e20904f0c9a716fa537f27038"
   },
   {
     "title": "Green Hat Lounge Live Music: Brian Ames",
@@ -7430,8 +7430,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "6f556d754d4438ece5a51901cea4d36d3329f51c730e472e34083a360a6e1c1c"
+    "importance": 13,
+    "fingerprint": "b008e2890d0009ec37b0ce78cf65ad21649f0986f7489273e958a3ce0f406abe"
   },
   {
     "title": "The Thursday Parlay: International Circus Hall of Fame",
@@ -7451,8 +7451,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "422ee73e895527c04ad6539e06fcb0116ec475f398ffde3a416877ac6151bf28"
+    "importance": 13,
+    "fingerprint": "2292dc5e5fdea7766733c72fe8c9bbba89304e6ed1f8204ba40e89d31b44181d"
   },
   {
     "title": "First Friday \u2013 Multicultural Fest",
@@ -7472,8 +7472,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "a846ea1f4c289ed14765009c513d209b65410ee0974889c7eedaa84a65180d84"
+    "importance": 13,
+    "fingerprint": "2e91e0c137dfa69d7e0f0fc9c1ede90b0806bbb6ea2977ec5adf0f33981e89d6"
   },
   {
     "title": "Peter Antoniou",
@@ -7493,8 +7493,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "f3193ef750a32b48c0aba89152d61a1fcb6a0fbac75cf68e08053c0c9f41d795"
+    "importance": 13,
+    "fingerprint": "1a4b4b28e08e33b8ed399fea173a447ced6c98212bef2f400398214582d8bbec"
   },
   {
     "title": "Miles & Smiles Run & Walk",
@@ -7514,8 +7514,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "42eb9646b9eb2c96cf6e46a084dce016bcfce6537a0dd8a51d43dcae3c488035"
+    "importance": 13,
+    "fingerprint": "a6470f086d06a7eff91eec901978d386ada5aa7c92cc87a833e1029aad1396a3"
   },
   {
     "title": "Wabash Farmers Market",
@@ -7535,8 +7535,8 @@
     "image_url": null,
     "distance_miles": 33,
     "status": "CONFIRMED",
-    "importance": 12,
-    "fingerprint": "8186fc2eea59fb8b66a89c163adcbe739ed1cc7d24f9045470e5cad97a3df47d"
+    "importance": 13,
+    "fingerprint": "2597977ddd885dfbb8c84fe19271811e53d2b261a89026d1730072d0937d8b8a"
   },
   {
     "title": "Sunset Yoga on Jackson Rooftop",
@@ -7646,7 +7646,7 @@
   {
     "title": "Henry Cho: The Empty Nest Tour",
     "start": "2026-08-15T20:00:00",
-    "end": null,
+    "end": "2026-08-15T22:00:00",
     "venue": "410 S Main St, Elkhart, IN, United States, Indiana 46516",
     "address": "410 S Main St, Elkhart, IN 46516-3209, United States",
     "city": "Elkhart",
@@ -8192,7 +8192,7 @@
   {
     "title": "Bored Teachers - Is It Friday Yet! Comedy Tour at The Lerner Theatre",
     "start": "2026-11-12T19:30:00",
-    "end": null,
+    "end": "2026-11-12T21:30:00",
     "venue": "The Lerner Theatre",
     "address": "410 S Main St, Elkhart, IN 46516",
     "city": "Elkhart",
@@ -8612,7 +8612,7 @@
   {
     "title": "Leanne Morgan",
     "start": "2026-09-20T00:00:00",
-    "end": null,
+    "end": "2026-09-20T21:00:00",
     "venue": "Embassy Theatre - Fort Wayne",
     "address": "125 W Jefferson Boulevard, Fort Wayne, IN 46802, US",
     "city": "Fort Wayne",
@@ -8631,25 +8631,25 @@
     "fingerprint": "1648175b278a51b123b0666c023fcf63cc805ad0b2f0461d9dc1294eeb7d712b"
   },
   {
-    "title": "Three Dog Night",
+    "title": "Three Dog Night, Jay Psaros in Fort Wayne",
     "start": "2026-09-20T18:00:00",
-    "end": null,
+    "end": "2026-09-20T20:00:00",
     "venue": "Foellinger Theatre",
-    "address": null,
+    "address": "Foellinger Theatre, Fort Wayne, IN, United States",
     "city": "Fort Wayne",
     "state": "IN",
     "description": null,
     "admission": null,
     "source_name": "Fort Wayne events index",
     "source_url": "https://allevents.in/fort-wayne/all",
-    "event_url": "https://allevents.in/fort-wayne/three-dog-night/200030438199131",
+    "event_url": "https://allevents.in/fort-wayne/three-dog-night-jay-psaros-in-fort-wayne/3300030490752659",
     "confidence": "C",
     "category": "Community",
-    "image_url": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czEwL2Jhbm5lcnMvZmFiOTU2ZmM3Y2Y5OWYxNDE4NmY1ODZkY2Y4ZDRhZTMyNTQ5NTY4ZDc4NDU4ZDgyNWU5NmJmMTVmNmQyNThiMS1yaW1nLXcxMjAwLWg2NzUtZGMwODA4MDgtZ21pcj92PTE3ODU5NTU2NTk.avif",
+    "image_url": "https://cdn-ip.allevents.in/s/rs:fill:500:250/g:sm/sh:100/aHR0cHM6Ly9jZG4tYXouYWxsZXZlbnRzLmluL2V2ZW50czMvYmFubmVycy9mODhjMThkMC04ZDdmLTExZjEtODhkYy1lMzg1NmViMjU2OGYtcmltZy13MTE0Ny1oNjQ1LWRjMTgxODE4LWdtaXIud2VicD92PTE3ODU1NzE2MTk.avif",
     "distance_miles": 45,
     "status": "CONFIRMED",
     "importance": 9,
-    "fingerprint": "b097a7f8180473f59e3dfe7bb05c14059857541092f8b8069f3a5a64f6e9d747"
+    "fingerprint": "b2af089de4bc7af35ad8aa5d7d2e4f0b080a8af083bb32e89fd55597100c2b51"
   },
   {
     "title": "Jon Pardi at Allen County War Memorial Coliseum",
