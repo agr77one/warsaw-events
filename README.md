@@ -156,4 +156,3 @@ Standard GitHub-hosted runners are free for public repositories. See
 Open **Actions**, select a workflow, and choose **Run workflow**.
 
 The first successful run establishes the baseline. Later runs detect new and changed events.
-
