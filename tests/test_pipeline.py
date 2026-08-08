@@ -1,3 +1,4 @@
+import json
 import sqlite3
 import smtplib
 import unittest
@@ -7,7 +8,9 @@ from unittest.mock import MagicMock, patch
 from pipeline import (
     Event,
     categorize,
+    crawl,
     dedupe_event_dicts,
+    extract_approved_submissions,
     extract_allevents,
     extract_detail_page,
     extract_detail_admission,
@@ -21,6 +24,7 @@ from pipeline import (
     parse_event_dates,
     proximity_bonus,
     query_events,
+    reconcile_community_submissions,
     recent_changes,
     render_newsletter,
     render_portal,
@@ -162,6 +166,95 @@ class ProximityScoringTests(unittest.TestCase):
 
         self.assertLess(markdown.index("Higher Priority"), markdown.index("Lower Priority"))
         self.assertLess(portal.index("Higher Priority"), portal.index("Lower Priority"))
+
+
+class CommunitySubmissionTests(unittest.TestCase):
+    def test_approved_feed_maps_sanitized_event_fields(self):
+        feed = """Submission ID,Event title,Start date,Start time,End date,End time,Venue name,Street address,City,State,Event description,Admission or price,Official event or ticket URL,Image URL
+SUB-00001,Free Movie Day,8/20/2026,6:30:00 PM,8/20/2026,8:30:00 PM,North Pointe Cinemas,1060 Mariners Dr,Warsaw,IN,Free community movie,Free,https://example.com/movie,https://example.com/movie.jpg
+"""
+
+        events = extract_approved_submissions(feed)
+
+        self.assertEqual(len(events), 1)
+        event = events[0]
+        self.assertEqual(event.start, "2026-08-20T18:30:00")
+        self.assertEqual(event.end, "2026-08-20T20:30:00")
+        self.assertEqual(event.city, "Warsaw")
+        self.assertEqual(event.admission, "Free")
+        self.assertEqual(event.confidence, "B")
+        self.assertIn("SUB-00001", event.source_url)
+        self.assertFalse(hasattr(event, "submitter_email"))
+
+    def test_invalid_or_incomplete_approved_rows_are_skipped(self):
+        feed = """Submission ID,Event title,Start date,Start time,End date,End time,Venue name,Street address,City,State,Event description,Admission or price,Official event or ticket URL,Image URL
+SUB-00001,Missing link,8/20/2026,6:30 PM,,,Town Hall,1 Main St,Warsaw,IN,Description,Free,not-a-url,
+SUB-00002,Missing address,8/20/2026,6:30 PM,,,Town Hall,,Warsaw,IN,Description,Free,https://example.com/event,
+"""
+
+        self.assertEqual(extract_approved_submissions(feed), [])
+
+    def test_successful_feed_reconciliation_removes_withdrawn_event(self):
+        conn = sqlite3.connect(":memory:")
+        init_db(conn)
+        event = Event(
+            title="Community Movie",
+            start="2026-08-20T18:30:00",
+            end=None,
+            venue="North Pointe Cinemas",
+            address="1060 Mariners Dr",
+            city="Warsaw",
+            state="IN",
+            description="Free movie",
+            admission="Free",
+            source_name="Approved community submissions",
+            source_url="https://example.com/form#submission=SUB-00001",
+            event_url="https://example.com/movie",
+            confidence="B",
+            fingerprint="community-event",
+        )
+        upsert_event(conn, event, "2026-08-01T12:00:00")
+
+        removed = reconcile_community_submissions(conn, [], "2026-08-02T12:00:00")
+
+        self.assertEqual(removed, 1)
+        self.assertEqual(conn.execute("SELECT COUNT(*) FROM events").fetchone()[0], 0)
+        change = conn.execute(
+            "SELECT change_type,after_json FROM changes ORDER BY id DESC LIMIT 1"
+        ).fetchone()
+        self.assertEqual(change[0], "WITHDRAWN")
+        self.assertEqual(json.loads(change[1])["status"], "WITHDRAWN")
+        conn.close()
+
+    @patch("pipeline.load_sources", return_value=[])
+    @patch("pipeline.fetch_text", side_effect=RuntimeError("temporary feed outage"))
+    def test_failed_feed_does_not_remove_published_event(self, _fetch_text, _load_sources):
+        conn = sqlite3.connect(":memory:")
+        init_db(conn)
+        event = Event(
+            title="Community Movie",
+            start="2026-08-20T18:30:00",
+            end=None,
+            venue="North Pointe Cinemas",
+            address="1060 Mariners Dr",
+            city="Warsaw",
+            state="IN",
+            description="Free movie",
+            admission="Free",
+            source_name="Approved community submissions",
+            source_url="https://example.com/form#submission=SUB-00001",
+            event_url="https://example.com/movie",
+            confidence="B",
+            fingerprint="community-event",
+        )
+        upsert_event(conn, event, "2026-08-01T12:00:00")
+
+        with patch.dict("pipeline.os.environ", {"COMMUNITY_EVENTS_FEED_URL": "https://example.com/feed.csv"}):
+            _events, health = crawl(conn, datetime(2026, 8, 2, 12))
+
+        self.assertEqual(health[-1]["status"], "failed")
+        self.assertEqual(conn.execute("SELECT COUNT(*) FROM events").fetchone()[0], 1)
+        conn.close()
 
 
 class ExpandedCoverageTests(unittest.TestCase):
@@ -387,6 +480,12 @@ END:VCALENDAR"""
         self.assertIn("id='date-range'", portal)
         self.assertIn("id='category'", portal)
         self.assertIn("Find something worth going to.", portal)
+        self.assertIn("id='about'", portal)
+        self.assertIn("About the creator", portal)
+        self.assertIn("Hi, I&rsquo;m Arseniy.", portal)
+        self.assertIn("Submit an event", portal)
+        self.assertIn("https://github.com/agr77one", portal)
+        self.assertIn("private moderation workbook", portal)
 
     def test_same_day_title_variants_prefer_official_source(self):
         common = {
