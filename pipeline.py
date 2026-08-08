@@ -39,6 +39,10 @@ COMMUNITY_FORM_URL = (
     "https://docs.google.com/forms/d/e/"
     "1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform"
 )
+FEEDBACK_FORM_URL = (
+    "https://docs.google.com/forms/d/e/"
+    "1FAIpQLSfg7Wm_fmXe1Dat1_l1Uq50PWpg7bPGdZ0Xe0RGxLiFA6t29Q/viewform"
+)
 COMMUNITY_FEED_URL = (
     "https://docs.google.com/spreadsheets/d/"
     "1Yh1bXAiwe_ArXnINUhSSZyWbDWXu9Dz_W4Lg0t_HyYI/"
@@ -373,12 +377,32 @@ def extract_facebook_graph(client: httpx.Client, source: dict) -> list[Event]:
         if after:
             params["after"] = after
         response = client.get(endpoint, params=params, headers={"Authorization": f"Bearer {token}"})
-        if response.is_error:
-            raise RuntimeError(f"Meta Graph API returned HTTP {response.status_code}")
-        payload = response.json()
+        try:
+            payload = response.json()
+        except (TypeError, ValueError):
+            payload = {}
+        graph_error = payload.get("error") if isinstance(payload, dict) else None
+        if response.is_error or graph_error:
+            detail = ""
+            if isinstance(graph_error, dict):
+                message = readable_text(graph_error.get("message"))
+                code = graph_error.get("code")
+                if message:
+                    detail = f": {message}"
+                if code is not None:
+                    detail += f" (code {code})"
+            raise RuntimeError(f"Meta Graph API returned HTTP {response.status_code}{detail}")
+        if not isinstance(payload, dict) or not isinstance(payload.get("data", []), list):
+            raise RuntimeError("Meta Graph API returned an invalid events payload")
         for item in payload.get("data", []):
-            occurrences = item.get("event_times") or [item]
+            if not isinstance(item, dict):
+                continue
+            occurrences = item.get("event_times")
+            if not isinstance(occurrences, list) or not occurrences:
+                occurrences = [item]
             for occurrence in occurrences:
+                if not isinstance(occurrence, dict):
+                    continue
                 start = parse_date(occurrence.get("start_time") or item.get("start_time"))
                 if not start:
                     continue
@@ -402,8 +426,9 @@ def extract_facebook_graph(client: httpx.Client, source: dict) -> list[Event]:
                     image_url=cover.get("source"), distance_miles=source.get("distance_miles"),
                     status="CANCELED" if item.get("is_canceled") else "CONFIRMED",
                 ))
-        cursors = payload.get("paging", {}).get("cursors", {})
-        after = cursors.get("after") if payload.get("paging", {}).get("next") else None
+        paging = payload.get("paging") if isinstance(payload.get("paging"), dict) else {}
+        cursors = paging.get("cursors") if isinstance(paging.get("cursors"), dict) else {}
+        after = cursors.get("after") if paging.get("next") else None
         if not after:
             break
     return events
@@ -740,7 +765,7 @@ def filter_and_score(event: Event, now: datetime, highlights_only: bool = False)
     event.importance += 1 if event.city or event.address else 0
     event.importance += proximity_bonus(event.distance_miles) * 3
     normalized_title = re.sub(r"[^a-z0-9]+", " ", event.title.casefold()).strip()
-    key = "|".join([normalized_title, start.strftime("%Y-%m-%d"), (event.city or "").casefold()])
+    key = "|".join([normalized_title, start.isoformat(timespec="minutes"), (event.city or "").casefold()])
     event.fingerprint = hashlib.sha256(key.encode()).hexdigest()
     return event
 
@@ -801,12 +826,37 @@ def upsert_event(conn: sqlite3.Connection, event: Event, now_iso: str) -> str:
 
 
 def dedupe(events: list[Event]) -> list[Event]:
-    seen: dict[str, Event] = {}
-    for event in events:
-        current = seen.get(event.fingerprint)
-        if current is None or event.confidence < current.confidence:
-            seen[event.fingerprint] = event
-    return sorted(seen.values(), key=lambda e: (e.start, e.title))
+    collapsed = dedupe_event_dicts([asdict(event) for event in events])
+    return sorted((Event(**event) for event in collapsed), key=lambda event: (event.start, event.title))
+
+
+def consolidate_stored_duplicates(conn: sqlite3.Connection, now_iso: str) -> int:
+    """Merge and remove cross-source duplicates already persisted in SQLite."""
+    rows = conn.execute("SELECT fingerprint,payload_json FROM events").fetchall()
+    payloads = [json.loads(payload_json) for _fingerprint, payload_json in rows]
+    kept, duplicate_pairs = collapse_event_dicts(payloads, include_pairs=True)
+    if not duplicate_pairs:
+        return 0
+    for event_payload in kept:
+        upsert_event(conn, Event(**event_payload), now_iso)
+    for loser, winner in duplicate_pairs:
+        loser_fingerprint = loser.get("fingerprint")
+        if not loser_fingerprint or loser_fingerprint == winner.get("fingerprint"):
+            continue
+        conn.execute(
+            "INSERT INTO changes(fingerprint,detected_at,change_type,before_json,after_json) "
+            "VALUES(?,?,?,?,?)",
+            (
+                loser_fingerprint,
+                now_iso,
+                "DUPLICATE_REMOVED",
+                json.dumps(loser),
+                json.dumps(winner),
+            ),
+        )
+        conn.execute("DELETE FROM events WHERE fingerprint=?", (loser_fingerprint,))
+    conn.commit()
+    return len(duplicate_pairs)
 
 
 def reconcile_community_submissions(
@@ -942,25 +992,75 @@ def titles_are_similar(left: str, right: str) -> bool:
     return difflib.SequenceMatcher(None, left_norm, right_norm).ratio() >= 0.88
 
 
-def dedupe_event_dicts(events: list[dict]) -> list[dict]:
-    """Collapse same-day title variants while preferring the more reliable source."""
+def events_are_duplicates(left: dict, right: dict) -> bool:
+    """Match the same listing without collapsing legitimate separate showtimes."""
+    try:
+        left_start = datetime.fromisoformat(left["start"])
+        right_start = datetime.fromisoformat(right["start"])
+    except (KeyError, TypeError, ValueError):
+        return False
+    if left_start.date() != right_start.date() or not titles_are_similar(left.get("title", ""), right.get("title", "")):
+        return False
+    left_city = (left.get("city") or "").casefold().strip()
+    right_city = (right.get("city") or "").casefold().strip()
+    if left_city and right_city and left_city != right_city:
+        return False
+    left_venue = normalized_title(left.get("venue") or "")
+    right_venue = normalized_title(right.get("venue") or "")
+    if not (left_city and right_city) and left_venue and right_venue and left_venue != right_venue:
+        return False
+    if left_start.time() == datetime.min.time() or right_start.time() == datetime.min.time():
+        return True
+    return abs((left_start - right_start).total_seconds()) <= 90 * 60
+
+
+def event_quality(event: dict) -> tuple[int, int, int, str, str]:
     confidence_rank = {"A": 0, "B": 1, "C": 2}
-    ordered = sorted(events, key=lambda event: (
-        confidence_rank.get(event.get("confidence"), 3), event["start"], event["title"],
-    ))
+    useful_fields = ("venue", "address", "city", "description", "admission", "image_url", "event_url")
+    completeness = sum(bool(event.get(field)) for field in useful_fields)
+    description_length = len(event.get("description") or "")
+    return (
+        confidence_rank.get(event.get("confidence"), 3),
+        -completeness,
+        -description_length,
+        event.get("start") or "",
+        event.get("title") or "",
+    )
+
+
+def merge_event_details(winner: dict, duplicate: dict) -> dict:
+    merged = dict(winner)
+    for field in ("end", "venue", "address", "city", "state", "description", "admission", "image_url"):
+        if not merged.get(field) and duplicate.get(field):
+            merged[field] = duplicate[field]
+    if (not merged.get("event_url") or merged.get("event_url") == merged.get("source_url")) and duplicate.get("event_url"):
+        merged["event_url"] = duplicate["event_url"]
+    distances = [value for value in (merged.get("distance_miles"), duplicate.get("distance_miles")) if value is not None]
+    if distances:
+        merged["distance_miles"] = min(distances)
+    merged["importance"] = max(merged.get("importance", 0), duplicate.get("importance", 0))
+    return merged
+
+
+def collapse_event_dicts(events: list[dict], include_pairs: bool = False):
+    ordered = sorted((dict(event) for event in events), key=event_quality)
     kept: list[dict] = []
+    duplicate_pairs: list[tuple[dict, dict]] = []
     for event in ordered:
-        event_date = datetime.fromisoformat(event["start"]).date()
-        city = (event.get("city") or "").casefold().strip()
-        duplicate = any(
-            datetime.fromisoformat(existing["start"]).date() == event_date
-            and (existing.get("city") or "").casefold().strip() == city
-            and titles_are_similar(existing["title"], event["title"])
-            for existing in kept
-        )
-        if not duplicate:
+        match = next((existing for existing in kept if events_are_duplicates(existing, event)), None)
+        if match is None:
             kept.append(event)
-    return kept
+            continue
+        merged = merge_event_details(match, event)
+        match.clear()
+        match.update(merged)
+        duplicate_pairs.append((event, match))
+    return (kept, duplicate_pairs) if include_pairs else kept
+
+
+def dedupe_event_dicts(events: list[dict]) -> list[dict]:
+    """Collapse cross-source variants and retain useful details from each copy."""
+    return collapse_event_dicts(events)
 
 
 def recent_changes(conn: sqlite3.Connection, now: datetime, hours: int) -> list[dict]:
@@ -1156,12 +1256,12 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
 .hero-actions{{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}}.button-link{{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 17px;border-radius:999px;background:var(--gold);color:#173b3f;font-size:14px;font-weight:850;text-decoration:none}}.button-link.secondary{{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}}.about{{scroll-margin-top:24px;margin-top:64px;padding:36px;border-radius:24px;background:var(--green);color:#fff;box-shadow:var(--shadow)}}.about-grid{{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:36px;align-items:start}}.about-kicker{{display:block;color:#ffd58d;font-size:11px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;margin-bottom:8px}}.about h2{{font-family:Georgia,serif;font-size:clamp(31px,5vw,46px);line-height:1.05;margin:0 0 16px}}.about p{{color:#d8e7e5;line-height:1.65;margin:0 0 14px}}.about-card{{padding:24px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:rgba(255,255,255,.06)}}.about-card h3{{font-family:Georgia,serif;font-size:24px;margin:0 0 10px}}.about-links{{display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:18px}}.about-links a{{color:#ffd58d;font-weight:800;text-underline-offset:3px}}.about-privacy{{font-size:12px;color:#bcd2d0!important;margin-top:18px!important}}footer nav{{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-left:8px}}
 @media(max-width:800px){{.about{{padding:28px 22px}}.about-grid{{grid-template-columns:1fr;gap:22px}}}}
 </style></head><body>
-<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><div class='hero-actions'><a class='button-link' href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event</a><a class='button-link secondary' href='#about'>About the project</a></div><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {checked} sources checked · {contributing} contributing{f' · {pending_sources} integration pending' if pending_sources else ''}</p></div></header>
+<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><div class='hero-actions'><a class='button-link' href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Add a new event</a><a class='button-link secondary' href='{FEEDBACK_FORM_URL}' target='_blank' rel='noopener noreferrer'>Correction or source</a><a class='button-link secondary' href='#about'>About the project</a></div><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {checked} sources checked · {contributing} contributing{f' · {pending_sources} integration pending' if pending_sources else ''}</p></div></header>
 <div class='stats'><div class='stat'><strong>{local_count}</strong><span>Warsaw & Winona Lake</span></div><div class='stat'><strong>{nearby_count}</strong><span>within 25 miles</span></div><div class='stat'><strong>{week_count}</strong><span>in the next 7 days</span></div><div class='stat'><strong>{len(events)}</strong><span>upcoming events</span></div></div>
 <main><div class='filters' aria-label='Event filters'><div class='control search'><label for='search'>Search</label><input id='search' type='search' placeholder='Music, markets, Warsaw…'></div><div class='control'><label for='distance'>Distance</label><select id='distance'><option value='all'>Everywhere</option><option value='local'>Warsaw & Winona Lake</option><option value='nearby'>Within 25 miles</option><option value='regional'>Within 50 miles</option></select></div><div class='control'><label for='date-range'>When</label><select id='date-range'><option value='all'>Any date</option><option value='7'>Next 7 days</option><option value='14'>Next 2 weeks</option><option value='30'>Next 30 days</option></select></div><div class='control'><label for='category'>Category</label><select id='category'><option value='all'>All categories</option>{options}</select></div></div>
 <div class='results-bar'><span id='result-count'>{len(events)} events shown</span><button id='clear' type='button'>Clear filters</button></div>{sections}<div class='empty' id='empty'><h2>No events match those filters.</h2><p>Try a wider distance, date range, or a shorter search.</p></div>
-<section class='about' id='about'><div class='about-grid'><div><span class='about-kicker'>Why this exists</span><h2>One useful calendar for the Warsaw area.</h2><p>Event details are scattered across venue sites, library calendars, tourism pages, social posts, and word of mouth. Warsaw Weekend brings those public listings into one searchable place, puts events closest to Warsaw first, and links back to the original source so details can be confirmed.</p><p>Community members and organizers can submit missing events. Every submission is reviewed before it reaches the public calendar, and approval publishes only event information&mdash;never the submitter's email or private review notes.</p></div><aside class='about-card'><span class='about-kicker'>About the creator</span><h3>Hi, I&rsquo;m Arseniy.</h3><p>I created Warsaw Weekend to make it easier to discover what is happening close to home without checking a dozen different calendars.</p><div class='about-links'><a href='https://github.com/agr77one' target='_blank' rel='noopener noreferrer'>Connect with me on GitHub</a><a href='https://github.com/agr77one/warsaw-events/issues' target='_blank' rel='noopener noreferrer'>Send a correction or idea</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event for review</a></div><p class='about-privacy'>Submission contact details stay in the private moderation workbook and are not published.</p></aside></div></section></main>
-<footer>Built from public event calendars. Always confirm time, admission, and availability with the linked source.<nav aria-label='Project links'><a href='#about'>About</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event</a><a href='https://github.com/agr77one/warsaw-events' target='_blank' rel='noopener noreferrer'>View the project</a></nav></footer>
+<section class='about' id='about'><div class='about-grid'><div><span class='about-kicker'>Why this exists</span><h2>One useful calendar for the Warsaw area.</h2><p>Event details are scattered across venue sites, library calendars, tourism pages, social posts, and word of mouth. Warsaw Weekend brings those public listings into one searchable place, puts events closest to Warsaw first, and links back to the original source so details can be confirmed.</p><p>Community members and organizers can add missing events, report a correction, or suggest another public page to track. Every submission is reviewed before it affects the calendar, and approval publishes only event information&mdash;never private response details or review notes.</p></div><aside class='about-card'><span class='about-kicker'>About the creator</span><h3>Hi, I&rsquo;m Arseniy.</h3><p>I created Warsaw Weekend to make it easier to discover what is happening close to home without checking a dozen different calendars.</p><div class='about-links'><a href='https://github.com/agr77one' target='_blank' rel='noopener noreferrer'>Connect with me on GitHub</a><a href='{FEEDBACK_FORM_URL}' target='_blank' rel='noopener noreferrer'>Send a correction or suggest a source</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Add a new event</a></div><p class='about-privacy'>Public forms write to a private moderation workbook. Responses and review notes are not published.</p></aside></div></section></main>
+<footer>Built from public event calendars. Always confirm time, admission, and availability with the linked source.<nav aria-label='Project links'><a href='#about'>About</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Add an event</a><a href='{FEEDBACK_FORM_URL}' target='_blank' rel='noopener noreferrer'>Corrections &amp; ideas</a><a href='https://github.com/agr77one/warsaw-events' target='_blank' rel='noopener noreferrer'>View the project</a></nav></footer>
 <script>
 const controls={{search:document.querySelector('#search'),distance:document.querySelector('#distance'),days:document.querySelector('#date-range'),category:document.querySelector('#category')}};
 const cards=[...document.querySelectorAll('[data-event]')];
@@ -1211,6 +1311,7 @@ def main() -> None:
     crawled, health = crawl(conn, now)
     for event in crawled:
         upsert_event(conn, event, now.isoformat())
+    duplicates_removed = consolidate_stored_duplicates(conn, now.isoformat())
     conn.commit()
     events = query_events(conn, now)
     changes = recent_changes(conn, now, 30 if args.mode == "daily" else 168)
@@ -1228,7 +1329,7 @@ def main() -> None:
     (OUTPUT / "daily_alerts.json").write_text(json.dumps(alerts, indent=2), encoding="utf-8")
     if args.mode == "newsletter":
         send_email(f"Warsaw events newsletter · {now:%B %d}", email_html, markdown)
-    print(json.dumps({"mode": args.mode, "crawled": len(crawled), "stored": len(events), "changes": len(changes), "alerts": len(alerts), "email_configured": bool(os.getenv('EMAIL_USERNAME'))}, indent=2))
+    print(json.dumps({"mode": args.mode, "crawled": len(crawled), "stored": len(events), "duplicates_removed": duplicates_removed, "changes": len(changes), "alerts": len(alerts), "email_configured": bool(os.getenv('EMAIL_USERNAME'))}, indent=2))
 
 
 if __name__ == "__main__":
