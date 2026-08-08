@@ -5,6 +5,7 @@ import csv
 import difflib
 import hashlib
 import html
+import io
 import json
 import os
 import re
@@ -16,7 +17,7 @@ from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from email.utils import getaddresses
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import dateparser
@@ -34,6 +35,16 @@ for folder in (DATA, OUTPUT, DOCS):
 DB_PATH = DATA / "events.db"
 USER_AGENT = "WarsawEventsPipeline/1.0 (+https://github.com/agr77one/warsaw-events)"
 WARSAW_TIMEZONE = ZoneInfo("America/Indiana/Indianapolis")
+COMMUNITY_FORM_URL = (
+    "https://docs.google.com/forms/d/e/"
+    "1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform"
+)
+COMMUNITY_FEED_URL = (
+    "https://docs.google.com/spreadsheets/d/"
+    "1Yh1bXAiwe_ArXnINUhSSZyWbDWXu9Dz_W4Lg0t_HyYI/"
+    "gviz/tq?tqx=out:csv&sheet=Approved%20Events"
+)
+COMMUNITY_SOURCE_NAME = "Approved community submissions"
 INCLUDE_TERMS = (
     "fair", "festival", "carnival", "parade", "fireworks", "boat", "flotilla",
     "water ski", "waterski", "car show", "cruise-in", "rodeo", "tractor pull",
@@ -165,6 +176,58 @@ def clean(value: str | None) -> str | None:
     if value is None:
         return None
     return re.sub(r"\s+", " ", value).strip() or None
+
+
+def is_public_url(value: str | None) -> bool:
+    if not value:
+        return False
+    parsed = urlparse(value.strip())
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def extract_approved_submissions(csv_text: str) -> list[Event]:
+    """Map the sanitized, approved Google Sheet export into normal events."""
+    required = (
+        "Submission ID", "Event title", "Start date", "Start time", "Venue name",
+        "Street address", "City", "State", "Event description",
+        "Admission or price", "Official event or ticket URL",
+    )
+    events: list[Event] = []
+    for raw_row in csv.DictReader(io.StringIO(csv_text.lstrip("\ufeff"))):
+        row = {key: clean(value) for key, value in raw_row.items() if key}
+        if any(not row.get(field) for field in required):
+            continue
+        event_url = row["Official event or ticket URL"]
+        if not is_public_url(event_url):
+            continue
+        start = parse_date(f"{row['Start date']} {row['Start time']}")
+        if not start:
+            continue
+        end_date = row.get("End date") or row["Start date"]
+        end = parse_date(f"{end_date} {row['End time']}") if row.get("End time") else None
+        image_url = row.get("Image URL") if is_public_url(row.get("Image URL")) else None
+        submission_id = row["Submission ID"]
+        source_url = f"{COMMUNITY_FORM_URL}#submission={quote(submission_id)}"
+        title = row["Event title"]
+        description = row["Event description"]
+        events.append(Event(
+            title=title,
+            start=start.isoformat(),
+            end=end.isoformat() if end else None,
+            venue=row["Venue name"],
+            address=row["Street address"],
+            city=row["City"],
+            state=row["State"],
+            description=description,
+            admission=row["Admission or price"],
+            source_name=COMMUNITY_SOURCE_NAME,
+            source_url=source_url,
+            event_url=event_url,
+            confidence="B",
+            category=categorize(title, description),
+            image_url=image_url,
+        ))
+    return events
 
 
 def readable_text(value: str | None) -> str | None:
@@ -746,6 +809,33 @@ def dedupe(events: list[Event]) -> list[Event]:
     return sorted(seen.values(), key=lambda e: (e.start, e.title))
 
 
+def reconcile_community_submissions(
+    conn: sqlite3.Connection,
+    active_events: list[Event],
+    now_iso: str,
+) -> int:
+    """Withdraw community rows absent from a successfully fetched approved feed."""
+    active_source_urls = {event.source_url for event in active_events}
+    rows = conn.execute(
+        "SELECT fingerprint,source_url,payload_json FROM events WHERE source_name=?",
+        (COMMUNITY_SOURCE_NAME,),
+    ).fetchall()
+    removed = 0
+    for fingerprint, source_url, payload_json in rows:
+        if source_url in active_source_urls:
+            continue
+        before = json.loads(payload_json)
+        after = {**before, "status": "WITHDRAWN"}
+        conn.execute(
+            "INSERT INTO changes(fingerprint,detected_at,change_type,before_json,after_json) "
+            "VALUES(?,?,?,?,?)",
+            (fingerprint, now_iso, "WITHDRAWN", payload_json, json.dumps(after)),
+        )
+        conn.execute("DELETE FROM events WHERE fingerprint=?", (fingerprint,))
+        removed += 1
+    return removed
+
+
 def crawl(conn: sqlite3.Connection, now: datetime) -> tuple[list[Event], list[dict]]:
     client = httpx.Client(timeout=25, follow_redirects=True, headers={"User-Agent": USER_AGENT})
     found: list[Event] = []
@@ -784,6 +874,33 @@ def crawl(conn: sqlite3.Connection, now: datetime) -> tuple[list[Event], list[di
                        "raw_event_count": len(extracted), "event_count": len(accepted), "error": error})
         conn.execute("INSERT INTO source_runs(source_name,source_url,checked_at,status,event_count,error) VALUES(?,?,?,?,?,?)",
                      (source["name"], source["url"], now.isoformat(), status, len(accepted), error))
+    community_feed_url = os.getenv("COMMUNITY_EVENTS_FEED_URL", COMMUNITY_FEED_URL).strip()
+    if community_feed_url:
+        try:
+            feed_text = fetch_text(client, community_feed_url)
+            extracted = extract_approved_submissions(feed_text)
+            accepted = [event for event in (
+                filter_and_score(item, now) for item in extracted
+            ) if event]
+            found.extend(accepted)
+            removed = reconcile_community_submissions(conn, accepted, now.isoformat())
+            status = "ok" if accepted else ("no_upcoming" if extracted else "empty")
+            error = f"{removed} withdrawn" if removed else None
+        except Exception as exc:
+            extracted, accepted, status, error = [], [], "failed", str(exc)
+        health.append({
+            "name": COMMUNITY_SOURCE_NAME,
+            "url": COMMUNITY_FORM_URL,
+            "status": status,
+            "raw_event_count": len(extracted),
+            "event_count": len(accepted),
+            "error": error,
+        })
+        conn.execute(
+            "INSERT INTO source_runs(source_name,source_url,checked_at,status,event_count,error) "
+            "VALUES(?,?,?,?,?,?)",
+            (COMMUNITY_SOURCE_NAME, COMMUNITY_FORM_URL, now.isoformat(), status, len(accepted), error),
+        )
     conn.commit()
     client.close()
     return dedupe(found), health
@@ -999,8 +1116,10 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
         search_text = " ".join(str(x or "") for x in (
             event.get("title"), event.get("description"), event.get("venue"), event.get("city"), category,
         )).casefold()
-        source_label = "Official calendar" if event.get("confidence") == "A" else (
-            "Local reporting" if event.get("confidence") == "B" else "Community listing"
+        source_label = "Reviewed community submission" if event.get("source_name") == COMMUNITY_SOURCE_NAME else (
+            "Official calendar" if event.get("confidence") == "A" else (
+                "Local reporting" if event.get("confidence") == "B" else "Community listing"
+            )
         )
         grouped_cards[zone].append(
             f"<article class='event-card' data-event data-zone='{zone}' data-days='{days_away}' data-category='{html.escape(category, quote=True)}' data-search='{html.escape(search_text, quote=True)}'>"
@@ -1034,12 +1153,15 @@ def render_portal(events: list[dict], health: list[dict], now: datetime) -> str:
 :root{{--ink:#15232d;--muted:#66727c;--paper:#f4f1ea;--card:#fffdf9;--line:#ddd8ce;--green:#173b3f;--green2:#245b5d;--orange:#b65031;--gold:#f1b85b;--shadow:0 14px 38px rgba(30,45,48,.09)}}*{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}a{{color:inherit}}.hero{{position:relative;overflow:hidden;background:linear-gradient(125deg,#102f33 0%,#1c4b4d 58%,#a4492e 140%);color:#fff}}.hero:after{{content:"";position:absolute;width:420px;height:420px;border:90px solid rgba(255,255,255,.055);border-radius:50%;right:-170px;top:-210px}}.hero-inner{{position:relative;z-index:1;max-width:1180px;margin:auto;padding:66px 28px 100px}}.brand{{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#ffe0a7}}.brand-mark{{display:grid;place-items:center;width:34px;height:34px;background:var(--gold);color:#163538;border-radius:10px;font-size:18px}}h1{{max-width:720px;font-family:Georgia,serif;font-size:clamp(44px,7vw,78px);line-height:.98;letter-spacing:-.04em;margin:26px 0 18px}}.hero-copy{{max-width:650px;font-size:18px;line-height:1.65;color:#d9e9e7;margin:0}}.updated{{margin-top:24px;font-size:13px;color:#b9d0ce}}.stats{{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1180px;margin:-48px auto 0;padding:0 28px;position:relative;z-index:2}}.stat{{background:var(--card);border:1px solid rgba(0,0,0,.05);border-radius:18px;padding:20px;box-shadow:var(--shadow)}}.stat strong{{display:block;font-family:Georgia,serif;font-size:34px;color:var(--green)}}.stat span{{font-size:13px;color:var(--muted)}}main{{max-width:1180px;margin:auto;padding:34px 28px 80px}}.filters{{position:sticky;top:12px;z-index:10;background:rgba(255,253,249,.94);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 10px 30px rgba(30,45,48,.08);display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(140px,1fr));gap:10px}}.control{{position:relative}}.control label{{position:absolute;left:14px;top:8px;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);pointer-events:none}}input,select{{width:100%;height:58px;border:1px solid #d8d3c8;border-radius:12px;background:#fff;color:var(--ink);font:inherit;padding:23px 14px 7px;outline:none}}input:focus,select:focus{{border-color:var(--green2);box-shadow:0 0 0 3px rgba(36,91,93,.13)}}.results-bar{{display:flex;justify-content:space-between;align-items:center;margin:28px 2px 10px;color:var(--muted);font-size:14px}}#clear{{border:0;background:none;color:var(--orange);font-weight:800;cursor:pointer}}.event-section{{padding-top:34px}}.section-heading{{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid #d6d0c5;padding-bottom:14px;margin-bottom:18px}}.eyebrow{{display:block;font-size:11px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;color:var(--orange);margin-bottom:5px}}.section-heading h2{{font-family:Georgia,serif;font-size:clamp(28px,4vw,40px);margin:0;letter-spacing:-.02em}}.section-count{{font-size:13px;color:var(--muted)}}.event-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}}.event-card{{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 5px 18px rgba(31,45,46,.05);transition:transform .18s ease,box-shadow .18s ease}}.event-card:hover{{transform:translateY(-2px);box-shadow:var(--shadow)}}.event-image{{width:100%;height:190px;object-fit:cover;background:#dfe8e6}}.event-body{{padding:20px}}.event-top{{display:flex;gap:16px;align-items:flex-start}}.date-tile{{flex:0 0 62px;text-align:center;border:1px solid #e1d9ca;border-radius:14px;overflow:hidden;background:#faf5eb}}.date-tile span{{display:block;padding:5px;background:var(--orange);color:#fff;font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}}.date-tile strong{{display:block;font-family:Georgia,serif;font-size:26px;line-height:1;padding-top:8px}}.date-tile small{{display:block;padding:3px 0 8px;color:var(--muted);font-size:11px;text-transform:uppercase}}.event-heading{{min-width:0}}.pill-row{{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:7px}}.pill{{display:inline-block;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:800;letter-spacing:.03em}}.category{{background:#e5efed;color:#235557}}.distance{{background:#faeadf;color:#934128}}.event-card h3{{font-family:Georgia,serif;font-size:23px;line-height:1.13;margin:0;letter-spacing:-.015em}}.when{{font-weight:800;color:var(--orange);margin:7px 0 0;font-size:14px}}.where{{font-size:14px;line-height:1.45;color:#4f5c65;margin:16px 0 8px}}.where span{{color:var(--gold);font-size:10px}}.description{{font-size:14px;line-height:1.55;color:var(--muted);margin:10px 0}}.card-footer{{display:flex;justify-content:space-between;gap:14px;align-items:end;border-top:1px solid #ece7df;margin-top:16px;padding-top:13px;font-size:11px;color:#7b858c}}.card-footer a{{flex:0 0 auto;color:var(--orange);font-size:13px;font-weight:850;text-decoration:none}}.empty{{display:none;text-align:center;padding:70px 20px}}.empty h2{{font-family:Georgia,serif;font-size:30px;margin:0 0 8px}}footer{{background:#102f33;color:#c9dcda;padding:28px;text-align:center;font-size:12px}}footer a{{color:#ffe0a7}}[hidden]{{display:none!important}}
 @media(max-width:800px){{.hero-inner{{padding:46px 20px 78px}}.stats{{grid-template-columns:repeat(2,1fr);padding:0 16px;margin-top:-38px}}main{{padding:26px 16px 60px}}.filters{{position:relative;top:0;grid-template-columns:1fr 1fr}}.control.search{{grid-column:1/-1}}.event-grid{{grid-template-columns:1fr}}}}
 @media(max-width:480px){{h1{{font-size:44px}}.stats{{gap:8px}}.stat{{padding:15px}}.stat strong{{font-size:28px}}.filters{{grid-template-columns:1fr}}.control.search{{grid-column:auto}}.event-body{{padding:16px}}.event-card h3{{font-size:21px}}.card-footer{{align-items:flex-start;flex-direction:column}}}}
+.hero-actions{{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}}.button-link{{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 17px;border-radius:999px;background:var(--gold);color:#173b3f;font-size:14px;font-weight:850;text-decoration:none}}.button-link.secondary{{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}}.about{{scroll-margin-top:24px;margin-top:64px;padding:36px;border-radius:24px;background:var(--green);color:#fff;box-shadow:var(--shadow)}}.about-grid{{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:36px;align-items:start}}.about-kicker{{display:block;color:#ffd58d;font-size:11px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;margin-bottom:8px}}.about h2{{font-family:Georgia,serif;font-size:clamp(31px,5vw,46px);line-height:1.05;margin:0 0 16px}}.about p{{color:#d8e7e5;line-height:1.65;margin:0 0 14px}}.about-card{{padding:24px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:rgba(255,255,255,.06)}}.about-card h3{{font-family:Georgia,serif;font-size:24px;margin:0 0 10px}}.about-links{{display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:18px}}.about-links a{{color:#ffd58d;font-weight:800;text-underline-offset:3px}}.about-privacy{{font-size:12px;color:#bcd2d0!important;margin-top:18px!important}}footer nav{{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-left:8px}}
+@media(max-width:800px){{.about{{padding:28px 22px}}.about-grid{{grid-template-columns:1fr;gap:22px}}}}
 </style></head><body>
-<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {checked} sources checked · {contributing} contributing{f' · {pending_sources} integration pending' if pending_sources else ''}</p></div></header>
+<header class='hero'><div class='hero-inner'><div class='brand'><span class='brand-mark'>W</span> Warsaw Weekend</div><h1>Find something worth going to.</h1><p class='hero-copy'>A Warsaw-first guide to concerts, markets, classes, family activities, festivals, sports, and community events across northern Indiana.</p><div class='hero-actions'><a class='button-link' href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event</a><a class='button-link secondary' href='#about'>About the project</a></div><p class='updated'>Updated {now:%A, %B %d at %I:%M %p} · {checked} sources checked · {contributing} contributing{f' · {pending_sources} integration pending' if pending_sources else ''}</p></div></header>
 <div class='stats'><div class='stat'><strong>{local_count}</strong><span>Warsaw & Winona Lake</span></div><div class='stat'><strong>{nearby_count}</strong><span>within 25 miles</span></div><div class='stat'><strong>{week_count}</strong><span>in the next 7 days</span></div><div class='stat'><strong>{len(events)}</strong><span>upcoming events</span></div></div>
 <main><div class='filters' aria-label='Event filters'><div class='control search'><label for='search'>Search</label><input id='search' type='search' placeholder='Music, markets, Warsaw…'></div><div class='control'><label for='distance'>Distance</label><select id='distance'><option value='all'>Everywhere</option><option value='local'>Warsaw & Winona Lake</option><option value='nearby'>Within 25 miles</option><option value='regional'>Within 50 miles</option></select></div><div class='control'><label for='date-range'>When</label><select id='date-range'><option value='all'>Any date</option><option value='7'>Next 7 days</option><option value='14'>Next 2 weeks</option><option value='30'>Next 30 days</option></select></div><div class='control'><label for='category'>Category</label><select id='category'><option value='all'>All categories</option>{options}</select></div></div>
-<div class='results-bar'><span id='result-count'>{len(events)} events shown</span><button id='clear' type='button'>Clear filters</button></div>{sections}<div class='empty' id='empty'><h2>No events match those filters.</h2><p>Try a wider distance, date range, or a shorter search.</p></div></main>
-<footer>Built from public event calendars. Always confirm time, admission, and availability with the linked source. · <a href='https://github.com/agr77one/warsaw-events'>View the project</a></footer>
+<div class='results-bar'><span id='result-count'>{len(events)} events shown</span><button id='clear' type='button'>Clear filters</button></div>{sections}<div class='empty' id='empty'><h2>No events match those filters.</h2><p>Try a wider distance, date range, or a shorter search.</p></div>
+<section class='about' id='about'><div class='about-grid'><div><span class='about-kicker'>Why this exists</span><h2>One useful calendar for the Warsaw area.</h2><p>Event details are scattered across venue sites, library calendars, tourism pages, social posts, and word of mouth. Warsaw Weekend brings those public listings into one searchable place, puts events closest to Warsaw first, and links back to the original source so details can be confirmed.</p><p>Community members and organizers can submit missing events. Every submission is reviewed before it reaches the public calendar, and approval publishes only event information&mdash;never the submitter's email or private review notes.</p></div><aside class='about-card'><span class='about-kicker'>About the creator</span><h3>Hi, I&rsquo;m Arseniy.</h3><p>I created Warsaw Weekend to make it easier to discover what is happening close to home without checking a dozen different calendars.</p><div class='about-links'><a href='https://github.com/agr77one' target='_blank' rel='noopener noreferrer'>Connect with me on GitHub</a><a href='https://github.com/agr77one/warsaw-events/issues' target='_blank' rel='noopener noreferrer'>Send a correction or idea</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event for review</a></div><p class='about-privacy'>Submission contact details stay in the private moderation workbook and are not published.</p></aside></div></section></main>
+<footer>Built from public event calendars. Always confirm time, admission, and availability with the linked source.<nav aria-label='Project links'><a href='#about'>About</a><a href='{COMMUNITY_FORM_URL}' target='_blank' rel='noopener noreferrer'>Submit an event</a><a href='https://github.com/agr77one/warsaw-events' target='_blank' rel='noopener noreferrer'>View the project</a></nav></footer>
 <script>
 const controls={{search:document.querySelector('#search'),distance:document.querySelector('#distance'),days:document.querySelector('#date-range'),category:document.querySelector('#category')}};
 const cards=[...document.querySelectorAll('[data-event]')];
@@ -1111,3 +1233,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
