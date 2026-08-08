@@ -6,6 +6,7 @@ Automated discovery, validation, deduplication, tracking, publishing, and email 
 
 - **Crawler:** JSON-LD first, configurable calendar-card extraction second, and linked official event pages where needed. A curl fallback handles public calendars that reject ordinary HTTP clients.
 - **Community submissions:** a public Google Form feeds a private moderation workbook; only approved event fields are mirrored into a separate public CSV feed for the crawler.
+- **Corrections and source ideas:** a second public free-form Google Form writes to a separate tab in the same private moderation workbook and never publishes automatically.
 - **Tracking:** SQLite database at `data/events.db`.
 - **Exports:** CSV and JSON under `output/`.
 - **Newsletter:** Markdown and HTML under `output/`.
@@ -15,7 +16,9 @@ Automated discovery, validation, deduplication, tracking, publishing, and email 
 
 ## Submit and review an event
 
-Use the [Warsaw Weekend event form](https://docs.google.com/forms/d/e/1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform) to suggest a missing event. New submissions enter the private review queue as `Pending`. An owner checks the official link, date, time, venue, address, price, and local relevance, then chooses one of these statuses:
+Use the [Warsaw Weekend event form](https://docs.google.com/forms/d/e/1FAIpQLSf3XuV_y1QgqL9byWZYKt0Q_TrEGBKU1k0b4Pv7_qF7Au7Rfg/viewform) to add a new event or an official event link that should be tracked. Use the separate [correction and source form](https://docs.google.com/forms/d/e/1FAIpQLSfg7Wm_fmXe1Dat1_l1Uq50PWpg7bPGdZ0Xe0RGxLiFA6t29Q/viewform) to report an incorrect listing, suggest a calendar, venue, Facebook page, or website, or share an idea without needing a GitHub account.
+
+Event submissions enter the private review queue as `Pending`. An owner checks the official link, date, time, venue, address, price, and local relevance, then chooses one of these statuses:
 
 - `Pending`: waiting for review
 - `Needs Information`: the submitter or organizer must clarify a detail
@@ -23,7 +26,7 @@ Use the [Warsaw Weekend event form](https://docs.google.com/forms/d/e/1FAIpQLSf3
 - `Rejected`: not published
 - `Withdrawn`: removed from the public feed at the next successful update
 
-The public workbook contains only the submission ID and event details. Submitter names, email addresses, reviewer identity, and review notes remain in the private workbook. The crawler reads the sanitized [approved-event CSV feed](https://docs.google.com/spreadsheets/d/1Yh1bXAiwe_ArXnINUhSSZyWbDWXu9Dz_W4Lg0t_HyYI/gviz/tq?tqx=out:csv&sheet=Approved%20Events) during the 8:00 PM daily run and Sunday newsletter run. A failed feed request leaves previously published community events untouched; a successful feed removes items that are no longer approved.
+The public workbook contains only the submission ID and event details. Submitter names, email addresses, feedback responses, reviewer identity, and review notes remain in the private workbook. Feedback is reviewed manually and does not flow into the public feed. The crawler reads the sanitized [approved-event CSV feed](https://docs.google.com/spreadsheets/d/1Yh1bXAiwe_ArXnINUhSSZyWbDWXu9Dz_W4Lg0t_HyYI/gviz/tq?tqx=out:csv&sheet=Approved%20Events) during the 8:00 PM daily run and Sunday newsletter run. A failed feed request leaves previously published community events untouched; a successful feed removes items that are no longer approved.
 
 `COMMUNITY_EVENTS_FEED_URL` can override the built-in public feed URL for testing or migration. It is not a secret and must point only to a sanitized CSV with the documented event columns.
 
@@ -32,6 +35,8 @@ The public workbook contains only the submission ID and event details. Submitter
 The configured source set starts with Warsaw Community Public Library, Downtown Warsaw, The Village at Winona, Wagon Wheel, and Warsaw/Winona Lake event indexes. It then expands through Rochester, Plymouth, Goshen, Wabash, Elkhart, Shipshewana, Fort Wayne, and South Bend.
 
 Official venue and tourism calendars receive confidence grade A. Local reporting receives B, and public community indexes receive C. Grade C fills gaps in JavaScript-only and Facebook-first calendars but is clearly labeled on the portal; users should always confirm details at the linked page.
+
+Duplicate matching requires a compatible date, location, similar title, and time. Official listings win, useful missing fields such as admission and image are merged from secondary copies, and duplicate database rows are deleted with a `DUPLICATE_REMOVED` audit record. Separate same-day showtimes remain separate events.
 
 ## Outputs
 
@@ -103,6 +108,8 @@ access to public Page content), then configure:
 Until all three values exist, source health reports `not_configured`; daily and
 Sunday jobs continue normally and do not attempt a Facebook HTML request. Never
 paste the token into `config/sources.yaml`, workflow YAML, an issue, or a log.
+Meta App ID and App Secret alone are not runtime authorization; the workflow uses
+the Page access token and Page ID issued for authorized Page access.
 
 Safe source options, in preference order, remain:
 
