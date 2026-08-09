@@ -90,6 +90,9 @@ Each source has an approximate distance from Warsaw, and recognized event cities
 
 ## Facebook-only sources
 
+See [Facebook Graph API setup](FACEBOOK_SETUP.md) for the Page-owner
+authorization, GitHub secret names, endpoint test, and troubleshooting steps.
+
 Direct Facebook HTML scraping remains disabled. Facebook currently presents the
 North Pointe Cinemas public page behind a login dialog, and Meta's automated-data
 terms require express permission for automated collection. The pipeline now has
