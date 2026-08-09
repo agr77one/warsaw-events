@@ -1,21 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 08–August 22, 2026
+Your guide for August 09–August 23, 2026
 
-129 events found in the next two weeks, including 35 in Warsaw and Winona Lake.
+137 events found in the next two weeks, including 33 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Sunday, August 09 — Division I Nationals Tournament
-**Time to be confirmed · Waterhawks, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/division-i-nationals-tournament/)
-
-## Sunday, August 09 — Sunday Service
-**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
 
 ## Monday, August 10 — Genre Book Club
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
@@ -231,6 +221,21 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
+## Sunday, August 09 — Line Dancing & Wine
+**2:00 PM–4:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
+Let’s line dance and drink wine! Sandy Floyd will be teaching EASY beginner line dances every 2nd Saturday (June, July, and August). Come join in the fun and learn some new moves! $10 fee
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/line-dancing-wine/)
+
+## Sunday, August 09 — Monarch Music Fest
+**2:00 PM–5:30 PM · Wellfield Botanic Gardens, Elkhart, IN**
+Wellfield Botanic Gardens is excited to welcome Wyatt Marshall and the Tumbleweed Jumpers to the Woodland Pavilion for Monarch Music Fest, a fun-filled family event benefitting Lexington House of Elkhart. Learn more…
+Music & shows · About 41 miles away · [Details](https://visitshipshewana.org/event/monarch-music-fest/)
+
+## Sunday, August 09 — Gemini and Who Gives a Crepe
+**3:00 PM–6:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
+Join us on the Deck for Gemini! Gemini is a unique two or three-piece rock experience. Come and enjoy members Mel Williams, Jim Stanton, and KJ Ham as they rock it on the deck! Learn more about Gemini on their social…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/gemini-and-who-gives-a-crepe/)
+
 ## Sunday, August 09 — Green Hat Lounge Live Music: Eric Clancy
 **5:00 PM–8:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/9: Eric Clancy
@@ -241,15 +246,45 @@ Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/
 This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-10/)
 
+## Monday, August 10 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-10/)
+
 ## Monday, August 10 — Storytime
 **10:00 AM–10:30 AM · Wabash, IN**
 Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime/)
 
+## Monday, August 10 — Little Big Town
+**8:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+GRAMMY, ACM, CMA, AMA, and Emmy Award-winning group, Little Big Town - consisting of members Karen Fairchild, Phillip Sweet, Kimberly Schlapman, and Jimi Westbrook - burst onto the music scene 25 years ago with smash…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/little-big-town/2026-08-10/)
+
+## Tuesday, August 11 — Shipshewana Flea Market
+**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
+Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-11/)
+
 ## Tuesday, August 11 — Annual Themed Art Competition
 **8:00 AM–5:00 PM · Wabash, IN**
 This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-11/)
+
+## Tuesday, August 11 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-11/)
+
+## Tuesday, August 11 — Coblentz Chocolate Company Grand Opening
+**1:00 PM–6:00 PM · Coblentz Chocolate Company, Middlebury, IN**
+Grand Opening & Ribbon Cutting Coblentz Chocolate Company is excited to officially celebrate the opening of its newest retail location with a Grand Opening and Ribbon Cutting Ceremony on Tuesday, August 11, at 12:00…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/coblentz-chocolate-company-grand-opening/)
+
+## Tuesday, August 11 — Love Comes Softly the Musical
+**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-11/)
 
 ## Wednesday, August 12 — Annual Themed Art Competition
 **8:00 AM–5:00 PM · Wabash, IN**
@@ -266,51 +301,6 @@ Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.co
 Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
 
-## Wednesday, August 12 — Annual Themed Art Competition Reception
-**5:30 PM–7:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition-reception/)
-
-## Thursday, August 13 — Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
-**10:00 AM–10:30 AM · Wabash, IN**
-Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/educational-babytime-creating-predictable-moments-in-the-day-with-christy-garau/)
-
-## Thursday, August 13 — Mahjong Mornings
-**10:00 AM–12:00 PM · Wabash, IN**
-NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/mahjong-mornings-11/)
-
-## Thursday, August 13 — Vandenberg: My Whitesnake Years
-**7:00 PM–9:00 PM · Wabash, IN**
-Vandenberg: My Whitesnake Years with Marco Mendoza and Vinnie Moore delivers an electrifying night of iconic hits and guitar mastery, led by former Whitesnake guitarist Adrian Vandenberg, known for hits like “Here I…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/vandenberg-my-whitesnake-years/)
-
-## Friday, August 14 — Quilting & Crafting Club
-**10:00 AM–4:00 PM · Wabash, IN**
-If you love crafting, and enjoy gatherings of other creative minds to work on projects together, this club is for you! Gather your current projects, and head to the library to meet up with fellow crafters and work on…
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/quilting-crafting-club/)
-
-## Saturday, August 15 — Miles & Smiles Run & Walk
-**8:00 AM–9:00 AM · Wabash, IN**
-Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-15/)
-
-## Saturday, August 15 — Wabash Farmers Market
-**8:00 AM–12:00 PM · Wabash, IN**
-Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-15/)
-
-## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
-**7:00 PM–10:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/15: The Nobles (Mike Neglia & Jack Wellington)
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-the-nobles/)
-
-## Sunday, August 16 — Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
-**5:00 PM–8:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
-
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
@@ -323,23 +313,23 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 
 # Newly found or updated
 
-- **NEW** Mitchell Tenpenny
-- **NEW** Elkhart Farmers Market
-- **NEW** Kids P.O.P. (Power of Produce)
-- **NEW** The Birthplace Hospital Group Tour
-- **NEW** Lagro Street Market
-- **NEW** Miles & Smiles Run & Walk
-- **NEW** Rock the Quarry | 2026
-- **NEW** Wabash Farmers Market
-- **NEW** Back to School Bash
-- **NEW** Fort Wayne Muddy River Run 2026
-- **NEW** Liking For Biking
-- **NEW** Elkhart Grand Prix Coachmen Auto Club car show
-- **NEW** Registration Open For Acting, Musical, Latin Dance Classes In Goshen
-- **NEW** Fiesta Fort Wayne 2026
-- **NEW** Splash Bash
-- **NEW** Coraline Market 🪡 🐈‍⬛
-- **NEW** MTG The Hobbit Prerelease Noon
-- **NEW** Mahjong & Mingle
-- **NEW** An afternoon with the Guardians and No Name Quartet
-- **NEW** BBQ & Brew Fest 2026
+- **NEW** Butter, Baseball And A Brand-New Train: Indiana State Fair Returns
+- **NEW** Green Hat Lounge Live Music: Carolyn Martin
+- **NEW** Neil Diamond Tribute
+- **NEW** Crowder
+- **NEW** Live on the Patio @ West of Warren
+- **NEW** Division I Nationals Tournament
+- **NEW** Potawatomi Park Summer Concert Series
+- **NEW** Sunday Service
+- **NEW** FREE Back To School Haircuts & Pictures
+- **NEW** Line Dancing & Wine
+- **NEW** Monarch Music Fest
+- **NEW** Gemini and Who Gives a Crepe
+- **NEW** Green Hat Lounge Live Music: Eric Clancy
+- **NEW** Sunset Yoga on Jackson Rooftop
+- **NEW** Water Aerobics at the City Pool
+- **NEW** Annual Themed Art Competition
+- **NEW** Bluebird Acres Blossoms U Pick
+- **NEW** Storytime
+- **NEW** Genre Book Club
+- **NEW** Little Big Town

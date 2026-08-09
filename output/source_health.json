@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 8,
-    "event_count": 8,
+    "raw_event_count": 7,
+    "event_count": 7,
     "error": null
   },
   {
@@ -52,7 +52,7 @@
     "url": "https://www.inkfreenews.com/",
     "status": "ok",
     "raw_event_count": 35,
-    "event_count": 2,
+    "event_count": 1,
     "error": null
   },
   {
@@ -82,17 +82,17 @@
   {
     "name": "Lake City Skiers",
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 35,
+    "event_count": 7,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 5,
+    "event_count": 5,
     "error": null
   },
   {
@@ -146,9 +146,9 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 12,
+    "event_count": 12,
     "error": null
   },
   {
@@ -164,7 +164,7 @@
     "url": "https://allevents.in/fort-wayne/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 44,
+    "event_count": 45,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 100,
-    "event_count": 63,
+    "event_count": 58,
     "error": null
   },
   {
