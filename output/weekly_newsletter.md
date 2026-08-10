@@ -2,7 +2,7 @@
 
 Your guide for August 09–August 23, 2026
 
-137 events found in the next two weeks, including 33 in Warsaw and Winona Lake.
+144 events found in the next two weeks, including 37 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
@@ -46,6 +46,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night
 **9:00 AM · Warsaw Fairground, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/truescale-truck-show/200030085277720)
+
+## Friday, August 14 — Fall Mount Up Sale
+**1:00 PM · 5246 W 400 N, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/fall-mount-up-sale/200030531116102)
 
 ## Friday, August 14 — Sip N Shop
 **5:00 PM–7:00 PM · Downtown Warsaw, IN**
@@ -172,6 +177,21 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 The Lake City Skiers will be performing three shows at Indiana Beach.
 Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/indiana-beach-show/)
 
+## Sunday, August 23 — K County Jr Roller Derby & South Bend Roller Derby Commanders Double Header
+**12:00 PM · Eastlake Skate Center, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/k-county-jr-roller-derby-and-south-bend-roller-derby-commanders-double-header/200029710827146)
+
+## Sunday, August 23 — MTG Commander Party: The Hobbit
+**12:00 PM–5:00 PM · 118 W Market St, Warsaw, IN**
+
+Arts & learning · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-party-the-hobbit/200030498620502)
+
+## Sunday, August 23 — Home Show
+**6:30 PM–7:30 PM · Hidden Lake, Warsaw, IN**
+The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
+Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
+
 # Around Kosciusko County
 
 ## Monday, August 10 — Water Aerobics at the City Pool
@@ -221,26 +241,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Sunday, August 09 — Line Dancing & Wine
-**2:00 PM–4:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
-Let’s line dance and drink wine! Sandy Floyd will be teaching EASY beginner line dances every 2nd Saturday (June, July, and August). Come join in the fun and learn some new moves! $10 fee
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/line-dancing-wine/)
-
-## Sunday, August 09 — Monarch Music Fest
-**2:00 PM–5:30 PM · Wellfield Botanic Gardens, Elkhart, IN**
-Wellfield Botanic Gardens is excited to welcome Wyatt Marshall and the Tumbleweed Jumpers to the Woodland Pavilion for Monarch Music Fest, a fun-filled family event benefitting Lexington House of Elkhart. Learn more…
-Music & shows · About 41 miles away · [Details](https://visitshipshewana.org/event/monarch-music-fest/)
-
-## Sunday, August 09 — Gemini and Who Gives a Crepe
-**3:00 PM–6:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
-Join us on the Deck for Gemini! Gemini is a unique two or three-piece rock experience. Come and enjoy members Mel Williams, Jim Stanton, and KJ Ham as they rock it on the deck! Learn more about Gemini on their social…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/gemini-and-who-gives-a-crepe/)
-
-## Sunday, August 09 — Green Hat Lounge Live Music: Eric Clancy
-**5:00 PM–8:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/9: Eric Clancy
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-eric-clancy/)
-
 ## Monday, August 10 — Annual Themed Art Competition
 **8:00 AM–5:00 PM · Wabash, IN**
 This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
@@ -286,20 +286,40 @@ Community · About 44 miles away · [Details](https://visitshipshewana.org/event
 The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-11/)
 
+## Tuesday, August 11 — Little Big Town
+**8:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+GRAMMY, ACM, CMA, AMA, and Emmy Award-winning group, Little Big Town - consisting of members Karen Fairchild, Phillip Sweet, Kimberly Schlapman, and Jimi Westbrook - burst onto the music scene 25 years ago with smash…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/little-big-town/2026-08-11/)
+
+## Wednesday, August 12 — Shipshewana Flea Market
+**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
+Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-12/)
+
 ## Wednesday, August 12 — Annual Themed Art Competition
 **8:00 AM–5:00 PM · Wabash, IN**
 This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-12/)
 
-## Wednesday, August 12 — Walking Wednesday
-**9:00 AM–10:00 PM · Wabash, IN**
-Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-12/)
+## Wednesday, August 12 — Miscellaneous & Antique Weekly Auctions
+**9:00 AM–1:00 PM · Shipshewana Auction Misc. & Antique Bldg., IN**
+Shipshewana Trading Place holds Antique & Miscellaneous Auctions Every Wednesday, year-round, at 9 am. Holidays could affect these days. Move from ring to ring catching the best deals on a wide variety of merchandise…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/miscellaneous-antique-weekly-auctions/2026-08-12/)
 
-## Wednesday, August 12 — Sew Much Fun: Beginner Cross Stitch
-**3:30 PM–4:30 PM · Wabash, IN**
-Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
+## Wednesday, August 12 — Weekly Livestock Auction
+**9:00 AM–5:00 PM · Shipshewana Auction Barn, IN**
+Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-12/)
+
+## Wednesday, August 12 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-12/)
+
+## Wednesday, August 12 — Love Comes Softly the Musical
+**5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-12/)
 
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
@@ -313,23 +333,23 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 
 # Newly found or updated
 
-- **NEW** Butter, Baseball And A Brand-New Train: Indiana State Fair Returns
-- **NEW** Green Hat Lounge Live Music: Carolyn Martin
-- **NEW** Neil Diamond Tribute
-- **NEW** Crowder
-- **NEW** Live on the Patio @ West of Warren
 - **NEW** Division I Nationals Tournament
 - **NEW** Potawatomi Park Summer Concert Series
-- **NEW** Sunday Service
-- **NEW** FREE Back To School Haircuts & Pictures
-- **NEW** Line Dancing & Wine
-- **NEW** Monarch Music Fest
-- **NEW** Gemini and Who Gives a Crepe
 - **NEW** Green Hat Lounge Live Music: Eric Clancy
-- **NEW** Sunset Yoga on Jackson Rooftop
 - **NEW** Water Aerobics at the City Pool
 - **NEW** Annual Themed Art Competition
-- **NEW** Bluebird Acres Blossoms U Pick
 - **NEW** Storytime
 - **NEW** Genre Book Club
+- **NEW** Practice Practice Practice! WE HAVE TIMING!!!!!
+- **NEW** Annual Themed Art Competition
+- **NEW** The Toddler Lounge
+- **NEW** Story Emporium Used Bookstore
+- **NEW** Creative Writing Club
 - **NEW** Little Big Town
+- **NEW** Annual Themed Art Competition
+- **NEW** Shipshewana Flea Market
+- **NEW** Miscellaneous & Antique Weekly Auctions
+- **NEW** Walking Wednesday
+- **NEW** Weekly Livestock Auction
+- **NEW** Bluebird Acres Blossoms U Pick
+- **NEW** Planting and Caring for Bulbs

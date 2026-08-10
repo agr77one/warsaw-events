@@ -50,9 +50,9 @@
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "ok",
+    "status": "no_upcoming",
     "raw_event_count": 35,
-    "event_count": 1,
+    "event_count": 0,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 5,
-    "event_count": 5,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 100,
-    "event_count": 58,
+    "event_count": 57,
     "error": null
   },
   {
