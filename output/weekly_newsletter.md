@@ -1,16 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 09–August 23, 2026
+Your guide for August 10–August 24, 2026
 
-144 events found in the next two weeks, including 37 in Warsaw and Winona Lake.
+148 events found in the next two weeks, including 41 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Monday, August 10 — Genre Book Club
-**6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-Come and meet new people who have the joy of reading! We read a different genre every month! Aug. Topic: Book vs. Movie
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/genre-book-club-3142)
 
 ## Tuesday, August 11 — Practice Practice Practice! WE HAVE TIMING!!!!!
 **Time to be confirmed · Hire Park BMX, Warsaw, IN**
@@ -81,6 +76,11 @@ Community · Warsaw area · [Details](https://downtownwarsaw.com/event/le-diner-
 **8:00 PM–10:00 PM · Winona Lake Limitless Park and Splash Pad, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/winona-lake/glow-float-winona-lake-night-paddle-2026/100001993973214561)
+
+## Sunday, August 16 — Sunday Service
+**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
 
 ## Sunday, August 16 — Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
 **10:00 AM–12:00 PM · Plaza de Toros Mexico, Warsaw, IN**
@@ -162,6 +162,11 @@ Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/libr
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/grouchy-greg-4-county-hamfest/200030384069410)
 
+## Saturday, August 22 — Make Your Own Candles!
+**10:00 AM–4:00 PM · 217A E Center St, Warsaw, IN, United States, Indiana 46580**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/make-your-own-candles/200030532843853)
+
 ## Saturday, August 22 — Adult Scrabble Tournament
 **10:30 AM–1:30 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
 We will start with groups of 2 person challenges in Scrabble and work down to the final pair. Bring people with you or just come and join in! Please register with the library.
@@ -192,12 +197,22 @@ Arts & learning · Warsaw area · [Details](https://allevents.in/warsaw/mtg-comm
 The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
 Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
 
+## Monday, August 24 — Wagon Wheel Conservatory 2026 Fall Session Classes
+**Time to be confirmed · Wagon Wheel Center for the Arts, Warsaw, IN**
+This six-week session of classes begins August 24th and runs through October 4th, culminating in a showcase performance at 3pm on Sunday, October 4th with a full rehearsal from 12:00pm-2:15pm beforehand. Classes will…
+Sports & outdoors · Warsaw area · [Details](https://wagonwheelcenter.org/event/fall-conservatory-classes/)
+
+## Monday, August 24 — 50-Cent Stems Student Sale 2026
+**9:00 AM · The Big Gray Barn Co. You-Pick, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/50-cent-stems-student-sale-2026/200030326512627)
+
+## Monday, August 24 — Beginning Crocheting for Adults
+**6:00 PM–7:00 PM · Meeting Room C at Warsaw Community Public Library, IN**
+Join us as we continue to learn about the art of crocheting. This is perfect for beginners or those who wat to brush up their skills. Registration is required.
+Sports & outdoors · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/beginning-crocheting-adults-3276)
+
 # Around Kosciusko County
-
-## Monday, August 10 — Water Aerobics at the City Pool
-**Time to be confirmed · Rochester City Pool, IN**
-
-Community · About 24 miles away · [Details](https://allevents.in/rochester/water-aerobics-at-the-city-pool/200030088846136)
 
 ## Thursday, August 13 — Serenity on the Water 2026
 **7:00 PM–8:00 PM · Rochester City Pool, IN**
@@ -240,26 +255,6 @@ Music & shows · About 24 miles away · [Details](https://allevents.in/rochester
 Community · About 24 miles away · [Details](https://allevents.in/rochester/park-fest-2026/200030130941444)
 
 # Worth the drive
-
-## Monday, August 10 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-10/)
-
-## Monday, August 10 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-10/)
-
-## Monday, August 10 — Storytime
-**10:00 AM–10:30 AM · Wabash, IN**
-Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime/)
-
-## Monday, August 10 — Little Big Town
-**8:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-GRAMMY, ACM, CMA, AMA, and Emmy Award-winning group, Little Big Town - consisting of members Karen Fairchild, Phillip Sweet, Kimberly Schlapman, and Jimi Westbrook - burst onto the music scene 25 years ago with smash…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/little-big-town/2026-08-10/)
 
 ## Tuesday, August 11 — Shipshewana Flea Market
 **8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
@@ -311,15 +306,35 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-12/)
 
+## Wednesday, August 12 — Walking Wednesday
+**9:00 AM–10:00 PM · Wabash, IN**
+Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-12/)
+
 ## Wednesday, August 12 — Bluebird Acres Blossoms U Pick
 **10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
 Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
 Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-12/)
 
+## Wednesday, August 12 — Sew Much Fun: Beginner Cross Stitch
+**3:30 PM–4:30 PM · Wabash, IN**
+Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
+
 ## Wednesday, August 12 — Love Comes Softly the Musical
 **5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
 The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-12/)
+
+## Wednesday, August 12 — Annual Themed Art Competition Reception
+**5:30 PM–7:00 PM · Wabash, IN**
+This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition-reception/)
+
+## Wednesday, August 12 — The American Ride – Toby Keith Tribute
+**7:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+The American Ride is a high-energy tribute celebrating the music, swagger, and larger-than-life spirit of country superstar Toby Keith. From rowdy honky-tonk anthems to heartfelt ballads and red-white-and-blue crowd…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/the-american-ride-toby-keith-tribute/)
 
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
@@ -333,23 +348,23 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 
 # Newly found or updated
 
-- **NEW** Division I Nationals Tournament
-- **NEW** Potawatomi Park Summer Concert Series
-- **NEW** Green Hat Lounge Live Music: Eric Clancy
-- **NEW** Water Aerobics at the City Pool
+- **NEW** 2027 Summer Season Subscription
 - **NEW** Annual Themed Art Competition
 - **NEW** Storytime
-- **NEW** Genre Book Club
 - **NEW** Practice Practice Practice! WE HAVE TIMING!!!!!
 - **NEW** Annual Themed Art Competition
 - **NEW** The Toddler Lounge
 - **NEW** Story Emporium Used Bookstore
 - **NEW** Creative Writing Club
-- **NEW** Little Big Town
 - **NEW** Annual Themed Art Competition
-- **NEW** Shipshewana Flea Market
-- **NEW** Miscellaneous & Antique Weekly Auctions
 - **NEW** Walking Wednesday
-- **NEW** Weekly Livestock Auction
-- **NEW** Bluebird Acres Blossoms U Pick
 - **NEW** Planting and Caring for Bulbs
+- **NEW** Sew Much Fun: Beginner Cross Stitch
+- **NEW** British Firework Championships
+- **NEW** Annual Themed Art Competition Reception
+- **NEW** Nitro Circus
+- **NEW** The American Ride – Toby Keith Tribute
+- **NEW** Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
+- **NEW** Mahjong Mornings
+- **NEW** Thursday Night Thunder Monthly Series-August
+- **NEW** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass

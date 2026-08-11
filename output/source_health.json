@@ -4,7 +4,7 @@
     "url": "https://warsaw.librarycalendar.com/events/list",
     "status": "ok",
     "raw_event_count": 140,
-    "event_count": 135,
+    "event_count": 136,
     "error": null
   },
   {
@@ -84,15 +84,15 @@
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
     "status": "ok",
     "raw_event_count": 35,
-    "event_count": 7,
+    "event_count": 6,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 7,
+    "event_count": 7,
     "error": null
   },
   {
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 22,
-    "event_count": 20,
+    "raw_event_count": 21,
+    "event_count": 19,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 100,
-    "event_count": 57,
+    "event_count": 56,
     "error": null
   },
   {
