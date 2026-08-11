@@ -16,6 +16,20 @@ the repository has an authorized Page access token and Page ID.
 The app secret is not used by the scheduled scraper and must not be added to the
 repository.
 
+## Tested client token result
+
+The supplied Meta **Client Token** was tested in Graph API Explorer on August
+11, 2026. The raw token is not a complete OAuth access token and returned error
+`190` (`Cannot parse access token`). In Meta's `APP_ID|CLIENT_TOKEN` format, it
+successfully identified the `localevents` app but still could not read North
+Pointe Cinemas. Meta returned error `100` and required
+`pages_read_engagement`, Page Public Content Access, or Page Public Metadata
+Access.
+
+A client token therefore cannot be stored as `FACEBOOK_PAGE_ACCESS_TOKEN` and
+cannot authorize the event scraper. It is intentionally not saved in GitHub,
+the repository, workflow logs, or generated output.
+
 ## Authorization requirement
 
 A Page access token acts on behalf of a Facebook Page that the signed-in user is
@@ -27,6 +41,20 @@ the app, or complete Meta's required review for public Page-content access.
 App ID and App Secret alone do not authorize reading another Page's events.
 Development-mode tokens also work only for app roles and Pages those accounts
 are permitted to manage.
+
+If nobody operating Warsaw Weekend manages North Pointe Cinemas, there are two
+supported routes:
+
+1. Ask the Page owner to authorize the app and issue Page access, or
+2. Submit the app for Meta review for the public Page-content feature and
+   permissions required by the endpoint. Approval is controlled by Meta and is
+   not replaced by an app ID, app secret, client token, or an ordinary Facebook
+   login.
+
+Until one route succeeds, keep the Facebook source disabled and use a
+venue-owned website, calendar, RSS/iCalendar feed, newsletter, or the public
+source-submission form. Automated Facebook HTML scraping is not an approved
+fallback for this project.
 
 ## Obtain and verify the Page token
 
