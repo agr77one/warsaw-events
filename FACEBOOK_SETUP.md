@@ -32,62 +32,44 @@ the repository, workflow logs, or generated output.
 
 ## Authorization requirement
 
-A Page access token acts on behalf of a Facebook Page that the signed-in user is
-allowed to manage. If North Pointe Cinemas does not appear in the signed-in
-account's managed Pages, stop: the app cannot mint a Page token for that Page.
-Ask the Page owner to grant appropriate Facebook/Business access and authorize
-the app, or complete Meta's required review for public Page-content access.
+Warsaw Weekend does **not** own or manage North Pointe Cinemas or any other
+Facebook Page. A managed-Page token flow therefore does not apply to this
+project.
 
-App ID and App Secret alone do not authorize reading another Page's events.
-Development-mode tokens also work only for app roles and Pages those accounts
-are permitted to manage.
+The supported Facebook API route is to submit the `localevents` app for Meta
+review for the public Page-content feature and permissions required by the
+`/{PAGE_ID}/events` endpoint. Approval is controlled by Meta and is not replaced
+by an app ID, app secret, client token, or an ordinary Facebook login.
 
-If nobody operating Warsaw Weekend manages North Pointe Cinemas, there are two
-supported routes:
-
-1. Ask the Page owner to authorize the app and issue Page access, or
-2. Submit the app for Meta review for the public Page-content feature and
-   permissions required by the endpoint. Approval is controlled by Meta and is
-   not replaced by an app ID, app secret, client token, or an ordinary Facebook
-   login.
-
-Until one route succeeds, keep the Facebook source disabled and use a
+Until Meta approves that access, keep the Facebook source disabled and use a
 venue-owned website, calendar, RSS/iCalendar feed, newsletter, or the public
 source-submission form. Automated Facebook HTML scraping is not an approved
 fallback for this project.
 
-## Obtain and verify the Page token
+## Apply for and verify public Page access
 
-1. Open [Meta Graph API Explorer](https://developers.facebook.com/tools/explorer/908278155659688/).
-2. Select the `localevents` app and API version `v26.0`.
-3. Generate a **User access token**. Grant only permissions Meta requires for
-   the request. Begin with `pages_show_list` and `pages_read_engagement`. Meta
-   may additionally require `pages_read_user_content` or approved public Page
-   access for the Page events edge.
-4. Run this request in the Explorer:
-
-   ```text
-   me/accounts?fields=name,access_token,tasks
-   ```
-
-5. Find `North Pointe Cinemas` in the response. Copy its numeric `id` and its
-   `access_token`. The returned access token is the Page access token.
-6. Before saving anything in GitHub, test the exact endpoint used by the
-   scraper:
+1. In the Meta App Dashboard, request App Review for the public Page-content
+   feature and every permission Meta requires for reading public Page events.
+2. Complete Meta's requested use-case description, screencast, test steps,
+   privacy-policy information, and data-handling disclosures.
+3. After approval, open [Meta Graph API Explorer](https://developers.facebook.com/tools/explorer/908278155659688/),
+   select `localevents` and API version `v26.0`, and use the approved runtime
+   token type specified by Meta.
+4. Resolve North Pointe Cinemas to its numeric Page ID, then test the exact
+   endpoint used by the scraper:
 
    ```text
    PAGE_ID/events?fields=id,name,description,start_time,end_time,place,cover,ticket_uri,event_times,is_canceled&limit=5
    ```
 
-7. Continue only if this returns a `data` array. If North Pointe is absent from
-   `me/accounts`, or the events request reports an authorization error, the
-   Page owner or Meta approval is still required.
+5. Continue only if this returns a `data` array. An authorization error means
+   the approved feature, permission, token type, or app mode is still
+   insufficient for this endpoint.
 
-Meta's official Facebook API collection documents both the managed-Page token
-request and the direct Page-token lookup:
+Use Meta's App Review documentation for the current requirements:
 
-- [Get access tokens for Pages you manage](https://www.postman.com/meta/facebook/documentation/r56bjfd/facebook-api?entity=request-23987686-3140b0f8-248a-4107-87ae-f321759ac3c7)
-- [Get a specific Page access token](https://www.postman.com/meta/facebook/request/tass6hw/get-specific-page-access-token)
+- [Page Public Content Access](https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS)
+- [Facebook Login permissions](https://developers.facebook.com/docs/apps/review/login-permissions)
 
 ## Add the values to GitHub
 
@@ -96,7 +78,7 @@ create these repository secrets:
 
 | Name | Value |
 | --- | --- |
-| `FACEBOOK_PAGE_ACCESS_TOKEN` | The raw Page access token, with no quotes |
+| `FACEBOOK_PAGE_ACCESS_TOKEN` | The Meta-approved runtime access token, with no quotes (the secret name is retained for compatibility) |
 | `FACEBOOK_NORTHPOINTE_PAGE_ID` | The numeric North Pointe Page ID, with no quotes |
 
 Do not place either value in YAML, Markdown, a commit, an issue, a pull request,

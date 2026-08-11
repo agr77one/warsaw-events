@@ -90,8 +90,8 @@ Each source has an approximate distance from Warsaw, and recognized event cities
 
 ## Facebook-only sources
 
-See [Facebook Graph API setup](FACEBOOK_SETUP.md) for the Page-owner
-authorization, GitHub secret names, endpoint test, and troubleshooting steps.
+See [Facebook Graph API setup](FACEBOOK_SETUP.md) for Meta public-content App
+Review, GitHub secret names, endpoint testing, and troubleshooting steps.
 
 Direct Facebook HTML scraping remains disabled. Facebook currently presents the
 North Pointe Cinemas public page behind a login dialog, and Meta's automated-data
@@ -100,8 +100,8 @@ an optional **Meta Graph API** extractor for North Pointe Cinemas. It maps event
 names, recurring times, venue/address, description, cover image, cancellation,
 admission text, and the canonical Facebook event link without scraping HTML.
 
-To activate it, obtain API access authorized by the Page owner (or Meta-approved
-access to public Page content), then configure:
+Warsaw Weekend does not own or manage any Facebook Pages. To activate the
+integration, obtain Meta-approved access to public Page content, then configure:
 
 - Actions secret `FACEBOOK_PAGE_ACCESS_TOKEN`
 - Actions secret `FACEBOOK_NORTHPOINTE_PAGE_ID`
@@ -117,7 +117,7 @@ the Page access token and Page ID issued for authorized Page access.
 Safe source options, in preference order, remain:
 
 1. A venue-owned public website, calendar, RSS feed, or newsletter.
-2. A Meta-supported API integration authorized by the Page owner.
+2. A Meta-supported API integration approved for public Page content.
 3. Manually verified event details supplied by the venue or an editor.
 
 See [Meta's Automated Data Collection Terms](https://www.facebook.com/legal/automated_data_collection_terms).
