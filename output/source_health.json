@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 7,
-    "event_count": 7,
+    "raw_event_count": 6,
+    "event_count": 6,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 7,
-    "event_count": 7,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -164,7 +164,7 @@
     "url": "https://allevents.in/fort-wayne/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 45,
+    "event_count": 44,
     "error": null
   },
   {
@@ -179,8 +179,8 @@
     "name": "Visit Wabash County",
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
-    "raw_event_count": 100,
-    "event_count": 56,
+    "raw_event_count": 103,
+    "event_count": 57,
     "error": null
   },
   {

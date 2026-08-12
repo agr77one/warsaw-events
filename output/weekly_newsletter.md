@@ -1,31 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 10–August 24, 2026
+Your guide for August 11–August 25, 2026
 
-148 events found in the next two weeks, including 41 in Warsaw and Winona Lake.
+151 events found in the next two weeks, including 40 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Tuesday, August 11 — Practice Practice Practice! WE HAVE TIMING!!!!!
-**Time to be confirmed · Hire Park BMX, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/practice-practice-practice-we-have-timing/200029984460752)
-
-## Tuesday, August 11 — The Toddler Lounge
-**10:00 AM–12:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-As you walk into Room A/B, you'll notice that there is an area with toddler toys that your children can play with at their leisure, a coloring station for all ages, and a book nook for a little "book time".
-Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/toddler-lounge-3136)
-
-## Tuesday, August 11 — Story Emporium Used Bookstore
-**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
-The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2561)
-
-## Tuesday, August 11 — Creative Writing Club
-**5:30 PM–6:30 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-This is a wonderful group to join if you have a love of writing, or even an interest in growing as a writer. The August subject is: Road Trips/Journey
-Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/creative-writing-club-3143)
 
 ## Wednesday, August 12 — Planting and Caring for Bulbs
 **3:00 PM–4:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
@@ -116,6 +96,11 @@ Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/eve
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
 We will remember the life of Elvis with trivia, favorite songs & movies, and a sing-a-long. This come and go event will be a wonderful reminder of "The King of Rock n' Roll."
 Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/remembering-elvis-3360)
+
+## Tuesday, August 18 — Practice Practice Practice! WE HAVE TIMING!!!!!
+**Time to be confirmed · Hire Park BMX, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/practice-practice-practice-we-have-timing/200029984460752)
 
 ## Tuesday, August 18 — Story Emporium Used Bookstore
 **4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
@@ -212,6 +197,16 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/50-cent-stems-
 Join us as we continue to learn about the art of crocheting. This is perfect for beginners or those who wat to brush up their skills. Registration is required.
 Sports & outdoors · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/beginning-crocheting-adults-3276)
 
+## Tuesday, August 25 — Story Emporium Used Bookstore
+**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
+The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2563)
+
+## Tuesday, August 25 — College 101
+**6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+This is an opportunity for students and parents to hear about all Ivy Tech has to offer: student resources, dual credits, maximize time and save money, and more. This will include a career survey and time for questions.
+Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/college-101-3195)
+
 # Around Kosciusko County
 
 ## Thursday, August 13 — Serenity on the Water 2026
@@ -256,36 +251,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Tuesday, August 11 — Shipshewana Flea Market
-**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
-Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-11/)
-
-## Tuesday, August 11 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-11/)
-
-## Tuesday, August 11 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-11/)
-
-## Tuesday, August 11 — Coblentz Chocolate Company Grand Opening
-**1:00 PM–6:00 PM · Coblentz Chocolate Company, Middlebury, IN**
-Grand Opening & Ribbon Cutting Coblentz Chocolate Company is excited to officially celebrate the opening of its newest retail location with a Grand Opening and Ribbon Cutting Ceremony on Tuesday, August 11, at 12:00…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/coblentz-chocolate-company-grand-opening/)
-
-## Tuesday, August 11 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-11/)
-
-## Tuesday, August 11 — Little Big Town
-**8:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-GRAMMY, ACM, CMA, AMA, and Emmy Award-winning group, Little Big Town - consisting of members Karen Fairchild, Phillip Sweet, Kimberly Schlapman, and Jimi Westbrook - burst onto the music scene 25 years ago with smash…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/little-big-town/2026-08-11/)
-
 ## Wednesday, August 12 — Shipshewana Flea Market
 **8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
 Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
@@ -305,6 +270,11 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 **9:00 AM–5:00 PM · Shipshewana Auction Barn, IN**
 Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-12/)
+
+## Wednesday, August 12 — Take Home Inventors’ Club Kit
+**9:00 AM–8:00 PM · Wabash, IN**
+Get creative, experiment, and invent from home with the library’s Take-Home Inventors’ Club Kit! Each kit includes hands-on activities and challenges designed to spark curiosity, problem-solving, and imagination.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/take-home-inventors-club-kit/)
 
 ## Wednesday, August 12 — Walking Wednesday
 **9:00 AM–10:00 PM · Wabash, IN**
@@ -336,6 +306,31 @@ Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.co
 The American Ride is a high-energy tribute celebrating the music, swagger, and larger-than-life spirit of country superstar Toby Keith. From rowdy honky-tonk anthems to heartfelt ballads and red-white-and-blue crowd…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/the-american-ride-toby-keith-tribute/)
 
+## Thursday, August 13 — 44th Annual Antique Farm Power Steam & Gas Power Show
+**Time to be confirmed · LaGrange County 4H Fairgrounds, IN**
+Featuring antique tractors, steam engines, sawmills, threshing, parades, flea markets, and food. It\'s a major attraction for vintage farm machinery enthusiasts, showcasing historic "old iron" with live…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/44th-annual-antique-farm-power-steam-gas-power-show/)
+
+## Thursday, August 13 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-13/)
+
+## Thursday, August 13 — Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
+**10:00 AM–10:30 AM · Wabash, IN**
+Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/educational-babytime-creating-predictable-moments-in-the-day-with-christy-garau/)
+
+## Thursday, August 13 — Riverwood Pottery Summer Carving Classes
+**5:00 PM–6:30 PM · Riverwood Pottery, Shipshewana, IN**
+Join us here in the pottery studio for some fun out of the sun and getting dirty with clay! We can\'t wait to create with you something special and unique that you can use over and over again. We want you to get your…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/riverwood-pottery-summer-carving-classes/2026-08-13/1/)
+
+## Thursday, August 13 — Essenhaus Classic Car Cruise-In
+**5:30 PM–9:00 PM · Das Dutchman Essenhaus, Middlebury, IN**
+Whether you are a classic car owner or a car enthusiast, this event is for you! We invite you to join us for our 2026 Cruise-Ins every Thursday evening starting at 4:30pm, beginning May 7 through September 24.…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/essenhaus-classic-car-cruise-in-3/2026-08-13/)
+
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
@@ -348,23 +343,23 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 
 # Newly found or updated
 
-- **NEW** 2027 Summer Season Subscription
 - **NEW** Annual Themed Art Competition
-- **NEW** Storytime
-- **NEW** Practice Practice Practice! WE HAVE TIMING!!!!!
 - **NEW** Annual Themed Art Competition
-- **NEW** The Toddler Lounge
-- **NEW** Story Emporium Used Bookstore
-- **NEW** Creative Writing Club
-- **NEW** Annual Themed Art Competition
+- **NEW** Take Home Inventors’ Club Kit
 - **NEW** Walking Wednesday
 - **NEW** Planting and Caring for Bulbs
 - **NEW** Sew Much Fun: Beginner Cross Stitch
 - **NEW** British Firework Championships
 - **NEW** Annual Themed Art Competition Reception
 - **NEW** Nitro Circus
-- **NEW** The American Ride – Toby Keith Tribute
+- **NEW** 44th Annual Antique Farm Power Steam & Gas Power Show
+- **NEW** Bluebird Acres Blossoms U Pick
 - **NEW** Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
 - **NEW** Mahjong Mornings
+- **NEW** Riverwood Pottery Summer Carving Classes
+- **NEW** Essenhaus Classic Car Cruise-In
 - **NEW** Thursday Night Thunder Monthly Series-August
 - **NEW** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
+- **NEW** Nitro Circus Live at Four Winds Field at Coveleski Stadium
+- **NEW** Serenity on the Water 2026
+- **NEW** The Bar-Kays
