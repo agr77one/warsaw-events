@@ -1,16 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 11–August 25, 2026
+Your guide for August 12–August 26, 2026
 
-151 events found in the next two weeks, including 40 in Warsaw and Winona Lake.
+150 events found in the next two weeks, including 41 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Wednesday, August 12 — Planting and Caring for Bulbs
-**3:00 PM–4:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-Discover how to choose, plant, and maintain bulbs to bring vibrant seasonal color to your garden and landscape. Suitable for both beginners and experienced gardeners!
-Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/planting-and-caring-bulbs-3466)
 
 ## Thursday, August 13 — Thursday Night Thunder Monthly Series-August
 **5:30 PM · 750 E Arthur St, Warsaw, IN, United States, Indiana 46580**
@@ -142,10 +137,20 @@ Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/eve
 Do you like to build with LEGOs? We supply the LEGOs. You supply the creativity. Build together as a family or go solo. Stay for a few minutes or the entire time. What can you build in a room full of LEGOs?
 Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/library-lego-3156)
 
+## Saturday, August 22 — Grand Opening
+**10:00 AM–6:00 PM · 822 E Winona Ave, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/grand-opening/200030543736649)
+
 ## Saturday, August 22 — Grouchy Greg 4 County Hamfest
 **10:00 AM–4:00 PM · 6280 W Crystal Lake Road, Warsaw IN 46580**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/grouchy-greg-4-county-hamfest/200030384069410)
+
+## Saturday, August 22 — Learn to Ski Community Ski
+**10:00 AM–1:00 PM · 2455 Hidden Lake Rd, Warsaw, IN 46580-2174, United States**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/learn-to-ski-community-ski/200030543736952)
 
 ## Saturday, August 22 — Make Your Own Candles!
 **10:00 AM–4:00 PM · 217A E Center St, Warsaw, IN, United States, Indiana 46580**
@@ -214,6 +219,11 @@ Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/c
 
 Community · About 24 miles away · [Details](https://allevents.in/rochester/serenity-on-the-water-2026/200030445941908)
 
+## Saturday, August 15 — VFW! Car Show
+**10:00 AM–2:00 PM · 1703 Federal Road, Rochester, IN**
+
+Community · About 24 miles away · [Details](https://allevents.in/rochester/vfw-car-show/200030545139451)
+
 ## Saturday, August 15 — Rust & Relics Market | Craft Show | Swap Meet | Flea Market
 **10:00 AM–5:00 PM · Fulton County Historical Society Inc., Rochester, IN**
 
@@ -251,61 +261,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Wednesday, August 12 — Shipshewana Flea Market
-**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
-Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-12/)
-
-## Wednesday, August 12 — Annual Themed Art Competition
-**8:00 AM–5:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition/2026-08-12/)
-
-## Wednesday, August 12 — Miscellaneous & Antique Weekly Auctions
-**9:00 AM–1:00 PM · Shipshewana Auction Misc. & Antique Bldg., IN**
-Shipshewana Trading Place holds Antique & Miscellaneous Auctions Every Wednesday, year-round, at 9 am. Holidays could affect these days. Move from ring to ring catching the best deals on a wide variety of merchandise…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/miscellaneous-antique-weekly-auctions/2026-08-12/)
-
-## Wednesday, August 12 — Weekly Livestock Auction
-**9:00 AM–5:00 PM · Shipshewana Auction Barn, IN**
-Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-12/)
-
-## Wednesday, August 12 — Take Home Inventors’ Club Kit
-**9:00 AM–8:00 PM · Wabash, IN**
-Get creative, experiment, and invent from home with the library’s Take-Home Inventors’ Club Kit! Each kit includes hands-on activities and challenges designed to spark curiosity, problem-solving, and imagination.…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/take-home-inventors-club-kit/)
-
-## Wednesday, August 12 — Walking Wednesday
-**9:00 AM–10:00 PM · Wabash, IN**
-Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-12/)
-
-## Wednesday, August 12 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-12/)
-
-## Wednesday, August 12 — Sew Much Fun: Beginner Cross Stitch
-**3:30 PM–4:30 PM · Wabash, IN**
-Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch/)
-
-## Wednesday, August 12 — Love Comes Softly the Musical
-**5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-12/)
-
-## Wednesday, August 12 — Annual Themed Art Competition Reception
-**5:30 PM–7:00 PM · Wabash, IN**
-This juried competition was created over 15 years ago with the goal of keeping art interesting! Every year a new “theme” is presented to challenge artists to create new and engaging works of art. Unlimited creativity…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/annual-themed-art-competition-reception/)
-
-## Wednesday, August 12 — The American Ride – Toby Keith Tribute
-**7:30 PM–10:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-The American Ride is a high-energy tribute celebrating the music, swagger, and larger-than-life spirit of country superstar Toby Keith. From rowdy honky-tonk anthems to heartfelt ballads and red-white-and-blue crowd…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/the-american-ride-toby-keith-tribute/)
-
 ## Thursday, August 13 — 44th Annual Antique Farm Power Steam & Gas Power Show
 **Time to be confirmed · LaGrange County 4H Fairgrounds, IN**
 Featuring antique tractors, steam engines, sawmills, threshing, parades, flea markets, and food. It\'s a major attraction for vintage farm machinery enthusiasts, showcasing historic "old iron" with live…
@@ -321,6 +276,11 @@ Community · About 44 miles away · [Details](https://visitshipshewana.org/event
 Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/educational-babytime-creating-predictable-moments-in-the-day-with-christy-garau/)
 
+## Thursday, August 13 — Mahjong Mornings
+**10:00 AM–12:00 PM · Wabash, IN**
+NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/mahjong-mornings-11/)
+
 ## Thursday, August 13 — Riverwood Pottery Summer Carving Classes
 **5:00 PM–6:30 PM · Riverwood Pottery, Shipshewana, IN**
 Join us here in the pottery studio for some fun out of the sun and getting dirty with clay! We can\'t wait to create with you something special and unique that you can use over and over again. We want you to get your…
@@ -330,6 +290,56 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 **5:30 PM–9:00 PM · Das Dutchman Essenhaus, Middlebury, IN**
 Whether you are a classic car owner or a car enthusiast, this event is for you! We invite you to join us for our 2026 Cruise-Ins every Thursday evening starting at 4:30pm, beginning May 7 through September 24.…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/essenhaus-classic-car-cruise-in-3/2026-08-13/)
+
+## Thursday, August 13 — Vandenberg: My Whitesnake Years
+**7:00 PM–9:00 PM · Wabash, IN**
+Vandenberg: My Whitesnake Years with Marco Mendoza and Vinnie Moore delivers an electrifying night of iconic hits and guitar mastery, led by former Whitesnake guitarist Adrian Vandenberg, known for hits like “Here I…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/vandenberg-my-whitesnake-years/)
+
+## Friday, August 14 — Quilting & Crafting Club
+**10:00 AM–4:00 PM · Wabash, IN**
+If you love crafting, and enjoy gatherings of other creative minds to work on projects together, this club is for you! Gather your current projects, and head to the library to meet up with fellow crafters and work on…
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/quilting-crafting-club/)
+
+## Saturday, August 15 — Miles & Smiles Run & Walk
+**8:00 AM–9:00 AM · Wabash, IN**
+Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-15/)
+
+## Saturday, August 15 — Wabash Farmers Market
+**8:00 AM–12:00 PM · Wabash, IN**
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-15/)
+
+## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
+**7:00 PM–10:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/15: The Nobles (Mike Neglia & Jack Wellington)
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-the-nobles/)
+
+## Sunday, August 16 — Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
+**5:00 PM–8:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
+
+## Monday, August 17 — Storytime
+**10:00 AM–10:30 AM · Wabash, IN**
+Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
+
+## Monday, August 17 — Adult Craft Hour: Sunlit Pines Tin Candles
+**4:00 PM–5:00 PM · Wabash, IN**
+(ADVANCED REGISTRATION IS REQUIRED FOR THIS PROGRAM! Sign up by calling the library at 260-982-4773 or stopping by the front desk. There will be a $5 non-refundable fee due at the time of registration.) Calling all…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/adult-craft-hour-sunlit-pines-tin-candles/)
+
+## Wednesday, August 19 — Sensory Story Hour
+**9:00 AM–10:00 AM · Wabash, IN**
+On the third Wednesday of every month, the Museum will dim the lights and sounds to host a sensory-focused experience from 9AM to 10AM.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/sensory-story-hour-5/2026-08-19/)
+
+## Wednesday, August 19 — Take Home Inventors’ Club Kit
+**9:00 AM–8:00 PM · Wabash, IN**
+Get creative, experiment, and invent from home with the library’s Take-Home Inventors’ Club Kit! Each kit includes hands-on activities and challenges designed to spark curiosity, problem-solving, and imagination.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/take-home-inventors-club-kit-2/)
 
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
@@ -344,22 +354,22 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 # Newly found or updated
 
 - **NEW** Annual Themed Art Competition
-- **NEW** Annual Themed Art Competition
-- **NEW** Take Home Inventors’ Club Kit
 - **NEW** Walking Wednesday
-- **NEW** Planting and Caring for Bulbs
 - **NEW** Sew Much Fun: Beginner Cross Stitch
 - **NEW** British Firework Championships
 - **NEW** Annual Themed Art Competition Reception
 - **NEW** Nitro Circus
-- **NEW** 44th Annual Antique Farm Power Steam & Gas Power Show
-- **NEW** Bluebird Acres Blossoms U Pick
+- **NEW** Adult Mental Health First Aid
 - **NEW** Educational Babytime: Creating Predictable Moments in the Day with Christy Garau
 - **NEW** Mahjong Mornings
-- **NEW** Riverwood Pottery Summer Carving Classes
-- **NEW** Essenhaus Classic Car Cruise-In
+- **NEW** USA BMX Hoosier Nationals
 - **NEW** Thursday Night Thunder Monthly Series-August
 - **NEW** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
 - **NEW** Nitro Circus Live at Four Winds Field at Coveleski Stadium
 - **NEW** Serenity on the Water 2026
 - **NEW** The Bar-Kays
+- **NEW** A-Level Results Free Party
+- **NEW** PHOEBE BRIDGERS MIDNIGHT RELEASE PARTY
+- **NEW** Boots On The Bend: 2-Day Weekend
+- **NEW** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
+- **NEW** Eric Church
