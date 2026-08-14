@@ -20,7 +20,7 @@
     "url": "https://allevents.in/warsaw-in/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 44,
+    "event_count": 45,
     "error": null
   },
   {
@@ -42,26 +42,26 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "no_upcoming",
+    "status": "ok",
     "raw_event_count": 35,
-    "event_count": 0,
+    "event_count": 1,
     "error": null
   },
   {
     "name": "News Now Warsaw",
     "url": "https://www.newsnowwarsaw.com/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "timed out"
   },
   {
     "name": "Visit Kosciusko County",
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 22,
-    "event_count": 20,
+    "raw_event_count": 21,
+    "event_count": 19,
     "error": null
   },
   {
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 40,
+    "event_count": 42,
     "error": null
   },
   {
@@ -164,7 +164,7 @@
     "url": "https://allevents.in/fort-wayne/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 43,
+    "event_count": 42,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 103,
-    "event_count": 56,
+    "event_count": 51,
     "error": null
   },
   {
