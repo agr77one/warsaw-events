@@ -12,7 +12,7 @@
     "url": "https://downtownwarsaw.com/events/",
     "status": "ok",
     "raw_event_count": 6,
-    "event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 8,
-    "event_count": 8,
+    "raw_event_count": 7,
+    "event_count": 7,
     "error": null
   },
   {
@@ -50,9 +50,9 @@
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "no_upcoming",
+    "status": "ok",
     "raw_event_count": 35,
-    "event_count": 0,
+    "event_count": 1,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 21,
-    "event_count": 19,
+    "raw_event_count": 20,
+    "event_count": 18,
     "error": null
   },
   {
@@ -164,7 +164,7 @@
     "url": "https://allevents.in/fort-wayne/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 41,
+    "event_count": 45,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 103,
-    "event_count": 49,
+    "event_count": 48,
     "error": null
   },
   {

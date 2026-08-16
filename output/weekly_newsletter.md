@@ -1,31 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 14–August 28, 2026
+Your guide for August 15–August 29, 2026
 
-157 events found in the next two weeks, including 44 in Warsaw and Winona Lake.
+180 events found in the next two weeks, including 51 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Saturday, August 15 — Farmers Market
-**9:00 AM–1:00 PM · Downtown Warsaw, IN**
-Farmers Market August 15 @ 9 am - 1 pm Warsaw, IN
-Food & markets · Warsaw area · [Details](https://downtownwarsaw.com/event/farmers-market-2026/2026-08-15/)
-
-## Saturday, August 15 — Story Emporium Used Bookstore
-**10:30 AM–1:30 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
-The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2614)
-
-## Saturday, August 15 — Le Diner En Blanc
-**6:00 PM–10:00 PM · Downtown Warsaw, IN**
-Le Diner En Blanc August 15 @ 6 pm - 10 pm Warsaw, IN
-Community · Warsaw area · [Details](https://downtownwarsaw.com/event/le-diner-en-blanc-2026-08-15/)
-
-## Saturday, August 15 — Glow Float - Winona Lake Night Paddle 2026
-**8:00 PM–10:00 PM · Winona Lake Limitless Park and Splash Pad, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/winona-lake/glow-float-winona-lake-night-paddle-2026/100001993973214561)
 
 ## Sunday, August 16 — Sunday Service
 **Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
@@ -87,6 +67,11 @@ Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/e
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/kosciusko-business-social/200030526301051)
 
+## Thursday, August 20 — Back To School Bash
+**4:00 PM–7:00 PM · 614 W. 300 North, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/back-to-school-bash/200030560784348)
+
 ## Thursday, August 20 — Reboot Thrusdays
 **4:00 PM–5:00 PM · American Legion Post 49 Warsaw Indiana, IN**
 
@@ -106,6 +91,11 @@ Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-
 **Time to be confirmed · Hire Park BMX, Warsaw, IN**
 
 Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/race-day/200029984459243)
+
+## Saturday, August 22 — Farmers Market
+**9:00 AM–1:00 PM · Downtown Warsaw, IN**
+Farmers Market August 22 @ 9 am - 1 pm Warsaw, IN
+Food & markets · Warsaw area · [Details](https://downtownwarsaw.com/event/farmers-market-2026/2026-08-22/)
 
 ## Saturday, August 22 — Canal Days
 **10:00 AM–4:00 PM · The Village at Winona, Winona Lake, IN**
@@ -156,6 +146,11 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 **12:00 PM–3:40 PM · Indiana Beach Boardwalk Resort, Warsaw, IN**
 The Lake City Skiers will be performing three shows at Indiana Beach.
 Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/indiana-beach-show/)
+
+## Saturday, August 22 — Open House: ONE-STOP BEAUTY SHOP
+**1:00 PM–4:00 PM · 308 S Scott St, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/open-house-one-stop-beauty-shop/200030564206647)
 
 ## Sunday, August 23 — K County Jr Roller Derby & South Bend Roller Derby Commanders Double Header
 **12:00 PM · Eastlake Skate Center, Warsaw, IN**
@@ -227,17 +222,47 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/drew-estate-ev
 
 Music & shows · Warsaw area · [Details](https://allevents.in/warsaw/250th-central-park-celebration-concert-warsaw/200030399413936)
 
+## Saturday, August 29 — Race Day!
+**Time to be confirmed · Hire Park BMX, Warsaw, IN**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/race-day/200029984459243)
+
+## Saturday, August 29 — RUN FOR HOPE
+**8:00 AM · 123 S Buffalo St, Warsaw, IN 46580-2802, United States**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/run-for-hope/200030192300450)
+
+## Saturday, August 29 — Kosciusko County Farmers and Artisans Market
+**9:00 AM–1:00 PM · Downtown Warsaw, IN**
+
+Food & markets · Warsaw area · [Details](https://allevents.in/warsaw/kosciusko-county-farmers-and-artisans-market/200030564966346)
+
+## Saturday, August 29 — Story Emporium Used Bookstore
+**10:30 AM–1:30 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
+The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2616)
+
+## Saturday, August 29 — New date! HP STATE RACE QUALIFIER
+**11:00 AM · Hire Park BMX, Warsaw, IN**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/new-date-hp-state-race-qualifier/200030516137513)
+
+## Saturday, August 29 — Trigger on the Stack CEDH CEDH FOR MOX DIAMOND, VOLCANIC ISLAND, SAVANNAH, & YAWGMOTH’S WILL !!!
+**11:00 AM · Center Lake Pavilion, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/trigger-on-the-stack-cedh-cedh-for-mox-diamond-volcanic-island-savannah-and-yawgmoths-will/200030173818421)
+
+## Saturday, August 29 — The Belieber Market 💿💜
+**12:00 PM–5:00 PM · 3143 E Center St, Warsaw,IN 46582**
+
+Food & markets · Warsaw area · [Details](https://allevents.in/warsaw/the-belieber-market/200030445934942)
+
+## Saturday, August 29 — Almost There @ Spikes Beach Grill
+**7:00 PM–9:30 PM · 310 Eastlake Dr, Warsaw, IN 46580-3888, United States**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/almost-there-spikes-beach-grill/200030192300249)
+
 # Around Kosciusko County
-
-## Saturday, August 15 — VFW! Car Show
-**10:00 AM–2:00 PM · 1703 Federal Road, Rochester, IN**
-
-Community · About 24 miles away · [Details](https://allevents.in/rochester/vfw-car-show/200030545139451)
-
-## Saturday, August 15 — Rust & Relics Market | Craft Show | Swap Meet | Flea Market
-**10:00 AM–5:00 PM · Fulton County Historical Society Inc., Rochester, IN**
-
-Food & markets · About 24 miles away · [Details](https://allevents.in/rochester/rust-and-relics-market-craft-show-swap-meet-flea-market/200030023030842)
 
 ## Wednesday, August 19 — Connection Corner
 **11:00 AM–2:00 PM · 122 W 8th St, Rochester, IN 46975-1510, United States**
@@ -271,60 +296,25 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Friday, August 14 — Music Bingo @ Fireside
-**9:00 PM–11:30 PM · Fireside Craft Burgers & Brew, Lagrange, IN**
-Music Bingo is Friday at 8 PM. Cards are free, prizes for winners, kitchen\'s open \'til 10. No reservations required, but we\'re happy to hold a table — just shoot us a text at 260-768-3473. What\'s Music Bingo?…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/music-bingo-fireside/2026-08-14/)
-
-## Saturday, August 15 — Miles & Smiles Run & Walk
-**8:00 AM–9:00 AM · Wabash, IN**
-Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
-Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-15/)
-
-## Saturday, August 15 — Wabash Farmers Market
-**8:00 AM–12:00 PM · Wabash, IN**
-Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-15/)
-
-## Saturday, August 15 — Morton Street Farmers Market
-**9:00 AM–2:00 PM · Morton St, Shipshewana, IN**
-Every Saturday starting June 6 through August from 9a-2p Downtown Shipshewana on Morton Street next to You-Nique Bou-tique. Featuring growers, makers & bakers Fresh produce, handmade goods, food trucks & more!…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/morton-street-farmers-market/2026-08-15/)
-
-## Saturday, August 15 — Shipshewana Card Fest
-**9:00 AM–3:00 PM · Michiana Event Center (MEC), Shipshewana, IN**
-Friday, Aug. 14th - 4-8pm Saturday, Aug. 15th - 9am - 3pm
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-card-fest-3/2026-08-15/)
-
-## Saturday, August 15 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-15/)
-
-## Saturday, August 15 — Build a Bouquet with Joy Blooms
-**11:00 AM–1:30 PM · Wellfield Botanic Gardens, Elkhart, IN**
-Join Joy Blooms at Wellfield Botanic Gardens for a hands-on floral workshop designed for beginners and flower enthusiasts alike. In August, summer is at its peak, and the Gardens are overflowing with color, texture,…
-Arts & learning · About 41 miles away · [Details](https://visitshipshewana.org/event/build-a-bouquet-with-joy-blooms/)
-
-## Saturday, August 15 — South Milford Day
-**11:30 AM–1:00 PM · South Milford, IN**
-Take a Scenic Historic Train Ride Through the Indiana Countryside! August 15th. Please share. Looking for a memorable family outing or a chance to experience a piece of railroad history? As part of South Milford Day,…
-Family · About 44 miles away · [Details](https://visitshipshewana.org/event/south-milford-day/)
-
-## Saturday, August 15 — Love Comes Softly the Musical
-**2:00 PM–4:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-15/)
-
-## Saturday, August 15 — Green Hat Lounge Live Music: The Nobles
-**7:00 PM–10:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/15: The Nobles (Mike Neglia & Jack Wellington)
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-the-nobles/)
+## Sunday, August 16 — Shawn Richards and Who Gives a Crepe
+**3:00 PM–6:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
+Music on the Deck with Shawn Richards! A lifelong performer with roots going back to seeing George Strait at age four, Shawn has spent decades building a reputation for high-energy shows and a voice that doesn’t…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/shawn-richards-and-who-gives-a-crepe/)
 
 ## Sunday, August 16 — Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
 **5:00 PM–8:00 PM · Wabash, IN**
 Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
 Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
+
+## Monday, August 17 — Shipshewana Sunrise Wish Run: Zero to 100 Wishes
+**7:30 AM–6:00 PM · LaGrange County CVB, Shipshewana, IN**
+Shipshewana, it’s time to lace up for a wish! 👟💙 On Monday, August 17, endurance athlete Brady McDonald will make Shipshewana the Indiana stop on his incredible mission to run a 50K in all 50 states in 50 consecutive…
+Family · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-sunrise-wish-run-zero-to-100-wishes/)
+
+## Monday, August 17 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-17/)
 
 ## Monday, August 17 — Storytime
 **10:00 AM–10:30 AM · Wabash, IN**
@@ -335,6 +325,36 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/s
 **4:00 PM–5:00 PM · Wabash, IN**
 (ADVANCED REGISTRATION IS REQUIRED FOR THIS PROGRAM! Sign up by calling the library at 260-982-4773 or stopping by the front desk. There will be a $5 non-refundable fee due at the time of registration.) Calling all…
 Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/adult-craft-hour-sunlit-pines-tin-candles/)
+
+## Monday, August 17 — Love Comes Softly the Musical
+**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-17/)
+
+## Tuesday, August 18 — Shipshewana Flea Market
+**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
+Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-18/)
+
+## Tuesday, August 18 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-18/)
+
+## Tuesday, August 18 — Love Comes Softly the Musical
+**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-18/)
+
+## Tuesday, August 18 — Vandenberg: My Whitesnake Years
+**8:30 PM–10:30 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+Addrian Vandenberg came on to the scene in the early 80\'s with his band Vandenberg who released 3 albums and produced 2 Top 40 hits, "Burning Heart" and "Friday Night". That success would put him on the radar of…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/vandenberg-my-whitesnake-years/)
+
+## Wednesday, August 19 — Shipshewana Flea Market
+**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
+Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
+Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-19/)
 
 ## Wednesday, August 19 — Sensory Story Hour
 **9:00 AM–10:00 AM · Wabash, IN**
@@ -361,25 +381,30 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 Who? Wabash Kiwanis Club What? Trivia Fundraiser for Riley Children\'s Health When? Friday, August 28; Doors open at 6:30P; Event at 7:30P Where? Wabash Elks Lodge (NW corner of Market and Cass streets) How?…
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-kiwanis-trivia-fundraiser-for-riley-childrens-health/)
 
+## Saturday, August 29 — Wabash Founders Festival
+**10:00 AM–4:00 PM · Wabash, IN**
+Get out to Paradise Spring Historical Park for a fantastic day filled with a parade, family activities, food trucks, entertainers, and a variety of vendors! More info coming soon! 😎 […]
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/founders-festival/2026-08-29/)
+
 # Newly found or updated
 
-- **NEW** Boots On The Bend: Eric Church Hardy Brandon Lake & Chase Rice - 2 Day Pass
-- **NEW** Boots on the Bend Music Festival - 2 Day Pass - With Eric Church, Hardy, Brandon Lake, and more
-- **NEW** Eric Church
-- **NEW** Good American Launch Experience
-- **NEW** TrueScale Truck Show
-- **NEW** Quilting & Crafting Club
-- **NEW** Boots on the Bend Music Festival - Friday - With Hardy, Brandon Lake, Chase Rice, and more
-- **NEW** Tattoo Fest Fort Wayne
-- **NEW** Shipshewana Card Fest
-- **NEW** Backyard Cafe
-- **NEW** Food Truck Friday
 - **NEW** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
-- **NEW** Boots On The Bend: Friday Admission
-- **NEW** Live on the Patio @ West of Warren
-- **NEW** Neal McCoy
-- **NEW** Music Bingo @ Fireside
 - **NEW** Miles & Smiles Run & Walk
 - **NEW** Wabash Farmers Market
-- **NEW** Farmers Market
-- **NEW** Morton Street Farmers Market
+- **NEW** Boots On The Bend: Saturday Admission
+- **NEW** 5th Annual Food Truck & Vendor Festival Elkhart
+- **NEW** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
+- **NEW** Henry Cho
+- **NEW** Factory Frequencies at Electric Works: Silent Disco
+- **NEW** StubHub Says Rick Springfield Concert Was Postponed, But It Wasn’t
+- **NEW** Green Hat Lounge Live Music: The Nobles
+- **NEW** Maddie & Tae in South Bend
+- **NEW** David Pendleton, World-Renowned Ventriloquist at Funny Pharm Comedy Club in Goshen, IN
+- **NEW** Live on the Patio @ West of Warren
+- **NEW** MJ Live
+- **NEW** Build Your Own Band Fest
+- **NEW** DAY26 at The Bend Lounge
+- **NEW** Glow Float - Winona Lake Night Paddle 2026
+- **NEW** Henry Cho: The Empty Nest Tour
+- **NEW** Psychic Standup Comedy Night with Karen Rontowski
+- **NEW** Becky Robinson
