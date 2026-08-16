@@ -1,16 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 15–August 29, 2026
+Your guide for August 16–August 30, 2026
 
-180 events found in the next two weeks, including 51 in Warsaw and Winona Lake.
+188 events found in the next two weeks, including 51 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Sunday, August 16 — Sunday Service
-**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
 
 ## Sunday, August 16 — Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
 **10:00 AM–12:00 PM · Plaza de Toros Mexico, Warsaw, IN**
@@ -151,6 +146,11 @@ Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/eve
 **1:00 PM–4:00 PM · 308 S Scott St, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/open-house-one-stop-beauty-shop/200030564206647)
+
+## Saturday, August 22 — Chapman Lake Campground Cornhole Tournament
+**3:00 PM–9:00 PM · Warsaw, Indiana, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/chapman-lake-campground-cornhole-tournament/200030560782935)
 
 ## Sunday, August 23 — K County Jr Roller Derby & South Bend Roller Derby Commanders Double Header
 **12:00 PM · Eastlake Skate Center, Warsaw, IN**
@@ -388,23 +388,23 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 # Newly found or updated
 
-- **NEW** Boots On The Bend: Eric Church Ashley McBryde & Flatland Cavalry - Saturday
-- **NEW** Miles & Smiles Run & Walk
-- **NEW** Wabash Farmers Market
-- **NEW** Boots On The Bend: Saturday Admission
-- **NEW** 5th Annual Food Truck & Vendor Festival Elkhart
-- **NEW** Boots on the Bend Music Festival - Saturday - With Eric Church, Ashley McBryde, Flatland Cavalry, and more
-- **NEW** Henry Cho
-- **NEW** Factory Frequencies at Electric Works: Silent Disco
-- **NEW** StubHub Says Rick Springfield Concert Was Postponed, But It Wasn’t
 - **NEW** Green Hat Lounge Live Music: The Nobles
-- **NEW** Maddie & Tae in South Bend
-- **NEW** David Pendleton, World-Renowned Ventriloquist at Funny Pharm Comedy Club in Goshen, IN
-- **NEW** Live on the Patio @ West of Warren
-- **NEW** MJ Live
-- **NEW** Build Your Own Band Fest
-- **NEW** DAY26 at The Bend Lounge
-- **NEW** Glow Float - Winona Lake Night Paddle 2026
-- **NEW** Henry Cho: The Empty Nest Tour
-- **NEW** Psychic Standup Comedy Night with Karen Rontowski
-- **NEW** Becky Robinson
+- **NEW** 2026 International FROG Rally
+- **NEW** Summer Sunday Outdoor Service
+- **NEW** Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
+- **NEW** Open Streets Fort Wayne
+- **NEW** BANDA EL RECODO, LOS RECODITOS & MAS
+- **NEW** Gran Jaripeo con el 90´s Banda Tour
+- **NEW** Legends of Elkhart County Basketball 2026
+- **NEW** Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
+- **NEW** Warsaw Indiana
+- **NEW** Chris Wilson Community Play Along Concert
+- **NEW** Storytime
+- **NEW** Adult Craft Hour: Sunlit Pines Tin Candles
+- **NEW** Remembering Elvis
+- **NEW** Elkhart County Resident Complimentary Garden Admission
+- **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
+- **NEW** Story Emporium Used Bookstore
+- **NEW** Book Trivia
+- **NEW** Sensory Story Hour
+- **NEW** Walking Wednesday
