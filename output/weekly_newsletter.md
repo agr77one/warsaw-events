@@ -2,40 +2,10 @@
 
 Your guide for August 16–August 30, 2026
 
-188 events found in the next two weeks, including 51 in Warsaw and Winona Lake.
+193 events found in the next two weeks, including 47 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Sunday, August 16 — Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
-**10:00 AM–12:00 PM · Plaza de Toros Mexico, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-machos-banda-los-recoditos-banda-el-recodo-in-warsaw/3300030436942109)
-
-## Sunday, August 16 — MTG Commander Open Play
-**12:00 PM–5:00 PM · 118 W Market St, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/mtg-commander-open-play/200030498330859)
-
-## Sunday, August 16 — BANDA EL RECODO, LOS RECODITOS & MAS
-**2:00 PM–4:00 PM · Plaza de Toros Mexico, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/banda-el-recodo-los-recoditos-and-mas/2900030341669406)
-
-## Sunday, August 16 — Gran Jaripeo con el 90´s Banda Tour
-**2:00 PM · Plaza De Toros Mexico, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/gran-jaripeo-con-el-90´s-banda-tour/200030380401613)
-
-## Sunday, August 16 — Warsaw Indiana
-**5:00 PM · Plaza De Toros Mexico, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/warsaw-indiana/200030475094047)
-
-## Sunday, August 16 — Home Show
-**6:30 PM–7:30 PM · Hidden Lake, Warsaw, IN**
-The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
-Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
 
 ## Monday, August 17 — Remembering Elvis
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
@@ -262,6 +232,16 @@ Food & markets · Warsaw area · [Details](https://allevents.in/warsaw/the-belie
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/almost-there-spikes-beach-grill/200030192300249)
 
+## Sunday, August 30 — Home Show
+**6:30 PM–7:30 PM · Hidden Lake, Warsaw, IN**
+The Lake City Skiers will be performing a 1 hour show at Hidden Lake Warsaw\, IN. Pre-Show Starts at 5:45 pm. Feature Show at 6:30 pm.
+Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/events/event/home-show/)
+
+## Sunday, August 30 — 💥 Lake City Skiers Water Ski Show 💥
+**6:30 PM–8:00 PM · 2455 Hidden Lake Rd, Warsaw, IN 46580-2174, United States**
+
+Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/lake-city-skiers-water-ski-show/200030543773912)
+
 # Around Kosciusko County
 
 ## Wednesday, August 19 — Connection Corner
@@ -296,16 +276,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Sunday, August 16 — Shawn Richards and Who Gives a Crepe
-**3:00 PM–6:00 PM · Fruit Hills Winery & Orchard, Bristol, IN**
-Music on the Deck with Shawn Richards! A lifelong performer with roots going back to seeing George Strait at age four, Shawn has spent decades building a reputation for high-energy shows and a voice that doesn’t…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/shawn-richards-and-who-gives-a-crepe/)
-
-## Sunday, August 16 — Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
-**5:00 PM–8:00 PM · Wabash, IN**
-Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/16: Misha Thomas & Eric Matthews
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-misha-thomas-eric-matthews/)
-
 ## Monday, August 17 — Shipshewana Sunrise Wish Run: Zero to 100 Wishes
 **7:30 AM–6:00 PM · LaGrange County CVB, Shipshewana, IN**
 Shipshewana, it’s time to lace up for a wish! 👟💙 On Monday, August 17, endurance athlete Brady McDonald will make Shipshewana the Indiana stop on his incredible mission to run a 50K in all 50 states in 50 consecutive…
@@ -320,11 +290,6 @@ Community · About 44 miles away · [Details](https://visitshipshewana.org/event
 **10:00 AM–10:30 AM · Wabash, IN**
 Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
-
-## Monday, August 17 — Adult Craft Hour: Sunlit Pines Tin Candles
-**4:00 PM–5:00 PM · Wabash, IN**
-(ADVANCED REGISTRATION IS REQUIRED FOR THIS PROGRAM! Sign up by calling the library at 260-982-4773 or stopping by the front desk. There will be a $5 non-refundable fee due at the time of registration.) Calling all…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/adult-craft-hour-sunlit-pines-tin-candles/)
 
 ## Monday, August 17 — Love Comes Softly the Musical
 **8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
@@ -356,10 +321,25 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
 Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-19/)
 
-## Wednesday, August 19 — Sensory Story Hour
-**9:00 AM–10:00 AM · Wabash, IN**
-On the third Wednesday of every month, the Museum will dim the lights and sounds to host a sensory-focused experience from 9AM to 10AM.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/sensory-story-hour-5/2026-08-19/)
+## Wednesday, August 19 — Miscellaneous & Antique Weekly Auctions
+**9:00 AM–1:00 PM · Shipshewana Auction Misc. & Antique Bldg., IN**
+Shipshewana Trading Place holds Antique & Miscellaneous Auctions Every Wednesday, year-round, at 9 am. Holidays could affect these days. Move from ring to ring catching the best deals on a wide variety of merchandise…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/miscellaneous-antique-weekly-auctions/2026-08-19/)
+
+## Wednesday, August 19 — Weekly Livestock Auction
+**9:00 AM–5:00 PM · Shipshewana Auction Barn, IN**
+Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-19/)
+
+## Wednesday, August 19 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-19/)
+
+## Wednesday, August 19 — Love Comes Softly the Musical
+**5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-19/)
 
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
@@ -388,9 +368,8 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 # Newly found or updated
 
-- **NEW** Green Hat Lounge Live Music: The Nobles
-- **NEW** 2026 International FROG Rally
 - **NEW** Summer Sunday Outdoor Service
+- **NEW** 2026 International FROG Rally
 - **NEW** Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
 - **NEW** Open Streets Fort Wayne
 - **NEW** BANDA EL RECODO, LOS RECODITOS & MAS
@@ -398,13 +377,14 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 - **NEW** Legends of Elkhart County Basketball 2026
 - **NEW** Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
 - **NEW** Warsaw Indiana
-- **NEW** Chris Wilson Community Play Along Concert
+- **NEW** Home Show
 - **NEW** Storytime
 - **NEW** Adult Craft Hour: Sunlit Pines Tin Candles
 - **NEW** Remembering Elvis
-- **NEW** Elkhart County Resident Complimentary Garden Admission
+- **NEW** Fort Wayne Tincaps vs. Great Lakes Loons
 - **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
+- **NEW** America250 Hometown Whistle Stop Tour by Canadian National Railway
 - **NEW** Story Emporium Used Bookstore
 - **NEW** Book Trivia
+- **NEW** Miscellaneous & Antique Weekly Auctions
 - **NEW** Sensory Story Hour
-- **NEW** Walking Wednesday

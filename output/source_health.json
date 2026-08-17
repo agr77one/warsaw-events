@@ -42,17 +42,17 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "failed",
+    "status": "empty",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
+    "error": null
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "ok",
+    "status": "no_upcoming",
     "raw_event_count": 35,
-    "event_count": 1,
+    "event_count": 0,
     "error": null
   },
   {
@@ -82,18 +82,18 @@
   {
     "name": "Lake City Skiers",
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 35,
+    "event_count": 6,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "failed",
-    "raw_event_count": 0,
-    "event_count": 0,
-    "error": "timed out"
+    "status": "ok",
+    "raw_event_count": 6,
+    "event_count": 5,
+    "error": null
   },
   {
     "name": "North Pointe Cinemas Facebook",
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 42,
+    "event_count": 41,
     "error": null
   },
   {
@@ -146,9 +146,9 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 12,
+    "event_count": 12,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 103,
-    "event_count": 46,
+    "event_count": 45,
     "error": null
   },
   {
