@@ -1,21 +1,21 @@
 # Warsaw Weekend
 
-Your guide for August 16–August 30, 2026
+Your guide for August 17–August 31, 2026
 
-193 events found in the next two weeks, including 47 in Warsaw and Winona Lake.
+207 events found in the next two weeks, including 47 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Monday, August 17 — Remembering Elvis
-**6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-We will remember the life of Elvis with trivia, favorite songs & movies, and a sing-a-long. This come and go event will be a wonderful reminder of "The King of Rock n' Roll."
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/remembering-elvis-3360)
 
 ## Tuesday, August 18 — Practice Practice Practice! WE HAVE TIMING!!!!!
 **Time to be confirmed · Hire Park BMX, Warsaw, IN**
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/practice-practice-practice-we-have-timing/200029984460752)
+
+## Tuesday, August 18 — Hacienda Gives Back - Warsaw Band Boosters
+**12:00 PM–9:00 PM · Hacienda Mexican Restaurants Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/hacienda-gives-back-warsaw-band-boosters/200030543737200)
 
 ## Tuesday, August 18 — Story Emporium Used Bookstore
 **4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
@@ -276,26 +276,6 @@ Community · About 24 miles away · [Details](https://allevents.in/rochester/par
 
 # Worth the drive
 
-## Monday, August 17 — Shipshewana Sunrise Wish Run: Zero to 100 Wishes
-**7:30 AM–6:00 PM · LaGrange County CVB, Shipshewana, IN**
-Shipshewana, it’s time to lace up for a wish! 👟💙 On Monday, August 17, endurance athlete Brady McDonald will make Shipshewana the Indiana stop on his incredible mission to run a 50K in all 50 states in 50 consecutive…
-Family · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-sunrise-wish-run-zero-to-100-wishes/)
-
-## Monday, August 17 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-17/)
-
-## Monday, August 17 — Storytime
-**10:00 AM–10:30 AM · Wabash, IN**
-Join us for songs, stories, rhymes, and fingerplays. For ages 0-6.
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/storytime-3/)
-
-## Monday, August 17 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-17/)
-
 ## Tuesday, August 18 — Shipshewana Flea Market
 **8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
 Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
@@ -331,10 +311,30 @@ Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org
 Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
 Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-19/)
 
+## Wednesday, August 19 — Sensory Story Hour
+**9:00 AM–10:00 AM · Wabash, IN**
+On the third Wednesday of every month, the Museum will dim the lights and sounds to host a sensory-focused experience from 9AM to 10AM.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/sensory-story-hour-5/2026-08-19/)
+
+## Wednesday, August 19 — Take Home Inventors’ Club Kit
+**9:00 AM–8:00 PM · Wabash, IN**
+Get creative, experiment, and invent from home with the library’s Take-Home Inventors’ Club Kit! Each kit includes hands-on activities and challenges designed to spark curiosity, problem-solving, and imagination.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/take-home-inventors-club-kit-2/)
+
+## Wednesday, August 19 — Walking Wednesday
+**9:00 AM–10:00 PM · Wabash, IN**
+Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-19/)
+
 ## Wednesday, August 19 — Bluebird Acres Blossoms U Pick
 **10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
 Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
 Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-19/)
+
+## Wednesday, August 19 — Sew Much Fun: Beginner Cross Stitch
+**3:30 PM–4:30 PM · Wabash, IN**
+Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch-2/)
 
 ## Wednesday, August 19 — Love Comes Softly the Musical
 **5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
@@ -368,23 +368,23 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 # Newly found or updated
 
-- **NEW** Summer Sunday Outdoor Service
-- **NEW** 2026 International FROG Rally
-- **NEW** Banda Machos, Banda Los Recoditos, Banda El Recodo in Warsaw
-- **NEW** Open Streets Fort Wayne
-- **NEW** BANDA EL RECODO, LOS RECODITOS & MAS
-- **NEW** Gran Jaripeo con el 90´s Banda Tour
-- **NEW** Legends of Elkhart County Basketball 2026
-- **NEW** Green Hat Lounge Live Music: Misha Thomas & Eric Matthews
-- **NEW** Warsaw Indiana
-- **NEW** Home Show
+- **NEW** Our Story with David Attenborough
 - **NEW** Storytime
 - **NEW** Adult Craft Hour: Sunlit Pines Tin Candles
-- **NEW** Remembering Elvis
-- **NEW** Fort Wayne Tincaps vs. Great Lakes Loons
 - **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
-- **NEW** America250 Hometown Whistle Stop Tour by Canadian National Railway
+- **NEW** Hacienda Gives Back - Warsaw Band Boosters
 - **NEW** Story Emporium Used Bookstore
 - **NEW** Book Trivia
-- **NEW** Miscellaneous & Antique Weekly Auctions
 - **NEW** Sensory Story Hour
+- **NEW** Walking Wednesday
+- **NEW** Connection Corner
+- **NEW** Sew Much Fun: Beginner Cross Stitch
+- **NEW** Kosciusko Business Social
+- **NEW** Silent Book Club
+- **NEW** Mahjong Mornings
+- **NEW** Sensory Babytime
+- **NEW** The Power of Peers
+- **NEW** 🐦🌀✨ Wheel Throwing Class: Bird Bowl ✨🌀🐦
+- **NEW** Friday's by the Fountain
+- **NEW** Summer Chill Concert Series
+- **NEW** 2026 MGMS Annual Rock & Gem Show

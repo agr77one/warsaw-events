@@ -42,10 +42,10 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
   },
   {
     "name": "InkFreeNews",
@@ -84,15 +84,15 @@
     "url": "https://www.lakecityskiers.org/feed/eo-events/",
     "status": "ok",
     "raw_event_count": 35,
-    "event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 21,
-    "event_count": 19,
+    "raw_event_count": 20,
+    "event_count": 18,
     "error": null
   },
   {
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 41,
+    "event_count": 44,
     "error": null
   },
   {
@@ -140,7 +140,7 @@
     "url": "https://allevents.in/elkhart/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 45,
+    "event_count": 43,
     "error": null
   },
   {
@@ -179,8 +179,8 @@
     "name": "Visit Wabash County",
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
-    "raw_event_count": 103,
-    "event_count": 45,
+    "raw_event_count": 109,
+    "event_count": 50,
     "error": null
   },
   {
