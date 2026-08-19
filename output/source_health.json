@@ -3,8 +3,8 @@
     "name": "Warsaw Community Public Library",
     "url": "https://warsaw.librarycalendar.com/events/list",
     "status": "ok",
-    "raw_event_count": 140,
-    "event_count": 136,
+    "raw_event_count": 139,
+    "event_count": 135,
     "error": null
   },
   {
@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 4,
-    "event_count": 4,
+    "raw_event_count": 5,
+    "event_count": 5,
     "error": null
   },
   {
@@ -42,17 +42,17 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "failed",
+    "status": "empty",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
+    "error": null
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "no_upcoming",
+    "status": "ok",
     "raw_event_count": 35,
-    "event_count": 0,
+    "event_count": 2,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "empty",
-    "raw_event_count": 0,
-    "event_count": 0,
+    "status": "ok",
+    "raw_event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 20,
-    "event_count": 18,
+    "raw_event_count": 21,
+    "event_count": 19,
     "error": null
   },
   {
@@ -116,7 +116,7 @@
     "url": "https://allevents.in/plymouth/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 44,
+    "event_count": 45,
     "error": null
   },
   {
@@ -146,10 +146,10 @@
   {
     "name": "Visit Shipshewana",
     "url": "https://visitshipshewana.org/events/",
-    "status": "ok",
-    "raw_event_count": 12,
-    "event_count": 12,
-    "error": null
+    "status": "failed",
+    "raw_event_count": 0,
+    "event_count": 0,
+    "error": "timed out"
   },
   {
     "name": "Visit Fort Wayne",
@@ -172,7 +172,7 @@
     "url": "https://allevents.in/south-bend/all",
     "status": "ok",
     "raw_event_count": 45,
-    "event_count": 41,
+    "event_count": 45,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 109,
-    "event_count": 50,
+    "event_count": 48,
     "error": null
   },
   {

@@ -1,31 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 17–August 31, 2026
+Your guide for August 18–September 01, 2026
 
-207 events found in the next two weeks, including 47 in Warsaw and Winona Lake.
+214 events found in the next two weeks, including 48 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Tuesday, August 18 — Practice Practice Practice! WE HAVE TIMING!!!!!
-**Time to be confirmed · Hire Park BMX, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/practice-practice-practice-we-have-timing/200029984460752)
-
-## Tuesday, August 18 — Hacienda Gives Back - Warsaw Band Boosters
-**12:00 PM–9:00 PM · Hacienda Mexican Restaurants Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/hacienda-gives-back-warsaw-band-boosters/200030543737200)
-
-## Tuesday, August 18 — Story Emporium Used Bookstore
-**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
-The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
-Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2562)
-
-## Tuesday, August 18 — Book Trivia
-**5:30 PM–6:30 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-All lovers of books, come and enjoy a great time of trivia covering all genres and eras. Meet people who enjoy books and win some small prizes.
-Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/book-trivia-3377)
 
 ## Wednesday, August 19 — Kosciusko Business Social
 **5:30 PM–7:00 PM · Spikes Beach Grill, Warsaw, IN**
@@ -51,6 +31,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night
 **5:00 PM–8:00 PM · Downtown Warsaw, IN**
 KBOR Car Show August 21 @ 5 pm - 8 pm Warsaw, IN
 Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-show-2026-08-21/)
+
+## Friday, August 21 — American Legion Band
+**7:00 PM · Central Park, Warsaw, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/american-legion-band/200030577176914)
 
 ## Saturday, August 22 — Race Day!
 **Time to be confirmed · Hire Park BMX, Warsaw, IN**
@@ -122,6 +107,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/open-house-one
 
 Community · Warsaw area · [Details](https://allevents.in/warsaw/chapman-lake-campground-cornhole-tournament/200030560782935)
 
+## Sunday, August 23 — Sunday Service
+**Time to be confirmed · 744 S 325 E, Warsaw, IN, United States, Indiana 46582**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/sunday-service/200030100503330)
+
 ## Sunday, August 23 — K County Jr Roller Derby & South Bend Roller Derby Commanders Double Header
 **12:00 PM · Eastlake Skate Center, Warsaw, IN**
 
@@ -161,6 +151,11 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
 This is an opportunity for students and parents to hear about all Ivy Tech has to offer: student resources, dual credits, maximize time and save money, and more. This will include a career survey and time for questions.
 Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/college-101-3195)
+
+## Wednesday, August 26 — Kosciuko County Fall Dinner Party
+**5:00 PM · 1590 Park Ave, Winona Lake, IN 46590-1633, United States**
+
+Food & markets · Warsaw area · [Details](https://allevents.in/winona-lake/kosciuko-county-fall-dinner-party/200030577447842)
 
 ## Thursday, August 27 — Kosciusko Community TNR Annual Garage Sale
 **9:00 AM · Kosciusko County Community Fair, Warsaw, IN**
@@ -242,6 +237,16 @@ Sports & outdoors · Warsaw area · [Details](https://www.lakecityskiers.org/eve
 
 Sports & outdoors · Warsaw area · [Details](https://allevents.in/warsaw/lake-city-skiers-water-ski-show/200030543773912)
 
+## Tuesday, September 01 — The Toddler Lounge
+**10:00 AM–12:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+As you walk into Room A/B, you'll notice that there is an area with toddler toys that your children can play with at their leisure, a coloring station for all ages, and a book nook for a little "book time".
+Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/toddler-lounge-3345)
+
+## Tuesday, September 01 — Story Emporium Used Bookstore
+**4:00 PM–7:00 PM · Stafford Book Sale Room at Warsaw Community Public Library, IN**
+The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
+Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2564)
+
 # Around Kosciusko County
 
 ## Wednesday, August 19 — Connection Corner
@@ -274,22 +279,12 @@ Music & shows · About 24 miles away · [Details](https://allevents.in/rochester
 
 Community · About 24 miles away · [Details](https://allevents.in/rochester/park-fest-2026/200030130941444)
 
+## Thursday, August 27 — Manitou’s Talent | Performing Arts Premiere
+**1:00 PM–2:00 PM · The Times Theater Inc, Rochester, IN**
+
+Arts & learning · About 24 miles away · [Details](https://allevents.in/rochester/manitous-talent-performing-arts-premiere/100001998229872339)
+
 # Worth the drive
-
-## Tuesday, August 18 — Shipshewana Flea Market
-**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
-Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-18/)
-
-## Tuesday, August 18 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-18/)
-
-## Tuesday, August 18 — Love Comes Softly the Musical
-**8:00 PM–10:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-18/)
 
 ## Tuesday, August 18 — Vandenberg: My Whitesnake Years
 **8:30 PM–10:30 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
@@ -341,6 +336,21 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/s
 The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
 Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-19/)
 
+## Wednesday, August 19 — Silent Book Club
+**6:00 PM–7:00 PM · Wabash, IN**
+Looking to find a community of fellow readers, but intimidated by traditional book clubs? Put down your phone, pick up a book, and spend quality time with fellow book lovers – no homework or chit chat required! Bring…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/silent-book-club-6/)
+
+## Thursday, August 20 — Mahjong Mornings
+**10:00 AM–12:00 PM · Wabash, IN**
+NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/mahjong-mornings-12/)
+
+## Thursday, August 20 — Salamonie Lake “Camping” Program
+**10:00 AM–11:30 AM · Wabash, IN**
+Preschool-age children and their adults are invited to Salamonie’s “Camping” program on August 20. Children will learn how much fun camping can be through activities and crafts. Children ages 2 […]
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/salamonie-lake-camping-program/)
+
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
@@ -368,23 +378,23 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 # Newly found or updated
 
-- **NEW** Our Story with David Attenborough
-- **NEW** Storytime
-- **NEW** Adult Craft Hour: Sunlit Pines Tin Candles
 - **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
-- **NEW** Hacienda Gives Back - Warsaw Band Boosters
-- **NEW** Story Emporium Used Bookstore
-- **NEW** Book Trivia
+- **NEW** American Legion Band of Fort Wayne to Perform at Summer Concert Series
+- **NEW** Editors Pick
 - **NEW** Sensory Story Hour
 - **NEW** Walking Wednesday
 - **NEW** Connection Corner
 - **NEW** Sew Much Fun: Beginner Cross Stitch
 - **NEW** Kosciusko Business Social
 - **NEW** Silent Book Club
+- **NEW** South Bend Cubs vs. West Michigan Whitecaps
+- **NEW** West Michigan Whitecaps at South Bend Cubs at Four Winds Field at Coveleski Stadium
 - **NEW** Mahjong Mornings
 - **NEW** Sensory Babytime
-- **NEW** The Power of Peers
-- **NEW** 🐦🌀✨ Wheel Throwing Class: Bird Bowl ✨🌀🐦
-- **NEW** Friday's by the Fountain
 - **NEW** Summer Chill Concert Series
-- **NEW** 2026 MGMS Annual Rock & Gem Show
+- **NEW** 8th Annual FCAC Rummage Sale Fundraiser
+- **NEW** Dave Kunkel Cruise-in
+- **NEW** Stuffed Animal Sleep Over
+- **NEW** KBOR Car Show
+- **NEW** Paw Patrol Movie at Howard Park
+- **NEW** Class of 2006 20th Year Reunion
