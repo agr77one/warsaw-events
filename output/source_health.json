@@ -27,8 +27,8 @@
     "name": "Winona Lake events index",
     "url": "https://allevents.in/winona-lake/all",
     "status": "ok",
-    "raw_event_count": 5,
-    "event_count": 5,
+    "raw_event_count": 7,
+    "event_count": 7,
     "error": null
   },
   {
@@ -42,17 +42,17 @@
   {
     "name": "Times-Union",
     "url": "https://timesuniononline.com/",
-    "status": "empty",
+    "status": "failed",
     "raw_event_count": 0,
     "event_count": 0,
-    "error": null
+    "error": "Command '['curl', '--location', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://timesuniononline.com/']' returned non-zero exit status 22."
   },
   {
     "name": "InkFreeNews",
     "url": "https://www.inkfreenews.com/",
-    "status": "ok",
+    "status": "no_upcoming",
     "raw_event_count": 35,
-    "event_count": 2,
+    "event_count": 0,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -107,8 +107,8 @@
     "name": "Rochester events index",
     "url": "https://allevents.in/rochester-in/all",
     "status": "ok",
-    "raw_event_count": 21,
-    "event_count": 19,
+    "raw_event_count": 20,
+    "event_count": 18,
     "error": null
   },
   {

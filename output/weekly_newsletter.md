@@ -1,16 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 18–September 01, 2026
+Your guide for August 19–September 02, 2026
 
-214 events found in the next two weeks, including 48 in Warsaw and Winona Lake.
+211 events found in the next two weeks, including 50 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Wednesday, August 19 — Kosciusko Business Social
-**5:30 PM–7:00 PM · Spikes Beach Grill, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/kosciusko-business-social/200030526301051)
 
 ## Thursday, August 20 — Back To School Bash
 **4:00 PM–7:00 PM · 614 W. 300 North, Warsaw, IN**
@@ -31,6 +26,11 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night
 **5:00 PM–8:00 PM · Downtown Warsaw, IN**
 KBOR Car Show August 21 @ 5 pm - 8 pm Warsaw, IN
 Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-show-2026-08-21/)
+
+## Friday, August 21 — COUNTER.POINT @ Third Friday in downtown Warsaw
+**5:00 PM–8:00 PM · Warsaw, Indiana, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/warsaw/counterpoint-third-friday-in-downtown-warsaw/200030585745656)
 
 ## Friday, August 21 — American Legion Band
 **7:00 PM · Central Park, Warsaw, IN**
@@ -149,8 +149,8 @@ Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/eve
 
 ## Tuesday, August 25 — College 101
 **6:00 PM–7:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
-This is an opportunity for students and parents to hear about all Ivy Tech has to offer: student resources, dual credits, maximize time and save money, and more. This will include a career survey and time for questions.
-Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/college-101-3195)
+This is an opportunity for students and parents to learn about everything Ivy Tech offers: student resources, dual credits, maximizing time, saving money, and more. This event will include a career survey and time…
+Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/college-101-3195)
 
 ## Wednesday, August 26 — Kosciuko County Fall Dinner Party
 **5:00 PM · 1590 Park Ave, Winona Lake, IN 46590-1633, United States**
@@ -247,12 +247,17 @@ Family · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/todd
 The Friends of the Library used bookstore sells books, movies, sound recordings, and video games. All proceeds support WCPL.
 Music & shows · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/story-emporium-used-bookstore-2564)
 
+## Wednesday, September 02 — Chair Yoga
+**11:15 AM–12:00 PM · Meeting Room A/B at Warsaw Community Public Library, IN**
+Chair Yoga is back and ready for you! Join us for some light stretching and exercise, and make some new friends!
+Community · Warsaw area · [Details](https://warsaw.librarycalendar.com/event/chair-yoga-3487)
+
+## Wednesday, September 02 — Plug and Play Indiana | Warsaw Medtech Expo Batch 5 (September 2026)
+**1:30 PM–5:30 PM · Miller Sunset Pavilion, Winona Lake, IN**
+
+Community · Warsaw area · [Details](https://allevents.in/winona-lake/plug-and-play-indiana-warsaw-medtech-expo-batch-5-september-2026/100001984418326634)
+
 # Around Kosciusko County
-
-## Wednesday, August 19 — Connection Corner
-**11:00 AM–2:00 PM · 122 W 8th St, Rochester, IN 46975-1510, United States**
-
-Community · About 24 miles away · [Details](https://allevents.in/rochester/connection-corner/200030409492400)
 
 ## Friday, August 21 — 8th Annual FCAC Rummage Sale Fundraiser
 **10:00 AM · Fulton County Historical Society Inc., Rochester, IN**
@@ -286,61 +291,6 @@ Arts & learning · About 24 miles away · [Details](https://allevents.in/rochest
 
 # Worth the drive
 
-## Tuesday, August 18 — Vandenberg: My Whitesnake Years
-**8:30 PM–10:30 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-Addrian Vandenberg came on to the scene in the early 80\'s with his band Vandenberg who released 3 albums and produced 2 Top 40 hits, "Burning Heart" and "Friday Night". That success would put him on the radar of…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/vandenberg-my-whitesnake-years/)
-
-## Wednesday, August 19 — Shipshewana Flea Market
-**8:00 AM–4:00 PM · Shipshewana Flea Market Grounds, IN**
-Enjoy shopping nearly 700 open-air booths on 40 acres at the Midwest’s Largest Flea Market in Shipshewana, Indiana. Find bargains on home decor, clothing, produce, plants, tools, crafts, books, beauty supplies,…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/shipshewana-flea-market/2026-08-19/)
-
-## Wednesday, August 19 — Miscellaneous & Antique Weekly Auctions
-**9:00 AM–1:00 PM · Shipshewana Auction Misc. & Antique Bldg., IN**
-Shipshewana Trading Place holds Antique & Miscellaneous Auctions Every Wednesday, year-round, at 9 am. Holidays could affect these days. Move from ring to ring catching the best deals on a wide variety of merchandise…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/miscellaneous-antique-weekly-auctions/2026-08-19/)
-
-## Wednesday, August 19 — Weekly Livestock Auction
-**9:00 AM–5:00 PM · Shipshewana Auction Barn, IN**
-Every Wednesday starting at 9:00 am. Selling Hay, Feeder Pigs, Dairy Heifers, Feeder Cattle, Veal, Sheep, Lambs, Goats, Butcher Bulls and Cows/Fat Cattle. Schedule – Effective Dec. 10, 2026 9:00 am – Hay 9:30 am –…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/weekly-livestock-auction/2026-08-19/)
-
-## Wednesday, August 19 — Sensory Story Hour
-**9:00 AM–10:00 AM · Wabash, IN**
-On the third Wednesday of every month, the Museum will dim the lights and sounds to host a sensory-focused experience from 9AM to 10AM.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/sensory-story-hour-5/2026-08-19/)
-
-## Wednesday, August 19 — Take Home Inventors’ Club Kit
-**9:00 AM–8:00 PM · Wabash, IN**
-Get creative, experiment, and invent from home with the library’s Take-Home Inventors’ Club Kit! Each kit includes hands-on activities and challenges designed to spark curiosity, problem-solving, and imagination.…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/take-home-inventors-club-kit-2/)
-
-## Wednesday, August 19 — Walking Wednesday
-**9:00 AM–10:00 PM · Wabash, IN**
-Join the Wabash Health Department for a weekly walk at 9 AM every Wednesday. Enjoy a new walk leader from the community each week.
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/walking-wednesday/2026-08-19/)
-
-## Wednesday, August 19 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-19/)
-
-## Wednesday, August 19 — Sew Much Fun: Beginner Cross Stitch
-**3:30 PM–4:30 PM · Wabash, IN**
-Join us for Sew Much Fun: Beginner Cross Stitch, a two‑week introduction to needlework designed especially for young makers. Using kid‑friendly plastic canvas and yarn, participants will learn the basics of cross…
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sew-much-fun-beginner-cross-stitch-2/)
-
-## Wednesday, August 19 — Love Comes Softly the Musical
-**5:00 PM–7:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-19/)
-
-## Wednesday, August 19 — Silent Book Club
-**6:00 PM–7:00 PM · Wabash, IN**
-Looking to find a community of fellow readers, but intimidated by traditional book clubs? Put down your phone, pick up a book, and spend quality time with fellow book lovers – no homework or chit chat required! Bring…
-Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/silent-book-club-6/)
-
 ## Thursday, August 20 — Mahjong Mornings
 **10:00 AM–12:00 PM · Wabash, IN**
 NMPL is hosting a new Mahjong Mornings program to provide time for open play! Mahjong is a strategic tile-based game originating in 19th-century China, played by 3–4 people, combining skill, strategy, and luck.…
@@ -351,15 +301,70 @@ Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.
 Preschool-age children and their adults are invited to Salamonie’s “Camping” program on August 20. Children will learn how much fun camping can be through activities and crafts. Children ages 2 […]
 Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/salamonie-lake-camping-program/)
 
+## Thursday, August 20 — Sensory Babytime
+**10:00 AM–10:30 AM · Wabash, IN**
+Babytime is a weekly program designed for babies and their caregivers, offering simple themed activities that support early development - from language and rhythm to movement, coordination, and sensory exploration.…
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/sensory-babytime-3/)
+
 ## Friday, August 21 — Dave Kunkel Cruise-in
 **3:00 PM–9:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
 Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-21/)
 
+## Friday, August 21 — Stuffed Animal Sleep Over
+**4:00 PM–4:30 PM · Wabash, IN**
+Bring your favorite stuffie to a special storytime at the library. They will stay the night and you can pick them up on Saturday after 1:00 PM.
+Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-sleep-over/)
+
+## Friday, August 21 — A Man Named Cash
+**7:30 PM–9:30 PM · Wabash, IN**
+A Man Named Cash is the premier tribute to the music and lives of Johnny Cash and June Carter Cash. Featuring Eric Hofmanis, the only vocalist chosen by The Johnny Cash Estate to lead a concert experience tour…
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/a-man-named-cash/)
+
+## Saturday, August 22 — 5K Tree Trail Trot
+**7:30 AM–10:00 AM · Wabash, IN**
+The Tree Trail Trot Race is a beautiful trail run experience on the gently rolling, wooded trails of Salamonie Lake, one of Indiana\'s Department of Natural Resources State Parks. This […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/5k-tree-trail-trot/)
+
+## Saturday, August 22 — Miles & Smiles Run & Walk
+**8:00 AM–9:00 AM · Wabash, IN**
+Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
+Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-22/)
+
+## Saturday, August 22 — Wabash Farmers Market
+**8:00 AM–12:00 PM · Wabash, IN**
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-22/)
+
 ## Saturday, August 22 — Dave Kunkel Cruise-in
 **9:00 AM–3:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
 Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-22/)
+
+## Saturday, August 22 — Stuffed Animal Pickup
+**1:00 PM–4:30 PM · Wabash, IN**
+Pick up your stuffed animal after their sleepover at the library! For participants in the Stuffed Animal Sleepover, held on Friday, August 21.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-pickup/)
+
+## Saturday, August 22 — Shoot Your Shot: Artwork Photography for Artists
+**2:00 PM–5:00 PM · Wabash, IN**
+Photographing Your Artwork for Submissions and Portfolios Strong artwork deserves strong documentation. In this hands-on workshop, artists will learn practical techniques for photographing their work clearly and…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/shoot-your-shot-artwork-photography-for-artists/)
+
+## Saturday, August 22 — Green Hat Lounge Live Music: Reggie Berg & Renee Gonzalez
+**7:00 PM–10:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/22: Reggie Berg & Renee Gonzalez
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-reggie-berg-renee-gonzalez/)
+
+## Sunday, August 23 — Green Hat Lounge Live Music: Vaides Bros
+**5:00 PM–8:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Sunday from 5pm to 8pm! 8/23: Vaides Bros
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-vaides-bros/)
+
+## Sunday, August 23 — Happy Together Tour
+**6:00 PM–8:00 PM · Wabash, IN**
+Don’t miss this outrageous concert experience featuring your favorite artists from the 60s and 70s: The Association, The Troggs, Chicago lead singer (1985–2016) Jason Scheff, Gary Puckett, The Fortunes, Ron Dante…
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/happy-together-tour/)
 
 ## Friday, August 28 — Wabash Founders Festival
 **4:00 PM–10:00 PM · Wabash, IN**
@@ -378,23 +383,23 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 # Newly found or updated
 
-- **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
-- **NEW** American Legion Band of Fort Wayne to Perform at Summer Concert Series
-- **NEW** Editors Pick
 - **NEW** Sensory Story Hour
 - **NEW** Walking Wednesday
-- **NEW** Connection Corner
 - **NEW** Sew Much Fun: Beginner Cross Stitch
 - **NEW** Kosciusko Business Social
 - **NEW** Silent Book Club
-- **NEW** South Bend Cubs vs. West Michigan Whitecaps
-- **NEW** West Michigan Whitecaps at South Bend Cubs at Four Winds Field at Coveleski Stadium
+- **UPDATED** West Michigan Whitecaps at South Bend Cubs at Four Winds Field at Coveleski Stadium
 - **NEW** Mahjong Mornings
 - **NEW** Sensory Babytime
-- **NEW** Summer Chill Concert Series
 - **NEW** 8th Annual FCAC Rummage Sale Fundraiser
 - **NEW** Dave Kunkel Cruise-in
 - **NEW** Stuffed Animal Sleep Over
+- **NEW** COUNTER.POINT @ Third Friday in downtown Warsaw
 - **NEW** KBOR Car Show
-- **NEW** Paw Patrol Movie at Howard Park
 - **NEW** Class of 2006 20th Year Reunion
+- **NEW** Curbside Concerts - The Buddy System
+- **NEW** A Man Named Cash
+- **NEW** Corey Mann & Jason Gray at Funny Pharm Comedy Club
+- **NEW** Joseph and the Amazing Technicolor Dreamcoat
+- **NEW** Live Comedy Show & Concert Night Starring Corey Mann & Jason Gray at Funny Pharm Comedy Club- Goshen
+- **NEW** Fabio & Grooverider
