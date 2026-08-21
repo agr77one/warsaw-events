@@ -1,0 +1,125 @@
+.about-main {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 44px 28px 80px;
+}
+
+.about-hero {
+  max-width: 820px;
+  padding: 44px 0 36px;
+}
+
+.about-hero h1 {
+  margin: 8px 0 18px;
+  max-width: 760px;
+  font-family: Georgia, serif;
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.about-hero > p:last-child {
+  max-width: 720px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.about-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(31, 45, 46, 0.05);
+}
+
+.about-card.feature-card {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #173b3f, #245b5d);
+  color: white;
+}
+
+.about-card.feature-card .eyebrow {
+  color: #f1b85b;
+}
+
+.about-card.feature-card p {
+  color: #dbe9e8;
+}
+
+.about-card h2 {
+  margin: 0 0 14px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+}
+
+.about-card p,
+.about-card li {
+  color: var(--muted);
+  line-height: 1.68;
+}
+
+.about-card p:last-child,
+.about-card ul,
+.about-card ol {
+  margin-bottom: 0;
+}
+
+.about-card ul,
+.about-card ol {
+  padding-left: 22px;
+}
+
+.about-card li + li {
+  margin-top: 9px;
+}
+
+.about-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: #fffdf9;
+}
+
+.about-cta h2 {
+  margin: 4px 0 0;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.about-cta .submit-event-button {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .about-main {
+    padding: 28px 16px 60px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card.feature-card {
+    grid-column: auto;
+  }
+
+  .about-cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
