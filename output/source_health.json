@@ -12,7 +12,7 @@
     "url": "https://downtownwarsaw.com/events/",
     "status": "ok",
     "raw_event_count": 6,
-    "event_count": 6,
+    "event_count": 5,
     "error": null
   },
   {
@@ -52,7 +52,7 @@
     "url": "https://www.inkfreenews.com/",
     "status": "ok",
     "raw_event_count": 35,
-    "event_count": 2,
+    "event_count": 1,
     "error": null
   },
   {
@@ -90,9 +90,9 @@
   {
     "name": "Wagon Wheel Center",
     "url": "https://wagonwheelcenter.org/upcoming-events/",
-    "status": "ok",
-    "raw_event_count": 6,
-    "event_count": 5,
+    "status": "empty",
+    "raw_event_count": 0,
+    "event_count": 0,
     "error": null
   },
   {
@@ -180,7 +180,7 @@
     "url": "https://visitwabashcounty.com/events/",
     "status": "ok",
     "raw_event_count": 109,
-    "event_count": 42,
+    "event_count": 39,
     "error": null
   },
   {

@@ -1,26 +1,11 @@
 # Warsaw Weekend
 
-Your guide for August 20–September 03, 2026
+Your guide for August 21–September 04, 2026
 
-221 events found in the next two weeks, including 50 in Warsaw and Winona Lake.
+208 events found in the next two weeks, including 48 in Warsaw and Winona Lake.
 This email includes every close-to-home event plus 18 regional highlights. Browse the dashboard for the complete calendar.
 
 # Closest to home
-
-## Friday, August 21 — KBOR Car Show
-**5:00 PM–8:00 PM · Downtown Warsaw, IN**
-KBOR Car Show August 21 @ 5 pm - 8 pm Warsaw, IN
-Community · Warsaw area · [Details](https://downtownwarsaw.com/event/kbor-car-show-2026-08-21/)
-
-## Friday, August 21 — COUNTER.POINT @ Third Friday in downtown Warsaw
-**5:00 PM–8:00 PM · Warsaw, Indiana, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/counterpoint-third-friday-in-downtown-warsaw/200030585745656)
-
-## Friday, August 21 — American Legion Band
-**7:00 PM · Central Park, Warsaw, IN**
-
-Community · Warsaw area · [Details](https://allevents.in/warsaw/american-legion-band/200030577176914)
 
 ## Saturday, August 22 — Race Day!
 **Time to be confirmed · Hire Park BMX, Warsaw, IN**
@@ -147,6 +132,11 @@ Arts & learning · Warsaw area · [Details](https://warsaw.librarycalendar.com/e
 
 Food & markets · Warsaw area · [Details](https://allevents.in/winona-lake/kosciuko-county-fall-dinner-party/200030577447842)
 
+## Thursday, August 27 — Reboot Thrusdays
+**Time to be confirmed · American Legion Post 49 Warsaw Indiana, IN**
+
+Festivals · Warsaw area · [Details](https://allevents.in/warsaw/reboot-thrusdays/200030558135406)
+
 ## Thursday, August 27 — Kosciusko Community TNR Annual Garage Sale
 **9:00 AM · Kosciusko County Community Fair, Warsaw, IN**
 
@@ -259,11 +249,6 @@ Community · Warsaw area · [Details](https://allevents.in/warsaw/thursday-night
 
 # Around Kosciusko County
 
-## Friday, August 21 — 8th Annual FCAC Rummage Sale Fundraiser
-**10:00 AM · Fulton County Historical Society Inc., Rochester, IN**
-
-Community · About 24 miles away · [Details](https://allevents.in/rochester/8th-annual-fcac-rummage-sale-fundraiser/200030446920345)
-
 ## Saturday, August 22 — Customer Appreciation & Jon Ringer Memorial Shoot
 **8:00 AM–12:00 PM · 6400 County Road 325 W, Rochester, IN**
 
@@ -291,56 +276,6 @@ Arts & learning · About 24 miles away · [Details](https://allevents.in/rochest
 
 # Worth the drive
 
-## Friday, August 21 — Bluebird Acres Blossoms U Pick
-**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
-Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
-Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-21/)
-
-## Friday, August 21 — Coffee on the Piazza
-**10:00 AM–6:00 PM · Ruthmere Museum Campus, Elkhart, IN**
-Our popular summer program, Coffee on the Piazza, is returning on June 6th! Join us every Saturday June-August (10 am - 12 pm) for live music, Rise \'n Roll donuts, free coffee from the Refinery Coffee Company, yoga…
-Music & shows · About 41 miles away · [Details](https://visitshipshewana.org/event/coffee-on-the-piazza-2/2026-08-21/)
-
-## Friday, August 21 — Love Comes Softly the Musical
-**2:00 PM–4:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
-Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-21/)
-
-## Friday, August 21 — Dave Kunkel Cruise-in
-**3:00 PM–9:00 PM · Wabash, IN**
-One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
-Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/dave-kunkel-cruise-in/2026-08-21/)
-
-## Friday, August 21 — Stuffed Animal Sleep Over
-**4:00 PM–4:30 PM · Wabash, IN**
-Bring your favorite stuffie to a special storytime at the library. They will stay the night and you can pick them up on Saturday after 1:00 PM.
-Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-sleep-over/)
-
-## Friday, August 21 — Food Truck Friday
-**6:00 PM–9:00 PM · Trading Post Outfitters, Mongo, IN**
-Summer is here & one of our favorite things about the season is Food Truck Friday! Join us every Friday in Mongo from 5pm-8pm for great food, river views & the perfect way to kick off the weekend. Hosted by Trading…
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/food-truck-friday/2026-08-21/)
-
-## Friday, August 21 — Party in the Pasture @ The Black Sheep
-**7:00 PM–9:00 PM · The Black Sheep, Shipshewana, IN**
-Different themed dinners like Point & Click, Murder Mystery, and Acoustic Anthem.
-Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/party-in-the-pasture-the-black-sheep/2026-08-21/)
-
-## Friday, August 21 — The Everly Brothers Experience
-**7:00 PM–9:00 PM · Blue Gate Music Hall, Shipshewana, IN**
-The Everly Brothers\' career lasted over half a century, they recorded 21 studio albums, sold more than 60 million records worldwide, had over 30 billboard top -100 singles, which still to this day is the record for…
-Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/the-everly-brothers-experience/2026-08-21/)
-
-## Friday, August 21 — Tommy Emmanuel w-Special Guest Trey Hensley
-**7:30 PM–9:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
-Hailed as "one of the best acoustic guitarists in the world" by NPR\'s World Cafe, Tommy Emmanuel got his start at the age of six, when he first began touring his native Australia with his family\'s band. As a…
-Family · About 44 miles away · [Details](https://visitshipshewana.org/event/tommy-emmanuel-w-special-guest-trey-hensley/)
-
-## Friday, August 21 — A Man Named Cash
-**7:30 PM–9:30 PM · Wabash, IN**
-A Man Named Cash is the premier tribute to the music and lives of Johnny Cash and June Carter Cash. Featuring Eric Hofmanis, the only vocalist chosen by The Johnny Cash Estate to lead a concert experience tour…
-Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/a-man-named-cash/)
-
 ## Friday, August 21 — Music Bingo @ Fireside
 **9:00 PM–11:30 PM · Fireside Craft Burgers & Brew, Lagrange, IN**
 Music Bingo is Friday at 8 PM. Cards are free, prizes for winners, kitchen\'s open \'til 10. No reservations required, but we\'re happy to hold a table — just shoot us a text at 260-768-3473. What\'s Music Bingo?…
@@ -356,6 +291,11 @@ Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.
 Join the Fun with Miles & Smiles! FREE & open to ALL—any age, any fitness level! Whether you’re a seasoned runner or just looking for a fun way to move, […]
 Sports & outdoors · About 33 miles away · [Details](https://visitwabashcounty.com/event/miles-smiles-run-walk/2026-08-22/)
 
+## Saturday, August 22 — Wabash Farmers Market
+**8:00 AM–12:00 PM · Wabash, IN**
+Handmade. Homemade. Homegrown. Downtown Wabash’s only farmers market! Check us out every Saturday in May-Sept. from 8 AM to 12 PM (Dogs welcome!)
+Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com/event/wabash-farmers-market/2026-08-22/)
+
 ## Saturday, August 22 — Dave Kunkel Cruise-in
 **9:00 AM–3:00 PM · Wabash, IN**
 One of the largest 2-day car shows in the area. Over 400 vehicles on display. Judged car show, door prizes, food vendors, and don ’t forget to check out the […]
@@ -365,6 +305,51 @@ Food & markets · About 33 miles away · [Details](https://visitwabashcounty.com
 **9:00 AM–2:00 PM · Morton St, Shipshewana, IN**
 Every Saturday starting June 6 through August from 9a-2p Downtown Shipshewana on Morton Street next to You-Nique Bou-tique. Featuring growers, makers & bakers Fresh produce, handmade goods, food trucks & more!…
 Food & markets · About 44 miles away · [Details](https://visitshipshewana.org/event/morton-street-farmers-market/2026-08-22/)
+
+## Saturday, August 22 — 2026 Fall Quilt Classes at Maple Wood
+**10:00 AM–4:00 PM · Maple Wood Nature Center, LaGrange, IN**
+Quilt Classes will be taking a summer break for June and July. Classes will resume in August. Mark your calendars with the fall schedule. We look forward to you joining us!
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/2026-fall-quilt-classes-at-maple-wood/2026-08-22/)
+
+## Saturday, August 22 — Bluebird Acres Blossoms U Pick
+**10:00 AM–6:00 PM · Bluebird Acres Blossoms, LaGrange, IN**
+Amish grown, roadside country stand featuring a come-and-pick or fresh cut flower arrangements. Stand offers empty vases, cutters, and cash only payment box. Stop in any time during daylight hours, Monday thru…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/bluebird-acres-blossoms-u-pick/2026-08-22/)
+
+## Saturday, August 22 — Stuffed Animal Pickup
+**1:00 PM–4:30 PM · Wabash, IN**
+Pick up your stuffed animal after their sleepover at the library! For participants in the Stuffed Animal Sleepover, held on Friday, August 21.
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/stuffed-animal-pickup/)
+
+## Saturday, August 22 — Love Comes Softly the Musical
+**2:00 PM–4:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The beloved, best-selling book by Janette Oke has been given new life in this brand new musical written and composed by Christy Chavers Stutzman, the same composer who brought you "When Calls the Heart the Musical".…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/love-comes-softly-the-musical/2026-08-22/)
+
+## Saturday, August 22 — Shoot Your Shot: Artwork Photography for Artists
+**2:00 PM–5:00 PM · Wabash, IN**
+Photographing Your Artwork for Submissions and Portfolios Strong artwork deserves strong documentation. In this hands-on workshop, artists will learn practical techniques for photographing their work clearly and…
+Arts & learning · About 33 miles away · [Details](https://visitwabashcounty.com/event/shoot-your-shot-artwork-photography-for-artists/)
+
+## Saturday, August 22 — The Everly Brothers Experience
+**7:00 PM–9:00 PM · Blue Gate Music Hall, Shipshewana, IN**
+The Everly Brothers\' career lasted over half a century, they recorded 21 studio albums, sold more than 60 million records worldwide, had over 30 billboard top -100 singles, which still to this day is the record for…
+Arts & learning · About 44 miles away · [Details](https://visitshipshewana.org/event/the-everly-brothers-experience/2026-08-22/)
+
+## Saturday, August 22 — Green Hat Lounge Live Music: Reggie Berg & Renee Gonzalez
+**7:00 PM–10:00 PM · Wabash, IN**
+Join us at Green Hat Lounge for live music every Saturday from 7pm to 10pm! 8/22: Reggie Berg & Renee Gonzalez
+Music & shows · About 33 miles away · [Details](https://visitwabashcounty.com/event/green-hat-lounge-live-music-reggie-berg-renee-gonzalez/)
+
+## Saturday, August 22 — Live on the Patio @ West of Warren
+**7:30 PM–9:30 PM · West on Warren, Middlebury, IN**
+May 30rd: Paul Decker 6:30PM - 8:30PM June: June 6th: Jake Michael 6:30PM - 8:30PM June 13th: Julia James 6:30PM - 8:30PM June 20th: Marcus Clingaman 6:30PM - 8:30PM June 27th: Doug Harsch 6:30PM - 8:30PM July: July…
+Community · About 44 miles away · [Details](https://visitshipshewana.org/event/live-on-the-patio-west-of-warren/2026-08-22/)
+
+## Saturday, August 22 — Ricky Skaggs & Kentucky Thunder
+**7:30 PM–11:00 PM · Blue Gate Performing Arts Center, Shipshewana, IN**
+Fifteen-time GRAMMY® Award-winner Ricky Skaggs\' career is easily among the most significant in recent country music history. If Skaggs\' burgeoning trophy case full of awards wasn\'t already enough evidence of that…
+Music & shows · About 44 miles away · [Details](https://visitshipshewana.org/event/ricky-skaggs-kentucky-thunder/)
 
 ## Friday, August 28 — Wabash Founders Festival
 **4:00 PM–10:00 PM · Wabash, IN**
@@ -385,21 +370,21 @@ Family · About 33 miles away · [Details](https://visitwabashcounty.com/event/f
 
 - **NEW** Great Lakes Loons at Fort Wayne TinCaps at Parkview Field
 - **NEW** TinCaps Game
-- **NEW** Mahjong Mornings
-- **NEW** Sensory Babytime
-- **NEW** Essenhaus Classic Car Cruise-In
-- **NEW** Editors Pick
-- **NEW** Patriot Day Remembrance Parade, Picnic Planned In Warsaw
-- **NEW** Shane & Shane
-- **NEW** Love Comes Softly the Musical
-- **NEW** Summer Chill Concert Series
-- **NEW** 8th Annual FCAC Rummage Sale Fundraiser
-- **NEW** Bluebird Acres Blossoms U Pick
-- **NEW** Coffee on the Piazza
-- **NEW** Love Comes Softly the Musical
 - **NEW** Dave Kunkel Cruise-in
 - **NEW** Stuffed Animal Sleep Over
-- **NEW** KBOR Car Show
-- **NEW** Third Friday in downtown Warsaw
-- **NEW** Food Truck Friday
-- **NEW** Class of 2006 20th Year Reunion
+- **NEW** State Fair Announces 2026 Taste Of The Fair Winner
+- **NEW** A Man Named Cash
+- **NEW** Corey Mann & Jason Gray at Funny Pharm Comedy Club
+- **NEW** Joseph and the Amazing Technicolor Dreamcoat
+- **NEW** Live Comedy Show & Concert Starring Corey Mann & Jason Gray at Funny Pharm Comedy Club- Goshen
+- **NEW** Fabio & Grooverider
+- **NEW** Race Day!
+- **NEW** 5K Tree Trail Trot
+- **NEW** Customer Appreciation & Jon Ringer Memorial Shoot
+- **NEW** Miles & Smiles Run & Walk
+- **NEW** Wabash Farmers Market
+- **NEW** Dave Kunkel Cruise-in
+- **NEW** 2026 Cars & Motorcycles for a Cause Auto Show
+- **NEW** 2026 Fall Quilt Classes at Maple Wood
+- **NEW** Bluebird Acres Blossoms U Pick
+- **NEW** Coffee on the Piazza - Performer: Jake Miller & the Midwest Heat
